@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="parkingYshang" />
+        <module name="parkingunionpayprerqrcode" />
+        <module name="parkingPay" />
+        <module name="parkingpay_web" />
+        <module name="parkingHx" />
+        <module name="parkingYnnx" />
+        <module name="parkingicbcpay" />
+        <module name="parkingicbcqrcode" />
+        <module name="parkingunionsh" />
+        <module name="eurekaserverpay" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eurekaserverpay" target="1.8" />
+      <module name="parkingHx" target="1.8" />
+      <module name="parkingicbcpay" target="1.8" />
+      <module name="parkingicbcqrcode" target="1.8" />
+      <module name="parkingPay" target="1.8" />
+      <module name="parkingpay_web" target="1.8" />
+      <module name="parkingunionpayprerqrcode" target="1.8" />
+      <module name="parkingunionsh" target="1.8" />
+      <module name="parkingYnnx" target="1.8" />
+      <module name="parkingYshang" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

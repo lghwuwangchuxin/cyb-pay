@@ -1,0 +1,142 @@
+server:
+  port: 9807
+    #ssl:
+    # key-store: tomcat.keystore
+    #key-store-password: 123456
+    #key-password: 123456
+    # keyStoreType: JKS
+    #keyAlias: tomcat
+    #http:
+  #port: 8101·
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    #type: com.alibaba.druid.pool.DruidDataSource
+    #生产服务器
+    url: jdbc:mysql://rm-wz93ya1974t478u760o.mysql.rds.aliyuncs.com:3306/uneparking?autoReconnect=true&initialTimeout=3&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    #测试服务器
+    #url: jdbc:mysql://rm-wz93ya1974t478u760o.mysql.rds.aliyuncs.com:3306/test_paydb?autoReconnect=true&initialTimeout=3&useUnicode=true&characterEncoding=utf-8&useSSL=false
+
+    username: root
+    password: pay@20201027
+    http:
+      multipart-maxFileSize: 10MB
+      multipart-maxRequestSize: 10MB
+  jmx:
+    enabled: false
+  application:
+    name: parkingpayweb
+      #security:
+      #user:
+      #name: admin
+    #password: 123456
+  freemarker:
+    request-context-attribute: req  #req访问request
+    suffix: .html  #后缀名
+    content-type: text/html
+    enabled: true
+    cache: false #缓存配置
+    mode: LEGACYHTML5
+    static-path-pattern: /static/**
+    charset: UTF-8 #编码格式
+    template-loader-path: classpath:/templates/
+  messages:
+    basename: messages
+  #session:
+  #   store-type: redis
+  #  timeout: 3600
+  #  redis:
+  #    flush-mode: on_save
+  #   namespace:
+  #      spring: session
+  #redis:
+  #    host: 47.113.101.127
+  #    port: 6379
+  #    password: root
+  #   timeout: 5000
+  #    jedis:
+  #      pool:
+  #        max-wait: 30000 # 连接池最大阻塞等待时间（使用负值表示没有限制）
+  #        max-active: 200 #最大连接数
+  #        max-idle: 20 #最大空闲连接数
+  #        min-idle: 0  #最小空闲连接数
+eureka:
+  instance:
+    hostname: yun2.eparking.top
+    #hostname: localhost
+    #instanceId: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+    instanceId: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+    lease-renewal-interval-in-seconds: 10    #配置续约更新时间
+    lease-expiration-duration-in-seconds: 10   #配置续约到期时间
+    #优先使用IP地址注册服务
+    prefer-ip-address: true
+  client:
+    healthcheck:
+      enabled: false #开启健康检查
+    serviceUrl:
+      defaultZone: https://yun2.eparking.top:8643/eureka/eureka/,https://yun2.eparking.top:8743/eureka/eureka/
+      #defaultZone: http://127.0.0.1:8761/eureka/
+      #defaultZone: https://${spring.security.user.name}:${spring.security.user.password}@yun2.eparking.top:8643/eureka/eureka/,https://${spring.security.user.name}:${spring.security.user.password}@yun2.eparking.top:8743/eureka/eureka/
+  feign:
+    httpclient:
+      enabled: true
+    hystrix:
+      enabled: false
+  hystrix:
+    shareSecurityContext: false
+    command:
+      default:
+        circuitBreaker:
+          sleepWindowInMilliseconds: 100000
+          forceClosed: true
+        execution:
+         isolation:
+            thread:
+              timeoutInMilliseconds: 60000
+
+feign:
+  hystrix:
+    enabled: false
+  client:
+    config:
+      springApplicationName:
+         connectTimeout: 30000
+         readTimeout: 30000
+  compression:
+    request:
+      enabled:  true   # 开启对 request 请求压缩
+      mime-types:
+        - text/xml
+        - application/xml
+        - application/json    # 指定压缩格式
+      min-request-size: 2048  # 压缩的最小阀值，默认 2048，超过2048 （字节） 进行压缩
+
+#设置连接超时
+ribbon:
+  ConnectTimeout: 15000
+  ReadTimeout: 15000 #设置读取超时
+  OkToRetryOnAllOperations: false
+  MaxAutoRetriesNextServer: 0
+  MaxAutoRetries: 0  # 设置重试次数
+
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+#pagehelper分页插件配置
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params:
+    count: countSql
+
+logging:
+  config: classpath:logback-spring.xml
+  file:
+      path: ./logs/${spring.application.name}
+  level:
+    com:
+      parkingpayweb: debug
+

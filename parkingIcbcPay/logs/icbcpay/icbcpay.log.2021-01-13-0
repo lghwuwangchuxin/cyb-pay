@@ -1,0 +1,86 @@
+2021-01-13 00:04:01.311	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 00:09:01.315	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 00:14:01.317	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 00:19:01.319	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 00:24:01.320	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 00:29:01.331	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 00:34:01.332	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 00:39:01.334	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 00:44:01.335	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 00:49:01.336	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 00:54:01.338	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 00:59:01.339	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 01:04:01.341	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 01:09:01.342	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 01:14:01.344	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 01:19:01.345	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 01:24:01.346	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 01:29:01.348	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 01:34:01.349	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 01:39:01.350	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 01:44:01.351	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 13:47:35.885	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 13:52:35.885	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 13:57:35.887	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 14:02:35.887	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 14:07:35.888	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 14:12:35.889	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 14:17:35.891	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 14:22:35.893	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 14:27:35.895	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 14:32:35.895	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 14:37:35.896	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 14:42:35.897	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 14:47:35.898	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 14:52:35.899	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 14:57:35.901	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 15:02:35.902	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 15:07:35.903	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 15:12:35.904	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 15:17:35.906	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 15:22:35.906	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 15:27:35.907	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 15:30:09.364	[http-nio-8096-exec-1]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-13 15:30:09.365	[http-nio-8096-exec-1]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-13 15:30:09.421	[http-nio-8096-exec-1]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization completed in 56 ms
+2021-01-13 15:30:09.484	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-13 15:30:09.485	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101130000000015">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2020-12-28 18:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2020-12-28 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-13 15:30:09.485	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-13 15:30:09.485	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101130000000015">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2020-12-28 18:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2020-12-28 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-13 15:30:09.532	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbch5pre]
+2021-01-13 15:30:09.615	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	进入工行提前付或扫码付
+2021-01-13 15:30:09.619	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求参数：{secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, appKey=HMPxcXbb0pD46U7, parkCode=2013, orderId=PL2101130000000015, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2020-12-28 12:37:16, endTime=2020-12-28 18:18:56, duration=5小时}
+2021-01-13 15:30:09.628	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/payment?noncestr=36261007-730b-4634-9981-a4f6376f44f0&timestamp=1610523009&&sign=0E2E1CB5CC9DC2DFACAE58EB0E8A8C981A4834E8，数据为：{parkCode=2013, orderId=PL2101130000000015, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2020-12-28 12:37:16, endTime=2020-12-28 18:18:56, duration=5小时}
+2021-01-13 15:30:10.267	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求结果：{"messagecode":99999,"message":"停车场编号有误","status":"fail"}
+2021-01-13 15:30:10.289	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbch5pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999911" respDesc="下单失败"/>
+
+2021-01-13 15:32:35.908	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 15:37:35.909	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-13 15:42:35.910	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration

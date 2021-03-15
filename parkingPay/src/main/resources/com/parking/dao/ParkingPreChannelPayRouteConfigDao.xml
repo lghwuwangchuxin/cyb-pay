@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.parking.dao.ParkingPreChannelPayRouteConfigDao">
+    
+    <resultMap id="parkingPreChannelPayRouteConfigMap" type="com.parking.domain.ParkingPreChannelPayRouteConfig" >
+	    <result column="ID" property="id" />
+	    <result column="PARK_ID" property="parkId" />
+		<result column="PART_PARK_ID" property="partParkId" />
+	    <result column="PARK_NAME"  property="parkName" />
+		<result column="CHANNEL_SELECT"  property="channelSelect" />
+	    <result column="MCHNT_NO"  property="mchntNo" />
+		<result column="STATES"  property="states" />
+	    <result column="RSRV_STR1"   property="rsrvStr1"  /> 
+	    <result column="RSRV_STR2"   property="rsrvStr2"  />
+		<result column="RSRV_STR3"   property="rsrvStr3"  />
+		<result column="RSRV_STR4"   property="rsrvStr4"  />
+		<result column="REMARK"      property="remark" />
+		<result column="CREATED_TIME" property="createdTime" />
+		<result column="UPDATE_TIME" property="updateTime" />
+		<result column="CREATED_TIME" property="createdTime" />
+		<result column="UPDATE_TIME" property="updateTime" />
+		<result column="PAY_ORDER_URL" property="payOrderUrl" />
+		<result column="NOTIFY_URL" property="notifyUrl" />
+		<result column="QUERY_ORDER_URL" property="queryOrderUrl" />
+		<result column="DELAY_TIME" property="delayTime" />
+
+  	</resultMap>
+      
+  <insert id="insertParkingPreChannelPayRouteConfig" parameterType="com.parking.domain.ParkingPreChannelPayRouteConfig">
+      insert into t_parking_pre_channel_pay_route_config (PARK_ID,PART_PARK_ID,PARK_NAME,CHANNEL_SELECT,MCHNT_NO,
+      STATES,RSRV_STR1,RSRV_STR2,RSRV_STR3,RSRV_STR4,REMARK,CREATED_TIME,UPDATE_TIME,PAY_ORDER_URL,NOTIFY_URL,QUERY_ORDER_URL,DELAY_TIME)
+      values(#{parkId,jdbcType=VARCHAR},#{partParkId,jdbcType=VARCHAR},#{parkName,jdbcType=VARCHAR},#{channelSelect,jdbcType=VARCHAR},
+      #{mchntNo,jdbcType=VARCHAR},#{states,jdbcType=VARCHAR},#{rsrvStr1,jdbcType=VARCHAR},#{rsrvStr2,jdbcType=VARCHAR},
+      #{rsrvStr3,jdbcType=VARCHAR},#{rsrvStr4,jdbcType=VARCHAR},#{remark,jdbcType=VARCHAR},#{createdTime,jdbcType=VARCHAR},#{updateTime,jdbcType=VARCHAR},
+      #{payOrderUrl,jdbcType=VARCHAR},#{notifyUrl,jdbcType=VARCHAR},#{queryOrderUrl,jdbcType=VARCHAR},#{delayTime,jdbcType=VARCHAR})
+  </insert>
+     <!-- 查询 支持的 车场渠道路由支付 -->
+  <select id="selectParkingPreChannelPayRouteConfig" resultMap="parkingPreChannelPayRouteConfigMap" parameterType="com.parking.domain.ParkingPreChannelPayRouteConfig">
+      select PARK_ID,PART_PARK_ID,PARK_NAME,CHANNEL_SELECT,MCHNT_NO,STATES,PAY_ORDER_URL,NOTIFY_URL,QUERY_ORDER_URL,DELAY_TIME,RSRV_STR1 from t_parking_pre_channel_pay_route_config where PARK_ID = #{parkId} and STATES = '1'
+  </select>
+  
+  <update id="updateParkingPreChannelPayRouteConfig" parameterType="com.parking.domain.ParkingPreChannelPayRouteConfig">
+  		UPDATE t_parking_pre_channel_pay_route_config
+  		set
+  		<if test="channelSelect!=null and channelSelect!=''">CHANNEL_SELECT=#{channelSelect},</if>
+		UPDATE_TIME = #{updateTime} 
+		WHERE PARK_ID = #{parkId}
+  </update>
+  
+</mapper>

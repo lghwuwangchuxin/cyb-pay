@@ -1,0 +1,430 @@
+2021-01-20 00:02:49.450	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 00:07:49.456	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 00:12:49.457	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 00:17:49.458	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 00:22:49.459	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 00:27:49.461	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 00:32:49.463	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 00:37:49.464	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 00:42:49.466	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 00:47:49.467	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 00:52:49.469	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 00:57:49.470	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 01:02:49.476	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 01:07:49.478	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 01:12:49.480	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 01:17:49.481	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 01:22:49.481	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 01:27:49.483	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 01:32:49.485	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 01:37:49.487	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 01:42:49.488	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 01:47:49.490	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 01:52:49.491	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 01:57:49.492	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 02:02:49.492	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 02:07:49.493	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 14:42:13.557	[HikariPool-1 housekeeper]	WARN 	com.zaxxer.hikari.pool.HikariPool	-	HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h32m47s410ms526µs700ns).
+2021-01-20 14:45:03.430	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 17:21:14.058	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@709cd257: startup date [Wed Jan 20 17:21:14 CST 2021]; root of context hierarchy
+2021-01-20 17:21:14.286	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-20 17:21:14.327	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$eed53063] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 17:21:15.064	[restartedMain]	INFO 	com.parkingicbcpay.SpringDemoApplication	-	The following profiles are active: dev
+2021-01-20 17:21:15.090	[restartedMain]	INFO 	org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext	-	Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65762408: startup date [Wed Jan 20 17:21:15 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@709cd257
+2021-01-20 17:21:16.480	[restartedMain]	INFO 	org.springframework.beans.factory.support.DefaultListableBeanFactory	-	Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2021-01-20 17:21:16.756	[restartedMain]	INFO 	org.springframework.cloud.context.scope.GenericScope	-	BeanFactory id=0f188aab-69d2-3675-a6b7-8dbca42a5d9b
+2021-01-20 17:21:16.772	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-20 17:21:17.000	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d2bb2d66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 17:21:17.055	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$eed53063] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 17:21:17.930	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat initialized with port(s): 8096 (http)
+2021-01-20 17:21:17.961	[restartedMain]	INFO 	org.apache.catalina.core.StandardService	-	Starting service [Tomcat]
+2021-01-20 17:21:17.962	[restartedMain]	INFO 	org.apache.catalina.core.StandardEngine	-	Starting Servlet Engine: Apache Tomcat/8.5.31
+2021-01-20 17:21:17.971	[localhost-startStop-1]	INFO 	org.apache.catalina.core.AprLifecycleListener	-	The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;D:\apache-maven-3.6.3\bin;F:\Git\cmd;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\bin;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\conf;C:\Users\zhf\AppData\Local\Microsoft\WindowsApps;;.]
+2021-01-20 17:21:18.150	[localhost-startStop-1]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring embedded WebApplicationContext
+2021-01-20 17:21:18.151	[localhost-startStop-1]	INFO 	org.springframework.web.context.ContextLoader	-	Root WebApplicationContext: initialization completed in 3061 ms
+2021-01-20 17:21:18.515	[localhost-startStop-1]	WARN 	com.netflix.config.sources.URLConfigurationSource	-	No URLs will be polled as dynamic configuration sources.
+2021-01-20 17:21:18.515	[localhost-startStop-1]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-20 17:21:18.530	[localhost-startStop-1]	INFO 	com.netflix.config.DynamicPropertyFactory	-	DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2dd548a5
+2021-01-20 17:21:18.726	[localhost-startStop-1]	INFO 	org.springframework.aop.framework.CglibAopProxy	-	Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2021-01-20 17:21:20.582	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-20 17:21:20.582	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-20 17:21:20.583	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-01-20 17:21:20.583	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'requestContextFilter' to: [/*]
+2021-01-20 17:21:20.583	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpTraceFilter' to: [/*]
+2021-01-20 17:21:20.583	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.RegistrationBean	-	Filter errorPageFilter was not registered (disabled)
+2021-01-20 17:21:20.583	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2021-01-20 17:21:20.584	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.ServletRegistrationBean	-	Servlet dispatcherServlet mapped to [/]
+2021-01-20 17:21:20.938	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing FeignContext-parkingPay: startup date [Wed Jan 20 17:21:20 CST 2021]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65762408
+2021-01-20 17:21:20.965	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-20 17:21:21.188	[restartedMain]	WARN 	com.netflix.config.sources.URLConfigurationSource	-	No URLs will be polled as dynamic configuration sources.
+2021-01-20 17:21:21.188	[restartedMain]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-20 17:21:21.293	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-20 17:21:21.482	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter	-	Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65762408: startup date [Wed Jan 20 17:21:15 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@709cd257
+2021-01-20 17:21:21.573	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingicbcpay/getPreOrder],methods=[GET]}" onto public java.lang.String com.parkingicbcpay.controller.PrParkingIcbcPayController.getOrder(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-20 17:21:21.575	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingicbcpay/gw],methods=[GET]}" onto public java.lang.String com.parkingicbcpay.controller.PrParkingIcbcPayController.prparkingIcbc(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-20 17:21:21.576	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingicbcpay/payNotifyResult],methods=[GET]}" onto public java.lang.String com.parkingicbcpay.controller.PrParkingIcbcPayController.payNotifyResult(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-20 17:21:21.578	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-20 17:21:21.579	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-20 17:21:21.619	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-20 17:21:21.620	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-20 17:21:22.257	[restartedMain]	INFO 	org.springframework.ui.freemarker.SpringTemplateLoader	-	SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65762408: startup date [Wed Jan 20 17:21:15 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@709cd257] and template loader path [classpath:/templates/]
+2021-01-20 17:21:22.259	[restartedMain]	INFO 	org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer	-	ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2021-01-20 17:21:22.499	[restartedMain]	WARN 	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	-	Unable to start LiveReload server
+2021-01-20 17:21:22.722	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver	-	Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-20 17:21:22.737	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-20 17:21:22.738	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-20 17:21:22.739	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-20 17:21:22.788	[restartedMain]	INFO 	org.springframework.context.support.DefaultLifecycleProcessor	-	Starting beans in phase 0
+2021-01-20 17:21:22.797	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.InstanceInfoFactory	-	Setting initial instance status as: STARTING
+2021-01-20 17:21:22.843	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Initializing Eureka in region us-east-1
+2021-01-20 17:21:23.436	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON encoding codec LegacyJacksonJson
+2021-01-20 17:21:23.436	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON decoding codec LegacyJacksonJson
+2021-01-20 17:21:23.601	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML encoding codec XStreamXml
+2021-01-20 17:21:23.601	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML decoding codec XStreamXml
+2021-01-20 17:21:23.909	[restartedMain]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-20 17:21:24.327	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Disable delta property : false
+2021-01-20 17:21:24.328	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Single vip registry refresh property : null
+2021-01-20 17:21:24.328	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Force full registry fetch : false
+2021-01-20 17:21:24.328	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application is null : false
+2021-01-20 17:21:24.328	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Registered Applications size is zero : true
+2021-01-20 17:21:24.328	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application version is -1: true
+2021-01-20 17:21:24.328	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Getting all instance registry info from the eureka server
+2021-01-20 17:21:24.700	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	The response status is 200
+2021-01-20 17:21:24.703	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Starting heartbeat executor: renew interval is: 10
+2021-01-20 17:21:24.706	[restartedMain]	INFO 	com.netflix.discovery.InstanceInfoReplicator	-	InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-20 17:21:24.709	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Discovery Client initialized at timestamp 1611134484708 with initial instances count: 2
+2021-01-20 17:21:24.717	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry	-	Registering application parkingicbcpay with eureka with status UP
+2021-01-20 17:21:24.717	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Saw local status change event StatusChangeEvent [timestamp=1611134484717, current=UP, previous=STARTING]
+2021-01-20 17:21:24.720	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGICBCPAY/192.168.124.6:parkingicbcpay:8096: registering service...
+2021-01-20 17:21:24.761	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGICBCPAY/192.168.124.6:parkingicbcpay:8096 - registration status: 204
+2021-01-20 17:21:24.775	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat started on port(s): 8096 (http) with context path ''
+2021-01-20 17:21:24.776	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration	-	Updating port to 8096
+2021-01-20 17:21:24.778	[restartedMain]	INFO 	com.parkingicbcpay.SpringDemoApplication	-	Started SpringDemoApplication in 11.96 seconds (JVM running for 12.819)
+2021-01-20 17:23:45.663	[http-nio-8096-exec-1]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-20 17:23:45.664	[http-nio-8096-exec-1]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-20 17:23:45.696	[http-nio-8096-exec-1]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2021-01-20 17:23:45.759	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-20 17:23:45.760	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101200000000033">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2021-01-19 14:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2021-01-19 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:23:45.760	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-20 17:23:45.760	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101200000000033">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2021-01-19 14:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2021-01-19 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:23:45.812	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbch5pre]
+2021-01-20 17:23:45.870	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	进入工行提前付或扫码付
+2021-01-20 17:23:45.882	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求参数：{secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, appKey=HMPxcXbb0pD46U7, parkCode=2013, orderId=PL2101200000000033, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2021-01-19 12:37:16, endTime=2021-01-19 14:18:56, duration=1小时}
+2021-01-20 17:23:45.889	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/payment?noncestr=665fab5c-a4a7-4189-b399-0c85aca495b1&timestamp=1611134625&&sign=6583FFAE3F966893733A9D353C34C1B1CA816369，数据为：{parkCode=2013, orderId=PL2101200000000033, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2021-01-19 12:37:16, endTime=2021-01-19 14:18:56, duration=1小时}
+2021-01-20 17:23:46.476	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求结果：{"data":{"value":"<form name=\"auto_submit_form\" method=\"post\" action=\"https://gw.open.icbc.com.cn/ui/aggregate/payment/request/V2?charset=UTF-8&encrypt_type=AES&format=json&sign=P%2FJUSqNs2gSSSZv65JGhnYySV4RoJ6vSrA7ug1q6HqZX3djjlXIybx9JfJCJQX3kYM5FzaSrrJrnnwXNPbHgYGBJsGt%2Fhffmno5XyhVNzuD79qRkOpzFIU2Qq4PPPsbNMcYwuf0R7%2FLa256Ao0AqJi2JKGB4k4etw0v8Ud%2FBlAr4c2NbbdHfRIn0LHTJB3ViBtgd9YHF0v2Gn1Wy9Q9UbfKDvcCOwsUK64NqN3awSCxWKpPTbdD7v1azE2GOQCv0F%2BFOMXCv%2FGdrze1q88q6A9EfFR0f3DxzdBegG%2F7Qfv17plQ6P1Ov1NfHMLm%2FPfe5YqNx23IXHblO4n%2BVVFXnYQ%3D%3D&msg_id=1c52c17f0ef14689ad20696e02ceae6f&app_id=10000000000003170745&sign_type=RSA2&timestamp=2021-01-20+17%3A23%3A47\">\n<input type=\"hidden\" name=\"biz_content\" value=\"6sxmMhQoTFVP52lluTVksrJhLxbNyUCMwrf9lSnnMcZib/QUM6P+XohevQ9TcRza2SmJOaJNSxJerb40uqV1mR4ocgs8+FUaE9kni7FgeI0QnKIdPghhqMtcaZZSFtNmlrDjeG9wU0BoV/76akEh20HonkuUmANv9LZ1st3BLonKzebyTKETLTkh3Ml7Xr6fTQbOdmzvtwnhD9cA+UxMA6rnE54M7CwyUhSfz1d79o2Kn/G49vOPqz7H5Jy3Ok1Yl25LiHTcgoxkePYQdHZCuWk8pfIBGXYzjjA0y0Ho+dMIUeTvtAi9QwDKPO+PmPzR2bMEt4eKKIfXDiilJnj31FxBOeM/u367TganSyA3lshAd2ZmlPTwkXhg967J4uCaLRmrMXPxD+/Fz288GcotmjknzuQ5bGu9jgeQ5nRroGQ1+Icy3qk3IZ77KFdavdRzB8zTl0OrnZnXsNTEI/5YlnM+Gvm2qPrDtzb3h2pqIu88okB7aC2x80Fc7vmkJVKMLYIeiXpdmVONsVCWK7EcNF01EgJtTQi3bmTms/5Wx+4t/MoVZpvQMAEAmiIZSQporATFAk7E8j/fdTgTsvEBltU7gG4LSrTgmkCMNldVIciFww35LcwmvMhjBE0Y3Vb9hbXZkRPpLaJORYSVBNW4JJkzh7zYzznaPIgjViHhlSoOMybWuOBHDSzuCo8Dcc4vUSBKEecu7sKUwvxNN6d3lj8uUHBvcpUYl4OImfQioMbCHLZ7RMGqX6eLaRXKQKNJEg6cIjSssPJUFYgCry2QzvnAGMcEaEoUgeSofwjET4U=\">\n<input type=\"submit\" value=\"立刻提交\" style=\"display:none\" >\n</form>\n<script>document.forms[0].submit();</script>"},"messagecode":0,"status":"ok"}
+2021-01-20 17:23:46.485	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	解析返回data-value内容：<form name="auto_submit_form" method="post" action="https://gw.open.icbc.com.cn/ui/aggregate/payment/request/V2?charset=UTF-8&encrypt_type=AES&format=json&sign=P%2FJUSqNs2gSSSZv65JGhnYySV4RoJ6vSrA7ug1q6HqZX3djjlXIybx9JfJCJQX3kYM5FzaSrrJrnnwXNPbHgYGBJsGt%2Fhffmno5XyhVNzuD79qRkOpzFIU2Qq4PPPsbNMcYwuf0R7%2FLa256Ao0AqJi2JKGB4k4etw0v8Ud%2FBlAr4c2NbbdHfRIn0LHTJB3ViBtgd9YHF0v2Gn1Wy9Q9UbfKDvcCOwsUK64NqN3awSCxWKpPTbdD7v1azE2GOQCv0F%2BFOMXCv%2FGdrze1q88q6A9EfFR0f3DxzdBegG%2F7Qfv17plQ6P1Ov1NfHMLm%2FPfe5YqNx23IXHblO4n%2BVVFXnYQ%3D%3D&msg_id=1c52c17f0ef14689ad20696e02ceae6f&app_id=10000000000003170745&sign_type=RSA2&timestamp=2021-01-20+17%3A23%3A47">
+<input type="hidden" name="biz_content" value="6sxmMhQoTFVP52lluTVksrJhLxbNyUCMwrf9lSnnMcZib/QUM6P+XohevQ9TcRza2SmJOaJNSxJerb40uqV1mR4ocgs8+FUaE9kni7FgeI0QnKIdPghhqMtcaZZSFtNmlrDjeG9wU0BoV/76akEh20HonkuUmANv9LZ1st3BLonKzebyTKETLTkh3Ml7Xr6fTQbOdmzvtwnhD9cA+UxMA6rnE54M7CwyUhSfz1d79o2Kn/G49vOPqz7H5Jy3Ok1Yl25LiHTcgoxkePYQdHZCuWk8pfIBGXYzjjA0y0Ho+dMIUeTvtAi9QwDKPO+PmPzR2bMEt4eKKIfXDiilJnj31FxBOeM/u367TganSyA3lshAd2ZmlPTwkXhg967J4uCaLRmrMXPxD+/Fz288GcotmjknzuQ5bGu9jgeQ5nRroGQ1+Icy3qk3IZ77KFdavdRzB8zTl0OrnZnXsNTEI/5YlnM+Gvm2qPrDtzb3h2pqIu88okB7aC2x80Fc7vmkJVKMLYIeiXpdmVONsVCWK7EcNF01EgJtTQi3bmTms/5Wx+4t/MoVZpvQMAEAmiIZSQporATFAk7E8j/fdTgTsvEBltU7gG4LSrTgmkCMNldVIciFww35LcwmvMhjBE0Y3Vb9hbXZkRPpLaJORYSVBNW4JJkzh7zYzznaPIgjViHhlSoOMybWuOBHDSzuCo8Dcc4vUSBKEecu7sKUwvxNN6d3lj8uUHBvcpUYl4OImfQioMbCHLZ7RMGqX6eLaRXKQKNJEg6cIjSssPJUFYgCry2QzvnAGMcEaEoUgeSofwjET4U=">
+<input type="submit" value="立刻提交" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+2021-01-20 17:23:46.494	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbch5pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="000000" respDesc="下单成功">
+    <data>&lt;form name="auto_submit_form" method="post" action="https://gw.open.icbc.com.cn/ui/aggregate/payment/request/V2?charset=UTF-8&amp;encrypt_type=AES&amp;format=json&amp;sign=P%2FJUSqNs2gSSSZv65JGhnYySV4RoJ6vSrA7ug1q6HqZX3djjlXIybx9JfJCJQX3kYM5FzaSrrJrnnwXNPbHgYGBJsGt%2Fhffmno5XyhVNzuD79qRkOpzFIU2Qq4PPPsbNMcYwuf0R7%2FLa256Ao0AqJi2JKGB4k4etw0v8Ud%2FBlAr4c2NbbdHfRIn0LHTJB3ViBtgd9YHF0v2Gn1Wy9Q9UbfKDvcCOwsUK64NqN3awSCxWKpPTbdD7v1azE2GOQCv0F%2BFOMXCv%2FGdrze1q88q6A9EfFR0f3DxzdBegG%2F7Qfv17plQ6P1Ov1NfHMLm%2FPfe5YqNx23IXHblO4n%2BVVFXnYQ%3D%3D&amp;msg_id=1c52c17f0ef14689ad20696e02ceae6f&amp;app_id=10000000000003170745&amp;sign_type=RSA2&amp;timestamp=2021-01-20+17%3A23%3A47"&gt;
+&lt;input type="hidden" name="biz_content" value="6sxmMhQoTFVP52lluTVksrJhLxbNyUCMwrf9lSnnMcZib/QUM6P+XohevQ9TcRza2SmJOaJNSxJerb40uqV1mR4ocgs8+FUaE9kni7FgeI0QnKIdPghhqMtcaZZSFtNmlrDjeG9wU0BoV/76akEh20HonkuUmANv9LZ1st3BLonKzebyTKETLTkh3Ml7Xr6fTQbOdmzvtwnhD9cA+UxMA6rnE54M7CwyUhSfz1d79o2Kn/G49vOPqz7H5Jy3Ok1Yl25LiHTcgoxkePYQdHZCuWk8pfIBGXYzjjA0y0Ho+dMIUeTvtAi9QwDKPO+PmPzR2bMEt4eKKIfXDiilJnj31FxBOeM/u367TganSyA3lshAd2ZmlPTwkXhg967J4uCaLRmrMXPxD+/Fz288GcotmjknzuQ5bGu9jgeQ5nRroGQ1+Icy3qk3IZ77KFdavdRzB8zTl0OrnZnXsNTEI/5YlnM+Gvm2qPrDtzb3h2pqIu88okB7aC2x80Fc7vmkJVKMLYIeiXpdmVONsVCWK7EcNF01EgJtTQi3bmTms/5Wx+4t/MoVZpvQMAEAmiIZSQporATFAk7E8j/fdTgTsvEBltU7gG4LSrTgmkCMNldVIciFww35LcwmvMhjBE0Y3Vb9hbXZkRPpLaJORYSVBNW4JJkzh7zYzznaPIgjViHhlSoOMybWuOBHDSzuCo8Dcc4vUSBKEecu7sKUwvxNN6d3lj8uUHBvcpUYl4OImfQioMbCHLZ7RMGqX6eLaRXKQKNJEg6cIjSssPJUFYgCry2QzvnAGMcEaEoUgeSofwjET4U="&gt;
+&lt;input type="submit" value="立刻提交" style="display:none" &gt;
+&lt;/form&gt;
+&lt;script&gt;document.forms[0].submit();&lt;/script&gt;</data>
+</msg>
+
+2021-01-20 17:23:46.739	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-20 17:23:46.739	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:23:46.739	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-20 17:23:46.739	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:23:46.741	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbcQueryPayh5Pre]
+2021-01-20 17:23:46.747	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求参数：{appKey=HMPxcXbb0pD46U7, parkCode=2013, secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, orderId=PL2101200000000033}
+2021-01-20 17:23:46.747	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/query?noncestr=57403a11-f30e-461e-94f2-50678645d01f&timestamp=1611134626&&sign=92C46E8B29BDF4F6A721694740BB4239A2AE1141，数据为：{parkCode=2013, orderId=PL2101200000000033}
+2021-01-20 17:23:48.664	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求结果：{"messagecode":99999,"message":"查询无工行订单，且无预支付信息","status":"fail"}
+2021-01-20 17:23:48.668	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbcQueryPayh5Pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999912" respDesc="未支付"/>
+
+2021-01-20 17:23:53.797	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-20 17:23:53.798	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:23:53.798	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-20 17:23:53.798	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:23:53.799	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbcQueryPayh5Pre]
+2021-01-20 17:23:53.803	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求参数：{appKey=HMPxcXbb0pD46U7, parkCode=2013, secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, orderId=PL2101200000000033}
+2021-01-20 17:23:53.803	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/query?noncestr=c512bde6-7fec-430d-8b12-c85c26531855&timestamp=1611134633&&sign=85010B0F76BD3B4DCF86F5401DD98DB07172AB50，数据为：{parkCode=2013, orderId=PL2101200000000033}
+2021-01-20 17:23:55.848	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求结果：{"messagecode":99999,"message":"查询无工行订单，且无预支付信息","status":"fail"}
+2021-01-20 17:23:55.853	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbcQueryPayh5Pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999912" respDesc="未支付"/>
+
+2021-01-20 17:24:00.985	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-20 17:24:00.985	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:00.985	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-20 17:24:00.985	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:00.987	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbcQueryPayh5Pre]
+2021-01-20 17:24:00.993	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求参数：{appKey=HMPxcXbb0pD46U7, parkCode=2013, secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, orderId=PL2101200000000033}
+2021-01-20 17:24:00.993	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/query?noncestr=79d3ae34-e923-4053-857f-c113bd97fac5&timestamp=1611134640&&sign=44AB14AF25C1FADAB1867B39A0D073FFD15766F0，数据为：{parkCode=2013, orderId=PL2101200000000033}
+2021-01-20 17:24:05.517	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求结果：{"messagecode":99999,"message":"查询无工行订单，且无预支付信息","status":"fail"}
+2021-01-20 17:24:05.520	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbcQueryPayh5Pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999912" respDesc="未支付"/>
+
+2021-01-20 17:24:10.668	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-20 17:24:10.669	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:10.669	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-20 17:24:10.669	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:10.670	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbcQueryPayh5Pre]
+2021-01-20 17:24:10.673	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求参数：{appKey=HMPxcXbb0pD46U7, parkCode=2013, secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, orderId=PL2101200000000033}
+2021-01-20 17:24:10.673	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/query?noncestr=3b5952a1-29ba-4b3c-880f-d2cc428f7bbe&timestamp=1611134650&&sign=7C28B539AF18391D1B88C6AEEA04A29EF5F61E2C，数据为：{parkCode=2013, orderId=PL2101200000000033}
+2021-01-20 17:24:12.616	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求结果：{"messagecode":99999,"message":"查询无工行订单，且无预支付信息","status":"fail"}
+2021-01-20 17:24:12.620	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbcQueryPayh5Pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999912" respDesc="未支付"/>
+
+2021-01-20 17:24:17.761	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-20 17:24:17.761	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:17.761	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-20 17:24:17.761	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:17.763	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbcQueryPayh5Pre]
+2021-01-20 17:24:17.766	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求参数：{appKey=HMPxcXbb0pD46U7, parkCode=2013, secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, orderId=PL2101200000000033}
+2021-01-20 17:24:17.766	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/query?noncestr=0f6ec6bc-52a5-4eb7-9f13-aa2f6e0be667&timestamp=1611134657&&sign=D36F54BF9F19CFF597D4D6197CB57F19A68731F0，数据为：{parkCode=2013, orderId=PL2101200000000033}
+2021-01-20 17:24:23.213	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求结果：{"messagecode":99999,"message":"查询无工行订单，且无预支付信息","status":"fail"}
+2021-01-20 17:24:23.216	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbcQueryPayh5Pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999912" respDesc="未支付"/>
+
+2021-01-20 17:24:28.380	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-20 17:24:28.380	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:28.380	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-20 17:24:28.380	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:28.381	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbcQueryPayh5Pre]
+2021-01-20 17:24:28.385	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求参数：{appKey=HMPxcXbb0pD46U7, parkCode=2013, secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, orderId=PL2101200000000033}
+2021-01-20 17:24:28.385	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/query?noncestr=a21c0570-92d4-427d-8ed9-9627df6886af&timestamp=1611134668&&sign=8A1ABACB9B5E0AD75CCB1F2BF1E03CEAA66B73A8，数据为：{parkCode=2013, orderId=PL2101200000000033}
+2021-01-20 17:24:31.451	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求结果：{"messagecode":99999,"message":"查询无工行订单，且无预支付信息","status":"fail"}
+2021-01-20 17:24:31.453	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbcQueryPayh5Pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999912" respDesc="未支付"/>
+
+2021-01-20 17:24:36.599	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-20 17:24:36.600	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:36.600	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-20 17:24:36.600	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:36.601	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbcQueryPayh5Pre]
+2021-01-20 17:24:36.604	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求参数：{appKey=HMPxcXbb0pD46U7, parkCode=2013, secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, orderId=PL2101200000000033}
+2021-01-20 17:24:36.604	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/query?noncestr=687f2fc7-2bd7-41db-9901-405c07604406&timestamp=1611134676&&sign=15CBBA8DF8742FA2D62A5ED69AB0C98B56779F3A，数据为：{parkCode=2013, orderId=PL2101200000000033}
+2021-01-20 17:24:38.612	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求结果：{"messagecode":99999,"message":"查询无工行订单，且无预支付信息","status":"fail"}
+2021-01-20 17:24:38.615	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbcQueryPayh5Pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999912" respDesc="未支付"/>
+
+2021-01-20 17:24:43.761	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-20 17:24:43.762	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:43.762	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-20 17:24:43.762	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:43.763	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbcQueryPayh5Pre]
+2021-01-20 17:24:43.766	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求参数：{appKey=HMPxcXbb0pD46U7, parkCode=2013, secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, orderId=PL2101200000000033}
+2021-01-20 17:24:43.766	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/query?noncestr=a79b5aea-78cc-4b53-9338-430a6593ddc0&timestamp=1611134683&&sign=5FAD1E6D97735FCE30B736C247FBEBE33743E2C2，数据为：{parkCode=2013, orderId=PL2101200000000033}
+2021-01-20 17:24:48.338	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求结果：{"messagecode":99999,"message":"查询无工行订单，且无预支付信息","status":"fail"}
+2021-01-20 17:24:48.340	[http-nio-8096-exec-6]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbcQueryPayh5Pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999912" respDesc="未支付"/>
+
+2021-01-20 17:24:53.481	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-20 17:24:53.482	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:53.482	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-20 17:24:53.482	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:24:53.483	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbcQueryPayh5Pre]
+2021-01-20 17:24:53.486	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求参数：{appKey=HMPxcXbb0pD46U7, parkCode=2013, secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, orderId=PL2101200000000033}
+2021-01-20 17:24:53.486	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/query?noncestr=ec1309d9-6133-45c6-accb-9f05f74c41ef&timestamp=1611134693&&sign=E8AC90B0D77954A5A1E5093916751FBEE1D95A81，数据为：{parkCode=2013, orderId=PL2101200000000033}
+2021-01-20 17:24:58.566	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求结果：{"messagecode":99999,"message":"查询无工行订单，且无预支付信息","status":"fail"}
+2021-01-20 17:24:58.569	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbcQueryPayh5Pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999912" respDesc="未支付"/>
+
+2021-01-20 17:25:03.707	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-20 17:25:03.708	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:25:03.708	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-20 17:25:03.708	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:25:03.709	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbcQueryPayh5Pre]
+2021-01-20 17:25:03.712	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求参数：{appKey=HMPxcXbb0pD46U7, parkCode=2013, secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, orderId=PL2101200000000033}
+2021-01-20 17:25:03.712	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/query?noncestr=bf2ae611-285e-4495-8d2a-16318c5e8ebd&timestamp=1611134703&&sign=697E86B4644C1763ACE05B40F1284ACEA1D7418A，数据为：{parkCode=2013, orderId=PL2101200000000033}
+2021-01-20 17:25:10.408	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求结果：{"messagecode":99999,"message":"查询无工行订单，且无预支付信息","status":"fail"}
+2021-01-20 17:25:10.409	[http-nio-8096-exec-10]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbcQueryPayh5Pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999912" respDesc="未支付"/>
+
+2021-01-20 17:25:15.539	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-20 17:25:15.539	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:25:15.539	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-20 17:25:15.539	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbcQueryPayh5Pre" tradeId="PL2101200000000033">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-20 17:25:15.540	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbcQueryPayh5Pre]
+2021-01-20 17:25:15.543	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求参数：{appKey=HMPxcXbb0pD46U7, parkCode=2013, secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, orderId=PL2101200000000033}
+2021-01-20 17:25:15.544	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/query?noncestr=4c2ae802-064d-4913-ba06-401d213ddd99&timestamp=1611134715&&sign=76B68797D11AFA621FB43E9C997E2CE8315CAB9B，数据为：{parkCode=2013, orderId=PL2101200000000033}
+2021-01-20 17:25:19.876	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PayResultServiceImpl	-	扫码付/提前付结果查询请求结果：{"messagecode":99999,"message":"查询无工行订单，且无预支付信息","status":"fail"}
+2021-01-20 17:25:19.877	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbcQueryPayh5Pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999912" respDesc="未支付"/>
+
+2021-01-20 17:26:24.331	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration

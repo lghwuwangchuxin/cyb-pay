@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.parking.dao.ParkingTradeOrderDao">
+
+	<resultMap id="parkingTradeOrderMap" type="com.parking.domain.ParkingTradeOrder">
+		<result property="tradeId" column="TRADE_ID"/>
+		<result property="acceptMonth" column="ACCEPT_MONTH"/>
+		<result property="mchntId" column="MCHNT_ID"/> 
+		<result property="mchntName" column="MCHNT_NAME"/>
+		<result property="mchntSysNumber" column="MCHNT_SYS_NUMBER"/>
+		<result property="carPlate" column="CAR_PLATE"/>
+		<result property="resName" column="RES_NAME"/>
+		<result property="parkId" column="PARK_ID"/>
+		<result property="partParkId" column="PART_PARK_ID"/>
+		<result property="parkName" column="PARK_NAME"/>
+		<result property="beginDate" column="BEGIN_DATE"/>
+		<result property="endDate" column="END_DATE"/>
+		<result property="txnAmt" column="TXN_AMT"/>
+		<result property="payAmt" column="PAY_AMT"/>
+		<result property="payType" column="PAY_TYPE"/>
+		<result property="orderId" column="ORDER_ID"/>
+		<result property="overTime" column="OVER_TIME"/>
+		<result property="effectTimes" column="EFFECT_TIMES"/>
+		<result property="notifyUrl" column="NOTIFY_URL"/>
+		<result property="tradeStatus" column="TRADE_STATUS"/>
+		<result property="userId" column="USER_ID"/>
+		<result property="cardId" column="CARD_ID"/>
+		<result property="createdTime" column="CREATED_TIME"/>
+		<result property="payTime" column="PAY_TIME"/>
+		<result property="settleDate" column="SETTLE_DATE"/>
+		<result property="updateTime" column="UPDATE_TIME"/>
+		<result property="termId" column="TERM_ID"/>
+		<result property="rsrvStr1" column="RSRV_STR1"/>
+		<result property="rsrvStr2" column="RSRV_STR2"/>
+		<result property="rsrvStr3" column="RSRV_STR3"/>
+		<result property="rsrvStr4" column="RSRV_STR4"/>
+		<result property="rsrvStr5" column="RSRV_STR5"/>
+		<result property="rsrvStr6" column="RSRV_STR6"/>
+		<result property="remark" column="REMARK"/>
+		
+		<result property="resType" column="RES_TYPE"/>
+		<result property="tradeCode" column="TRADE_CODE"/>
+		<result property="tradeDesc" column="TRADE_DESC"/>
+		
+		<result property="states" column="STATES"/>
+		<result property="outTradeNo" column="OUT_TRADE_NO"/>
+		<result property="qrNo" column="QR_NO"/>
+		<result property="mchntNo" column="MCHNT_NO"/>
+		<result property="timeLong" column="TIME_LONG"/>
+		<result property="settleAmt" column="SETTLE_AMT"/>
+
+		<result property="inTime" column="IN_TIME"/>
+		<result property="outTime" column="OUT_TIME"/>
+		<result property="outId" column="OUT_ID"/>
+		<result property="outName" column="OUT_NAME"/>
+		<result property="parkMchntSysNumber" column="PARK_MCHNT_SYS_NUMBER"/>
+		<result property="subPayType" column="SUB_PAY_TYPE"/>
+		<result property="channelNum" column="CHANNEL_NUM"/>
+
+    </resultMap>
+
+    <!-- 订单生成 -->
+    <insert id="insertParkingOrder" parameterType="com.parking.domain.ParkingTradeOrder" >
+		INSERT IGNORE INTO T_PARKING_TRADE_ORDER (TRADE_ID,ACCEPT_MONTH,MCHNT_ID,MCHNT_NAME,MCHNT_SYS_NUMBER,
+											CAR_PLATE,RES_NAME,PARK_ID,PARK_NAME,
+											BEGIN_DATE,END_DATE,TXN_AMT,PAY_AMT,
+											PAY_TYPE,ORDER_ID,OVER_TIME,EFFECT_TIMES,
+											NOTIFY_URL,TRADE_STATUS,USER_ID,CARD_ID,CREATED_TIME,
+											PAY_TIME,UPDATE_TIME,
+											TERM_ID,RSRV_STR1,RSRV_STR2,RSRV_STR3,RSRV_STR4,
+											RSRV_STR5,RSRV_STR6,REMARK,RES_TYPE,TRADE_CODE,TRADE_DESC,STATES,OUT_TRADE_NO,QR_NO,PART_PARK_ID,MCHNT_NO,TIME_LONG,SETTLE_AMT,IN_TIME,OUT_TIME,OUT_ID,OUT_NAME,PARK_MCHNT_SYS_NUMBER,SUB_PAY_TYPE,CHANNEL_NUM)
+		                    VALUES (#{tradeId,jdbcType=VARCHAR},#{acceptMonth,jdbcType=VARCHAR},#{mchntId,jdbcType=VARCHAR},#{mchntName,jdbcType=VARCHAR},#{mchntSysNumber,jdbcType=VARCHAR},
+									#{carPlate,jdbcType=VARCHAR},#{resName,jdbcType=VARCHAR},#{parkId,jdbcType=VARCHAR},#{parkName,jdbcType=VARCHAR},
+									#{beginDate,jdbcType=VARCHAR},#{endDate,jdbcType=VARCHAR},#{txnAmt,jdbcType=VARCHAR},#{payAmt,jdbcType=VARCHAR},
+									#{payType,jdbcType=VARCHAR},#{orderId,jdbcType=VARCHAR},#{overTime,jdbcType=VARCHAR},#{effectTimes,jdbcType=VARCHAR},
+									#{notifyUrl,jdbcType=VARCHAR},#{tradeStatus,jdbcType=VARCHAR},#{userId,jdbcType=VARCHAR},#{cardId,jdbcType=VARCHAR},#{createdTime,jdbcType=VARCHAR},
+									#{payTime,jdbcType=VARCHAR},#{updateTime,jdbcType=VARCHAR},
+									#{termId,jdbcType=VARCHAR},#{rsrvStr1,jdbcType=VARCHAR},#{rsrvStr2,jdbcType=VARCHAR},#{rsrvStr3,jdbcType=VARCHAR},#{rsrvStr4,jdbcType=VARCHAR},
+									#{rsrvStr5,jdbcType=VARCHAR},#{rsrvStr6,jdbcType=VARCHAR},#{remark,jdbcType=VARCHAR},
+									#{resType,jdbcType=VARCHAR},#{tradeCode,jdbcType=VARCHAR},#{tradeDesc,jdbcType=VARCHAR},
+									#{states,jdbcType=VARCHAR},#{outTradeNo,jdbcType=VARCHAR},
+									#{qrNo,jdbcType=VARCHAR},#{partParkId,jdbcType=VARCHAR},#{mchntNo,jdbcType=VARCHAR},#{timeLong,jdbcType=VARCHAR},#{settleAmt,jdbcType=VARCHAR},
+									#{inTime,jdbcType=VARCHAR},#{outTime,jdbcType=VARCHAR},#{outId,jdbcType=VARCHAR},#{outName,jdbcType=VARCHAR},#{parkMchntSysNumber,jdbcType=VARCHAR},#{subPayType,jdbcType=VARCHAR},#{channelNum,jdbcType=VARCHAR})
+    </insert>
+    
+
+    <!-- 查询 本次请求订单 是否存在 -->
+    <select id="selectParkingOrderByMchnt" resultMap="parkingTradeOrderMap" parameterType="com.parking.domain.ParkingTradeOrder">
+    	SELECT TRADE_ID,ORDER_ID,MCHNT_SYS_NUMBER,CAR_PLATE,RES_NAME,TXN_AMT,PAY_AMT,TRADE_STATUS,STATES,RES_TYPE,QR_NO,PAY_TYPE,PARK_ID,CREATED_TIME,EFFECT_TIMES,MCHNT_ID,OUT_TRADE_NO,STATES FROM T_PARKING_TRADE_ORDER WHERE MCHNT_SYS_NUMBER=#{mchntSysNumber}
+	</select>    
+
+    <!-- 查询订单是否存在 -->  
+    <select id="selectParkingOrderById" resultMap="parkingTradeOrderMap" parameterType="com.parking.domain.ParkingTradeOrder">
+    	SELECT TRADE_ID,ORDER_ID,MCHNT_SYS_NUMBER,IN_TIME,OUT_TIME,MCHNT_ID,MCHNT_NAME,TXN_AMT,PAY_AMT,CAR_PLATE,RES_NAME,TRADE_STATUS,RES_TYPE,PAY_TYPE,PARK_ID,CARD_ID,USER_ID,STATES,TRADE_CODE,TRADE_DESC,OUT_TRADE_NO,EFFECT_TIMES,CREATED_TIME,QR_NO,NOTIFY_URL,PAY_TIME,PARK_NAME,BEGIN_DATE,END_DATE,TERM_ID,MCHNT_NO,SUB_PAY_TYPE,CHANNEL_NUM,PARK_MCHNT_SYS_NUMBER,TIME_LONG from T_PARKING_TRADE_ORDER where ORDER_ID=#{orderId}
+	</select>
+	
+     <!-- 查询订单 线下记录id 和 渠道方 订单组合查询是否存在 -->  
+    <select id="selectParkingTradeOrderPayId" resultMap="parkingTradeOrderMap" parameterType="com.parking.domain.ParkingTradeOrder">
+    	SELECT TRADE_ID,ORDER_ID,MCHNT_SYS_NUMBER,CAR_PLATE,RES_NAME,TXN_AMT,PAY_AMT,TRADE_STATUS,STATES,RES_TYPE,PAY_TYPE,PARK_ID,CREATED_TIME,EFFECT_TIMES,MCHNT_ID,OUT_TRADE_NO FROM T_PARKING_TRADE_ORDER WHERE PARK_MCHNT_SYS_NUMBER = #{parkMchntSysNumber} and OUT_TRADE_NO = #{outTradeNo}
+	</select> 
+	
+    <!-- 更新订单信息 -->
+    <update id="updateParkingOrder" parameterType="com.parking.domain.ParkingTradeOrder">
+    	UPDATE T_PARKING_TRADE_ORDER
+		<set>
+			<if test="tradeStatus!=null and tradeStatus!=''">TRADE_STATUS=#{tradeStatus},</if>
+			<if test="cardId!=null and cardId!=''">CARD_ID=#{cardId},</if>
+			<if test="userId!=null and userId!=''">USER_ID=#{userId},</if>	
+			<if test="partParkId!=null and partParkId!=''">PART_PARK_ID=#{partParkId},</if>
+			<if test="payType!=null and payType!=''">PAY_TYPE=#{payType},</if>
+			<if test="carPlate!=null and carPlate!=''">CAR_PLATE=#{carPlate},</if>
+			<if test="payTime!=null and payTime!=''">PAY_TIME=#{payTime},</if>
+			<if test="settleDate!=null and settleDate!=''">SETTLE_DATE=#{settleDate},</if>
+			<if test="txnAmt!=null and txnAmt!=''">TXN_AMT=#{txnAmt},</if>	
+			<if test="payAmt!=null and payAmt!=''">PAY_AMT=#{payAmt},</if>
+			<if test="resType!=null and resType!=''">RES_TYPE=#{resType},</if>
+			<if test="tradeCode!=null and tradeCode!=''">TRADE_CODE=#{tradeCode},</if>
+			<if test="tradeDesc!=null and tradeDesc!=''">TRADE_DESC=#{tradeDesc},</if>
+		    <if test="outTradeNo!=null and outTradeNo!=''">OUT_TRADE_NO=#{outTradeNo},</if>
+		    <if test="states!=null and states!=''">STATES=#{states},</if>
+		    <if test="mchntId!=null and mchntId!=''">MCHNT_ID=#{mchntId},</if>
+		    <if test="effectTimes!=null and effectTimes!=''">EFFECT_TIMES=#{effectTimes},</if>
+			<if test="subPayType!=null and subPayType!=''">SUB_PAY_TYPE=#{subPayType},</if>
+			<if test="channelNum!=null and channelNum!=''">CHANNEL_NUM=#{channelNum},</if>
+			<if test="qrNo!=null and qrNo!=''">QR_NO=#{qrNo},</if>
+			UPDATE_TIME = #{updateTime}
+		</set>
+		WHERE TRADE_ID = #{tradeId}
+    </update>   
+    
+
+</mapper>

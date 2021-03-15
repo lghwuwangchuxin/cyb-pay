@@ -1,0 +1,209 @@
+2021-01-14 16:36:37.346	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@68d2a070: startup date [Thu Jan 14 16:36:37 CST 2021]; root of context hierarchy
+2021-01-14 16:36:37.550	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-14 16:36:37.590	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$deb450c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-14 16:36:38.305	[restartedMain]	INFO 	com.parkingicbcpay.SpringDemoApplication	-	The following profiles are active: dev
+2021-01-14 16:36:38.327	[restartedMain]	INFO 	org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext	-	Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@50beb373: startup date [Thu Jan 14 16:36:38 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@68d2a070
+2021-01-14 16:36:39.630	[restartedMain]	INFO 	org.springframework.beans.factory.support.DefaultListableBeanFactory	-	Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2021-01-14 16:36:39.841	[restartedMain]	INFO 	org.springframework.cloud.context.scope.GenericScope	-	BeanFactory id=5bb5223c-6834-3e27-a38e-189ed3abad2b
+2021-01-14 16:36:39.855	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-14 16:36:39.968	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c29a4dc7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-14 16:36:40.006	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$deb450c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-14 16:36:40.648	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat initialized with port(s): 8096 (http)
+2021-01-14 16:36:40.671	[restartedMain]	INFO 	org.apache.catalina.core.StandardService	-	Starting service [Tomcat]
+2021-01-14 16:36:40.671	[restartedMain]	INFO 	org.apache.catalina.core.StandardEngine	-	Starting Servlet Engine: Apache Tomcat/8.5.31
+2021-01-14 16:36:40.675	[localhost-startStop-1]	INFO 	org.apache.catalina.core.AprLifecycleListener	-	The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;D:\apache-maven-3.6.3\bin;F:\Git\cmd;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\bin;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\conf;C:\Users\zhf\AppData\Local\Microsoft\WindowsApps;;.]
+2021-01-14 16:36:40.811	[localhost-startStop-1]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring embedded WebApplicationContext
+2021-01-14 16:36:40.811	[localhost-startStop-1]	INFO 	org.springframework.web.context.ContextLoader	-	Root WebApplicationContext: initialization completed in 2484 ms
+2021-01-14 16:36:41.065	[localhost-startStop-1]	WARN 	com.netflix.config.sources.URLConfigurationSource	-	No URLs will be polled as dynamic configuration sources.
+2021-01-14 16:36:41.065	[localhost-startStop-1]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 16:36:41.075	[localhost-startStop-1]	INFO 	com.netflix.config.DynamicPropertyFactory	-	DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6af7eb8f
+2021-01-14 16:36:41.249	[localhost-startStop-1]	INFO 	org.springframework.aop.framework.CglibAopProxy	-	Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2021-01-14 16:36:42.935	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-14 16:36:42.935	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-14 16:36:42.936	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-01-14 16:36:42.936	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'requestContextFilter' to: [/*]
+2021-01-14 16:36:42.936	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpTraceFilter' to: [/*]
+2021-01-14 16:36:42.936	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.RegistrationBean	-	Filter errorPageFilter was not registered (disabled)
+2021-01-14 16:36:42.936	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2021-01-14 16:36:42.937	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.ServletRegistrationBean	-	Servlet dispatcherServlet mapped to [/]
+2021-01-14 16:36:43.245	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing FeignContext-parkingPay: startup date [Thu Jan 14 16:36:43 CST 2021]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@50beb373
+2021-01-14 16:36:43.265	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-14 16:36:43.435	[restartedMain]	WARN 	com.netflix.config.sources.URLConfigurationSource	-	No URLs will be polled as dynamic configuration sources.
+2021-01-14 16:36:43.435	[restartedMain]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 16:36:43.531	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-14 16:36:43.710	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter	-	Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@50beb373: startup date [Thu Jan 14 16:36:38 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@68d2a070
+2021-01-14 16:36:43.763	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingicbcpay/getPreOrder],methods=[GET]}" onto public java.lang.String com.parkingicbcpay.controller.PrParkingIcbcPayController.getOrder(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-14 16:36:43.764	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingicbcpay/gw],methods=[GET]}" onto public java.lang.String com.parkingicbcpay.controller.PrParkingIcbcPayController.prparkingIcbc(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-14 16:36:43.766	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-14 16:36:43.767	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-14 16:36:43.813	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-14 16:36:43.813	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-14 16:36:44.291	[restartedMain]	INFO 	org.springframework.ui.freemarker.SpringTemplateLoader	-	SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@50beb373: startup date [Thu Jan 14 16:36:38 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@68d2a070] and template loader path [classpath:/templates/]
+2021-01-14 16:36:44.292	[restartedMain]	INFO 	org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer	-	ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2021-01-14 16:36:44.469	[restartedMain]	WARN 	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	-	Unable to start LiveReload server
+2021-01-14 16:36:44.651	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver	-	Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-14 16:36:44.665	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-14 16:36:44.666	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-14 16:36:44.667	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-14 16:36:44.725	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Registering beans for JMX exposure on startup
+2021-01-14 16:36:44.727	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-01-14 16:36:44.737	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'environmentManager' has been autodetected for JMX exposure
+2021-01-14 16:36:44.739	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'refreshScope' has been autodetected for JMX exposure
+2021-01-14 16:36:44.741	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2021-01-14 16:36:44.745	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2021-01-14 16:36:44.752	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2021-01-14 16:36:44.762	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=50beb373,type=ConfigurationPropertiesRebinder]
+2021-01-14 16:36:44.767	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-01-14 16:36:44.772	[restartedMain]	INFO 	org.springframework.context.support.DefaultLifecycleProcessor	-	Starting beans in phase 0
+2021-01-14 16:36:44.779	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.InstanceInfoFactory	-	Setting initial instance status as: STARTING
+2021-01-14 16:36:44.814	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Initializing Eureka in region us-east-1
+2021-01-14 16:36:45.357	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON encoding codec LegacyJacksonJson
+2021-01-14 16:36:45.357	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON decoding codec LegacyJacksonJson
+2021-01-14 16:36:45.474	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML encoding codec XStreamXml
+2021-01-14 16:36:45.474	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML decoding codec XStreamXml
+2021-01-14 16:36:45.710	[restartedMain]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-14 16:36:46.079	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Disable delta property : false
+2021-01-14 16:36:46.079	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Single vip registry refresh property : null
+2021-01-14 16:36:46.079	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Force full registry fetch : false
+2021-01-14 16:36:46.080	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application is null : false
+2021-01-14 16:36:46.080	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Registered Applications size is zero : true
+2021-01-14 16:36:46.080	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application version is -1: true
+2021-01-14 16:36:46.080	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Getting all instance registry info from the eureka server
+2021-01-14 16:36:46.259	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	The response status is 200
+2021-01-14 16:36:46.262	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Starting heartbeat executor: renew interval is: 10
+2021-01-14 16:36:46.264	[restartedMain]	INFO 	com.netflix.discovery.InstanceInfoReplicator	-	InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-14 16:36:46.268	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Discovery Client initialized at timestamp 1610613406267 with initial instances count: 1
+2021-01-14 16:36:46.273	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry	-	Registering application parkingicbcpay with eureka with status UP
+2021-01-14 16:36:46.274	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Saw local status change event StatusChangeEvent [timestamp=1610613406274, current=UP, previous=STARTING]
+2021-01-14 16:36:46.276	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGICBCPAY/192.168.124.6:parkingicbcpay:8096: registering service...
+2021-01-14 16:36:46.311	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGICBCPAY/192.168.124.6:parkingicbcpay:8096 - registration status: 204
+2021-01-14 16:36:46.326	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat started on port(s): 8096 (http) with context path ''
+2021-01-14 16:36:46.327	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration	-	Updating port to 8096
+2021-01-14 16:36:46.329	[restartedMain]	INFO 	com.parkingicbcpay.SpringDemoApplication	-	Started SpringDemoApplication in 10.041 seconds (JVM running for 11.563)
+2021-01-14 16:36:47.354	[RMI TCP Connection(3)-192.168.124.6]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-14 16:36:47.355	[RMI TCP Connection(3)-192.168.124.6]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-14 16:36:47.359	[RMI TCP Connection(2)-192.168.124.6]	INFO 	com.zaxxer.hikari.HikariDataSource	-	HikariPool-1 - Starting...
+2021-01-14 16:36:47.372	[RMI TCP Connection(3)-192.168.124.6]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2021-01-14 16:36:48.585	[RMI TCP Connection(2)-192.168.124.6]	INFO 	com.zaxxer.hikari.HikariDataSource	-	HikariPool-1 - Start completed.
+2021-01-14 16:37:52.937	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-14 16:37:52.938	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101140000000017">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2020-12-28 18:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2020-12-28 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-14 16:37:52.938	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-14 16:37:52.938	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101140000000017">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2020-12-28 18:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2020-12-28 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-14 16:37:52.960	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbch5pre]
+2021-01-14 16:37:53.036	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	进入工行提前付或扫码付
+2021-01-14 16:37:53.039	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求参数：{secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, appKey=HMPxcXbb0pD46U7, parkCode=2013, orderId=PL2101140000000017, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2020-12-28 12:37:16, endTime=2020-12-28 18:18:56, duration=5小时}
+2021-01-14 16:37:53.043	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/payment?noncestr=c3838d99-5b6e-4508-99f1-64a6636e5e04&timestamp=1610613473&&sign=FFDF20714DC835DD1BE4D70BF9D14ECCE2873542，数据为：{parkCode=2013, orderId=PL2101140000000017, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2020-12-28 12:37:16, endTime=2020-12-28 18:18:56, duration=5小时}
+2021-01-14 16:37:54.097	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求结果：{"data":{},"messagecode":0,"status":"ok"}
+2021-01-14 16:37:54.099	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	解析返回data-value内容：null
+2021-01-14 16:37:54.107	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbch5pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="000000" respDesc="下单成功"/>
+
+2021-01-14 16:37:54.338	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-14 16:37:54.339	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg tradeId="PL2101140000000017">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-14 16:37:54.339	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-14 16:37:54.339	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg tradeId="PL2101140000000017">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-14 16:37:54.341	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[null]
+2021-01-14 16:40:02.761	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-14 16:40:02.761	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101140000000018">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2021-01-14 16:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2021-01-14 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-14 16:40:02.761	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-14 16:40:02.761	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101140000000018">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2021-01-14 16:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2021-01-14 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-14 16:40:02.763	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbch5pre]
+2021-01-14 16:40:02.769	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	进入工行提前付或扫码付
+2021-01-14 16:40:02.770	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求参数：{secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, appKey=HMPxcXbb0pD46U7, parkCode=2013, orderId=PL2101140000000018, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2021-01-14 12:37:16, endTime=2021-01-14 16:18:56, duration=3小时}
+2021-01-14 16:40:02.770	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/payment?noncestr=6e877210-03e5-4d5b-84d1-ce9cfecb70e2&timestamp=1610613602&&sign=0802006F6851F0DCF0D9C55DE054440C94694487，数据为：{parkCode=2013, orderId=PL2101140000000018, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2021-01-14 12:37:16, endTime=2021-01-14 16:18:56, duration=3小时}
+2021-01-14 16:40:03.152	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求结果：{"data":{},"messagecode":0,"status":"ok"}
+2021-01-14 16:40:03.153	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	解析返回data-value内容：null
+2021-01-14 16:40:03.155	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbch5pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="000000" respDesc="下单成功"/>
+
+2021-01-14 16:40:03.377	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-14 16:40:03.377	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg tradeId="PL2101140000000018">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-14 16:40:03.377	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-14 16:40:03.377	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg tradeId="PL2101140000000018">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-14 16:40:03.378	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[null]
+2021-01-14 16:41:46.082	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-14 16:46:46.085	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-14 16:51:46.086	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-14 16:56:46.087	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-14 17:01:46.089	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-14 17:06:46.090	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration

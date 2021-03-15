@@ -1,0 +1,322 @@
+2020-12-29 14:00:23.770	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@68d2a070: startup date [Tue Dec 29 14:00:23 CST 2020]; root of context hierarchy
+2020-12-29 14:00:23.956	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-12-29 14:00:23.992	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d0744c48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-29 14:00:24.692	[restartedMain]	INFO 	com.parkingicbcpay.SpringDemoApplication	-	The following profiles are active: dev
+2020-12-29 14:00:24.711	[restartedMain]	INFO 	org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext	-	Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57603818: startup date [Tue Dec 29 14:00:24 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@68d2a070
+2020-12-29 14:00:25.975	[restartedMain]	INFO 	org.springframework.beans.factory.support.DefaultListableBeanFactory	-	Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2020-12-29 14:00:26.172	[restartedMain]	INFO 	org.springframework.cloud.context.scope.GenericScope	-	BeanFactory id=5bb5223c-6834-3e27-a38e-189ed3abad2b
+2020-12-29 14:00:26.188	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-12-29 14:00:26.310	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b45a494b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-29 14:00:26.341	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d0744c48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-29 14:00:26.844	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat initialized with port(s): 8096 (http)
+2020-12-29 14:00:26.867	[restartedMain]	INFO 	org.apache.catalina.core.StandardService	-	Starting service [Tomcat]
+2020-12-29 14:00:26.867	[restartedMain]	INFO 	org.apache.catalina.core.StandardEngine	-	Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-12-29 14:00:26.871	[localhost-startStop-1]	INFO 	org.apache.catalina.core.AprLifecycleListener	-	The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;D:\apache-maven-3.6.3\bin;F:\Git\cmd;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\bin;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\conf;C:\Users\zhf\AppData\Local\Microsoft\WindowsApps;;.]
+2020-12-29 14:00:27.003	[localhost-startStop-1]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring embedded WebApplicationContext
+2020-12-29 14:00:27.003	[localhost-startStop-1]	INFO 	org.springframework.web.context.ContextLoader	-	Root WebApplicationContext: initialization completed in 2293 ms
+2020-12-29 14:00:27.264	[localhost-startStop-1]	WARN 	com.netflix.config.sources.URLConfigurationSource	-	No URLs will be polled as dynamic configuration sources.
+2020-12-29 14:00:27.264	[localhost-startStop-1]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-29 14:00:27.273	[localhost-startStop-1]	INFO 	com.netflix.config.DynamicPropertyFactory	-	DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@566ad416
+2020-12-29 14:00:27.436	[localhost-startStop-1]	INFO 	org.springframework.aop.framework.CglibAopProxy	-	Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2020-12-29 14:00:29.091	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-29 14:00:29.091	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-29 14:00:29.091	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-12-29 14:00:29.091	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-29 14:00:29.091	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpTraceFilter' to: [/*]
+2020-12-29 14:00:29.092	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.RegistrationBean	-	Filter errorPageFilter was not registered (disabled)
+2020-12-29 14:00:29.092	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-12-29 14:00:29.092	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.ServletRegistrationBean	-	Servlet dispatcherServlet mapped to [/]
+2020-12-29 14:00:29.363	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing FeignContext-parkingPay: startup date [Tue Dec 29 14:00:29 CST 2020]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57603818
+2020-12-29 14:00:29.382	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-12-29 14:00:29.543	[restartedMain]	WARN 	com.netflix.config.sources.URLConfigurationSource	-	No URLs will be polled as dynamic configuration sources.
+2020-12-29 14:00:29.543	[restartedMain]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-29 14:00:29.627	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-12-29 14:00:29.810	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter	-	Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57603818: startup date [Tue Dec 29 14:00:24 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@68d2a070
+2020-12-29 14:00:29.869	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingicbcpay/getPreOrder],methods=[GET]}" onto public java.lang.String com.parkingicbcpay.controller.PrParkingIcbcPayController.getOrder(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2020-12-29 14:00:29.870	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingicbcpay/gw],methods=[GET]}" onto public java.lang.String com.parkingicbcpay.controller.PrParkingIcbcPayController.prparkingIcbc(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2020-12-29 14:00:29.872	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-12-29 14:00:29.872	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-12-29 14:00:29.900	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-12-29 14:00:29.900	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-12-29 14:00:30.351	[restartedMain]	INFO 	org.springframework.ui.freemarker.SpringTemplateLoader	-	SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57603818: startup date [Tue Dec 29 14:00:24 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@68d2a070] and template loader path [classpath:/templates/]
+2020-12-29 14:00:30.352	[restartedMain]	INFO 	org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer	-	ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2020-12-29 14:00:30.520	[restartedMain]	INFO 	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	-	LiveReload server is running on port 35729
+2020-12-29 14:00:30.688	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver	-	Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-29 14:00:30.700	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-12-29 14:00:30.701	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-12-29 14:00:30.702	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-12-29 14:00:30.751	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Registering beans for JMX exposure on startup
+2020-12-29 14:00:30.752	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-12-29 14:00:30.760	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-12-29 14:00:30.762	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-12-29 14:00:30.763	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-12-29 14:00:30.766	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-12-29 14:00:30.773	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-12-29 14:00:30.783	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=57603818,type=ConfigurationPropertiesRebinder]
+2020-12-29 14:00:30.788	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-12-29 14:00:30.794	[restartedMain]	INFO 	org.springframework.context.support.DefaultLifecycleProcessor	-	Starting beans in phase 0
+2020-12-29 14:00:30.800	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.InstanceInfoFactory	-	Setting initial instance status as: STARTING
+2020-12-29 14:00:30.832	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Initializing Eureka in region us-east-1
+2020-12-29 14:00:31.355	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON encoding codec LegacyJacksonJson
+2020-12-29 14:00:31.355	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON decoding codec LegacyJacksonJson
+2020-12-29 14:00:31.458	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML encoding codec XStreamXml
+2020-12-29 14:00:31.458	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML decoding codec XStreamXml
+2020-12-29 14:00:31.664	[restartedMain]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 14:00:32.015	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Disable delta property : false
+2020-12-29 14:00:32.015	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Single vip registry refresh property : null
+2020-12-29 14:00:32.016	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Force full registry fetch : false
+2020-12-29 14:00:32.016	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application is null : false
+2020-12-29 14:00:32.016	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Registered Applications size is zero : true
+2020-12-29 14:00:32.016	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application version is -1: true
+2020-12-29 14:00:32.016	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Getting all instance registry info from the eureka server
+2020-12-29 14:00:32.357	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	The response status is 200
+2020-12-29 14:00:32.358	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Starting heartbeat executor: renew interval is: 10
+2020-12-29 14:00:32.361	[restartedMain]	INFO 	com.netflix.discovery.InstanceInfoReplicator	-	InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-29 14:00:32.365	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Discovery Client initialized at timestamp 1609221632363 with initial instances count: 0
+2020-12-29 14:00:32.370	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry	-	Registering application parkingicbcpay with eureka with status UP
+2020-12-29 14:00:32.371	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Saw local status change event StatusChangeEvent [timestamp=1609221632371, current=UP, previous=STARTING]
+2020-12-29 14:00:32.372	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGICBCPAY/192.168.124.6:parkingicbcpay:8096: registering service...
+2020-12-29 14:00:32.417	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat started on port(s): 8096 (http) with context path ''
+2020-12-29 14:00:32.419	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration	-	Updating port to 8096
+2020-12-29 14:00:32.421	[restartedMain]	INFO 	com.parkingicbcpay.SpringDemoApplication	-	Started SpringDemoApplication in 9.69 seconds (JVM running for 11.101)
+2020-12-29 14:00:32.465	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGICBCPAY/192.168.124.6:parkingicbcpay:8096 - registration status: 204
+2020-12-29 14:00:33.292	[RMI TCP Connection(3)-192.168.124.6]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-12-29 14:00:33.292	[RMI TCP Connection(3)-192.168.124.6]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization started
+2020-12-29 14:00:33.297	[RMI TCP Connection(2)-192.168.124.6]	INFO 	com.zaxxer.hikari.HikariDataSource	-	HikariPool-1 - Starting...
+2020-12-29 14:00:33.313	[RMI TCP Connection(3)-192.168.124.6]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2020-12-29 14:00:34.572	[RMI TCP Connection(2)-192.168.124.6]	INFO 	com.zaxxer.hikari.HikariDataSource	-	HikariPool-1 - Start completed.
+2020-12-29 14:01:02.359	[DiscoveryClient-CacheRefreshExecutor-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	Disable delta property : false
+2020-12-29 14:01:02.359	[DiscoveryClient-CacheRefreshExecutor-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	Single vip registry refresh property : null
+2020-12-29 14:01:02.359	[DiscoveryClient-CacheRefreshExecutor-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	Force full registry fetch : false
+2020-12-29 14:01:02.359	[DiscoveryClient-CacheRefreshExecutor-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application is null : false
+2020-12-29 14:01:02.359	[DiscoveryClient-CacheRefreshExecutor-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	Registered Applications size is zero : true
+2020-12-29 14:01:02.359	[DiscoveryClient-CacheRefreshExecutor-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application version is -1: false
+2020-12-29 14:01:02.359	[DiscoveryClient-CacheRefreshExecutor-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	Getting all instance registry info from the eureka server
+2020-12-29 14:01:02.391	[DiscoveryClient-CacheRefreshExecutor-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	The response status is 200
+2020-12-29 14:05:32.019	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 14:10:32.021	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 14:15:32.023	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 14:20:32.024	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 14:25:32.025	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 14:30:32.025	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 14:35:32.026	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 14:40:32.028	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 14:45:32.029	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 14:50:32.030	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 14:55:32.032	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 15:00:32.033	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 15:05:32.033	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 15:10:32.035	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 15:15:32.035	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 15:20:32.037	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 15:25:32.039	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 15:30:32.040	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 15:35:32.042	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 15:39:20.222	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2020-12-29 15:39:20.223	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2012290000001534">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2020-12-28 18:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>gz20201210</parkingId>
+    <plateType>02</plateType>
+    <startTime>2020-12-28 12:37:16</startTime>
+    <preUrl>http://dev.zhou-hong.com:10060/api/v1/aggregate/payment</preUrl>
+    <secretKey>481b8756dbd4fbb237898507bbdd16bc647d28f70442604c409a94243faa1aaa</secretKey>
+    <appKey>kMzqMTdXDaF817Z</appKey>
+</msg>
+
+2020-12-29 15:39:20.223	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2020-12-29 15:39:20.223	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2012290000001534">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2020-12-28 18:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>gz20201210</parkingId>
+    <plateType>02</plateType>
+    <startTime>2020-12-28 12:37:16</startTime>
+    <preUrl>http://dev.zhou-hong.com:10060/api/v1/aggregate/payment</preUrl>
+    <secretKey>481b8756dbd4fbb237898507bbdd16bc647d28f70442604c409a94243faa1aaa</secretKey>
+    <appKey>kMzqMTdXDaF817Z</appKey>
+</msg>
+
+2020-12-29 15:39:20.254	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbch5pre]
+2020-12-29 15:39:20.299	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	进入工行提前付或扫码付
+2020-12-29 15:39:20.301	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求参数：{secretKey=481b8756dbd4fbb237898507bbdd16bc647d28f70442604c409a94243faa1aaa, appKey=kMzqMTdXDaF817Z, parkCode=gz20201210, orderId=PL2012290000001534, amount=1, redirectUrl=null, plateNumber=贵Q11333, plateType=02, startTime=2020-12-28 12:37:16, endTime=2020-12-28 18:18:56, duration=5小时}
+2020-12-29 15:39:20.305	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：http://dev.zhou-hong.com:10060/api/v1/aggregate/payment?noncestr=00cb8189-3f4d-477e-a00f-f6e39630151b&timestamp=1609227560&&sign=F76760D0D601D59A35D8AEE39858290C1CD09B48，数据为：{parkCode=gz20201210, orderId=PL2012290000001534, amount=1, redirectUrl=null, plateNumber=贵Q11333, plateType=02, startTime=2020-12-28 12:37:16, endTime=2020-12-28 18:18:56, duration=5小时}
+2020-12-29 15:39:20.428	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求结果：null
+2020-12-29 15:39:20.442	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbch5pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999911" respDesc="请求异常或下单失败"/>
+
+2020-12-29 15:40:32.042	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 15:44:19.161	[http-nio-8096-exec-3]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2020-12-29 15:44:19.162	[http-nio-8096-exec-3]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2012290000001535">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2020-12-28 18:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>gz20201210</parkingId>
+    <plateType>02</plateType>
+    <startTime>2020-12-28 12:37:16</startTime>
+    <preUrl>http://dev.zhou-hong.com:10060/api/v1/aggregate/payment</preUrl>
+    <secretKey>481b8756dbd4fbb237898507bbdd16bc647d28f70442604c409a94243faa1aaa</secretKey>
+    <appKey>kMzqMTdXDaF817Z</appKey>
+</msg>
+
+2020-12-29 15:44:19.162	[http-nio-8096-exec-3]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2020-12-29 15:44:19.162	[http-nio-8096-exec-3]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2012290000001535">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2020-12-28 18:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>gz20201210</parkingId>
+    <plateType>02</plateType>
+    <startTime>2020-12-28 12:37:16</startTime>
+    <preUrl>http://dev.zhou-hong.com:10060/api/v1/aggregate/payment</preUrl>
+    <secretKey>481b8756dbd4fbb237898507bbdd16bc647d28f70442604c409a94243faa1aaa</secretKey>
+    <appKey>kMzqMTdXDaF817Z</appKey>
+</msg>
+
+2020-12-29 15:44:19.163	[http-nio-8096-exec-3]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbch5pre]
+2020-12-29 15:44:19.171	[http-nio-8096-exec-3]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	进入工行提前付或扫码付
+2020-12-29 15:44:19.171	[http-nio-8096-exec-3]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求参数：{secretKey=481b8756dbd4fbb237898507bbdd16bc647d28f70442604c409a94243faa1aaa, appKey=kMzqMTdXDaF817Z, parkCode=gz20201210, orderId=PL2012290000001535, amount=1, redirectUrl=null, plateNumber=贵Q11333, plateType=02, startTime=2020-12-28 12:37:16, endTime=2020-12-28 18:18:56, duration=5小时}
+2020-12-29 15:44:19.171	[http-nio-8096-exec-3]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：http://dev.zhou-hong.com:10060/api/v1/aggregate/payment?noncestr=366dadf2-0a23-4499-9ee6-63bea27fd04a&timestamp=1609227859&&sign=B78151F84274477F5336A7ADCA1127773F0C30DA，数据为：{parkCode=gz20201210, orderId=PL2012290000001535, amount=1, redirectUrl=null, plateNumber=贵Q11333, plateType=02, startTime=2020-12-28 12:37:16, endTime=2020-12-28 18:18:56, duration=5小时}
+2020-12-29 15:44:19.252	[http-nio-8096-exec-3]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求结果：null
+2020-12-29 15:44:19.255	[http-nio-8096-exec-3]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbch5pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999911" respDesc="请求异常或下单失败"/>
+
+2020-12-29 15:45:32.044	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 15:48:19.532	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2020-12-29 15:48:19.533	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2012290000001536">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2020-12-28 18:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>gz20201210</parkingId>
+    <plateType>02</plateType>
+    <startTime>2020-12-28 12:37:16</startTime>
+    <preUrl>http://dev.zhou-hong.com:10060/api/v1/aggregate/payment</preUrl>
+    <secretKey>481b8756dbd4fbb237898507bbdd16bc647d28f70442604c409a94243faa1aaa</secretKey>
+    <appKey>kMzqMTdXDaF817Z</appKey>
+</msg>
+
+2020-12-29 15:48:19.533	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2020-12-29 15:48:19.533	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2012290000001536">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2020-12-28 18:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>gz20201210</parkingId>
+    <plateType>02</plateType>
+    <startTime>2020-12-28 12:37:16</startTime>
+    <preUrl>http://dev.zhou-hong.com:10060/api/v1/aggregate/payment</preUrl>
+    <secretKey>481b8756dbd4fbb237898507bbdd16bc647d28f70442604c409a94243faa1aaa</secretKey>
+    <appKey>kMzqMTdXDaF817Z</appKey>
+</msg>
+
+2020-12-29 15:48:19.534	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbch5pre]
+2020-12-29 15:48:19.541	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	进入工行提前付或扫码付
+2020-12-29 15:48:19.541	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求参数：{secretKey=481b8756dbd4fbb237898507bbdd16bc647d28f70442604c409a94243faa1aaa, appKey=kMzqMTdXDaF817Z, parkCode=gz20201210, orderId=PL2012290000001536, amount=1, redirectUrl=null, plateNumber=贵Q11333, plateType=02, startTime=2020-12-28 12:37:16, endTime=2020-12-28 18:18:56, duration=5小时}
+2020-12-29 15:48:19.542	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：http://dev.zhou-hong.com:10060/api/v1/aggregate/payment?noncestr=685accf9-9eb2-4e8f-bed6-002ad6be57a5&timestamp=1609228099&&sign=2CF42C2A4AB261522E5DB726F87B5CBAB5CEECF5，数据为：{parkCode=gz20201210, orderId=PL2012290000001536, amount=1, redirectUrl=null, plateNumber=贵Q11333, plateType=02, startTime=2020-12-28 12:37:16, endTime=2020-12-28 18:18:56, duration=5小时}
+2020-12-29 15:48:19.598	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求结果：null
+2020-12-29 15:48:19.603	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbch5pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="999911" respDesc="请求异常或下单失败"/>
+
+2020-12-29 15:50:32.045	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 15:55:32.047	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 16:00:32.049	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 16:05:32.049	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 16:10:32.051	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 16:15:32.053	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 16:20:32.055	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 16:25:32.056	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 16:30:32.057	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 16:35:32.059	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 16:40:32.061	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 16:45:32.061	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 16:50:32.062	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 16:55:32.064	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 17:00:32.065	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 17:05:32.066	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 17:10:33.073	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 17:15:33.075	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 17:20:33.077	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 17:25:33.078	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 17:30:33.080	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 17:35:33.081	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 17:40:33.082	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 17:45:33.083	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 17:50:33.084	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 17:55:33.085	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 18:00:33.086	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 18:05:33.087	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 18:10:33.087	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 18:15:33.088	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 18:20:33.090	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 18:25:33.092	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 18:30:33.093	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 18:35:33.094	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 18:40:33.095	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 18:45:33.096	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 18:50:33.098	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 18:55:33.099	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 19:00:33.101	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 19:05:33.102	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 19:10:33.104	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 19:15:33.105	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 19:20:33.107	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 19:25:33.109	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 19:30:33.110	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 19:35:33.111	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 19:40:33.113	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 19:45:33.114	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 19:50:33.115	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 19:55:33.117	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 20:00:33.118	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 20:05:33.120	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 20:10:33.122	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 20:15:33.123	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 20:20:33.125	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 20:25:33.126	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 20:30:33.127	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 20:35:33.129	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 20:40:33.130	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 20:45:33.130	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 20:50:33.132	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 20:55:33.133	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 21:00:33.134	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 21:05:33.134	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 21:10:33.135	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 21:15:33.136	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 21:20:33.137	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 21:25:33.138	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 21:30:33.139	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 21:35:33.141	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 21:40:33.142	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 21:45:33.143	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 21:50:33.144	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 21:55:33.146	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 22:00:33.146	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 22:05:33.147	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 22:10:33.148	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 22:15:33.150	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 22:20:33.150	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 22:25:33.151	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 22:30:33.152	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 22:35:33.155	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 22:40:33.155	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 22:45:33.156	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 22:50:33.157	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 22:55:33.158	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 23:00:33.160	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 23:05:33.161	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 23:10:33.163	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 23:15:33.165	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 23:20:33.167	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 23:25:33.168	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 23:30:33.171	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 23:35:33.172	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 23:40:33.173	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 23:45:33.175	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 23:50:33.176	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2020-12-29 23:55:33.177	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration

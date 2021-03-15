@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.parkingpayweb.dao.ParkingPreMchntConfigDao">
+
+	<resultMap id="parkingpreMchntMap" type="com.parkingpayweb.domain.ParkingQrcodeMchntConfig">
+		<result column="ID" property="id" />
+		<result property="mchntId" column="MCHNT_ID"/>
+		<result property="appChannel" column="APP_CHANNEL"/>
+		<result property="mchntName" column="MCHNT_NAME"/>
+		<result property="mchntAppId" column="MCHNT_APP_ID"/>
+		<result property="mchntPrivateKey" column="MCHNT_PRIVATE_KEY"/>
+		<result property="mchntPublicKey" column="MCHNT_PUBLIC_KEY"/>
+		<result property="mchntPublicOtherKey" column="MCHNT_PUBLIC_OTHER_KEY"/>
+		<result property="mchntNo" column="MCHNT_NO"/>
+		<result property="mchntNoName" column="MCHNT_NO_NAME"/>
+		<result property="rsrvStr1" column="RSRV_STR1"/>
+		<result property="rsrvStr2" column="RSRV_STR2"/>
+		<result property="rsrvStr3" column="RSRV_STR3"/>
+		<result property="rsrvStr4" column="RSRV_STR4"/>
+		<result property="rsrvStr5" column="RSRV_STR5"/>
+		<result property="rsrvStr6" column="RSRV_STR6"/>
+		<result property="mchntHtreeNo" column="MCHNT_HTREE_NO"/>
+		<result property="mchntHtreeName" column="MCHNT_HTREE_NAME"/>
+		<result property="mchntHtreeKey" column="MCHNT_HTREE_KEY"/>
+    </resultMap>
+	
+	<!--查询商户-->
+	<select id="selectParkingPreMchntConfig" resultMap="parkingpreMchntMap" parameterType="com.parkingpayweb.domain.ParkingQrcodeMchntConfig">
+    	SELECT * FROM t_parking_pre_mchnt_config WHERE APP_CHANNEL = #{appChannel} AND MCHNT_NO=#{mchntNo}
+	</select>
+</mapper>

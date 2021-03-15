@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.parking.dao.ParkingChannelIcbcCarDao">
+
+  	<resultMap id="parkingChannelIcbcCarMap" type="com.parking.domain.ParkingChannelCar" >
+	    <result column="CAR_PLATE" property="carPlate"  />
+	    <result column="JOIN_ID" property="joinId"  />
+	    <result column="JOIN_NAME" property="joinName"  />
+	    <result column="STATE" property="state"  />
+	    <result column="USER_ID" property="userId"  />
+	    <result column="CARD_ID" property="cardId"  />
+	    <result column="UPDATE_TIME" property="updateTime"  />
+	    <result column="PERMIT_STATE" property="permitState"  />
+	    <result column="PARKING_NO" property="parkingNo"  />
+	    <result column="PARKING_NAME" property="parkingName"  />
+	    <result column="BIND_TIME" property="bindTime"  />
+	    <result column="INSET_TIME" property="insetTime"  />
+	    <result column="RSRV_STR1" property="rsrvStr1"  />
+	    <result column="RSRV_STR2" property="rsrvStr2"  />
+	    <result column="RSRV_STR3" property="rsrvStr3"  />
+	    <result column="RSRV_STR4" property="rsrvStr4"  />
+	    <result column="RSRV_STR5" property="rsrvStr5"  />
+	    <result column="RSRV_STR6" property="rsrvStr6"  />
+	    <result column="CARD_TYPE" property="cardType"  />
+  	</resultMap>
+
+    <insert id="insertParkingChannelCar" parameterType="com.parking.domain.ParkingChannelCar">
+    	insert into t_parking_channel_icbc_car(CAR_PLATE,JOIN_ID,JOIN_NAME,STATE,USER_ID,
+    	CARD_ID,UPDATE_TIME,PERMIT_STATE,PARKING_NO,PARKING_NAME,BIND_TIME,INSET_TIME,RSRV_STR1,RSRV_STR2,
+    	RSRV_STR3,RSRV_STR4,RSRV_STR5,RSRV_STR6,CARD_TYPE)
+    	values (#{carPlate,jdbcType=VARCHAR}, #{joinId,jdbcType=VARCHAR},#{joinName,jdbcType=VARCHAR},
+    	#{state,jdbcType=VARCHAR},#{userId,jdbcType=VARCHAR},#{cardId,jdbcType=VARCHAR},
+    	#{updateTime,jdbcType=VARCHAR},#{permitState,jdbcType=VARCHAR},#{parkingNo,jdbcType=VARCHAR},
+    	#{parkingName,jdbcType=VARCHAR},#{bindTime,jdbcType=VARCHAR},#{insetTime,jdbcType=VARCHAR},
+    	#{rsrvStr1,jdbcType=VARCHAR},
+    	#{rsrvStr2,jdbcType=VARCHAR},#{rsrvStr3,jdbcType=VARCHAR},#{rsrvStr4,jdbcType=VARCHAR},
+    	#{rsrvStr5,jdbcType=VARCHAR},#{rsrvStr6,jdbcType=VARCHAR},#{cardType,jdbcType=VARCHAR})
+    </insert>
+    
+	 <!-- 查询是否有无感记录 -->
+    <select id="selecttParkingChannelCar" parameterType="java.util.Map" resultMap="parkingChannelIcbcCarMap">
+        SELECT CAR_PLATE,JOIN_ID,PERMIT_STATE,PARKING_NO FROM t_parking_channel_icbc_car WHERE CAR_PLATE=#{carPlate} and STATE='1' order by Id DESC LIMIT 0,1
+    </select>
+	
+    
+	<!-- 更新车辆数据 -->	
+	<update id="updateParkingChannelCar"  parameterType="com.parking.domain.ParkingChannelCar">
+		UPDATE t_parking_channel_icbc_car   
+		<set>			
+			<if test="permitState!=null and permitState!=''">PERMIT_STATE=#{permitState},</if>
+			<if test="parkingNo!=null and parkingNo!=''">PARKING_NO=#{parkingNo},</if>
+			<if test="parkingName!=null and parkingName!=''">PARKING_NAME=#{parkingName},</if>
+			<if test="bindTime!=null and bindTime!=''">BIND_TIME=#{bindTime},</if>
+			<if test="cardId!=null and cardId!=''">CARD_ID=#{cardId},</if>
+			<if test="cardType!=null and cardType!=''">CARD_TYPE=#{cardType},</if>
+		    UPDATE_TIME = #{updateTime}
+		</set>
+		WHERE CAR_PLATE =#{carPlate}
+	</update>
+
+
+</mapper>

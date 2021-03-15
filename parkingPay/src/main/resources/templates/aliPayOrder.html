@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+</head>
+<body>
+<input id ="orde" type="hidden" value="${orde}" />
+<script type="application/javascript">
+    var or=document.getElementById("orde").value;
+    AlipayJSBridge.call("tradePay", {tradeNO:or}, function (result) {
+    	 if (result.resultCode == "9000") {
+    		 top.location.href="http://S3.eparking.top/payparking/paySucceed.html"
+    		}else{
+    		top.location.href="http://S3.eparking.top/payparking/payFail.html"
+    		}
+});  
+</script>
+</body>
+</html>

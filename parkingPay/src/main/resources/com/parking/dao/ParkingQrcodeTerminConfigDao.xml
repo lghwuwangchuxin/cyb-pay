@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.parking.dao.ParkingQrcodeTerminConfigDao">
+    
+    <resultMap id="parkingTerminConfigMap" type="com.parking.domain.ParkingQrcodeTerminConfig" >
+	    <result column="ID" property="id" />
+	    <result column="PARK_ID" property="parkId" />
+	    <result column="TERM_ID" property="termId" />
+	    <result column="STATES"  property="states" />
+	    <result column="RSRV_STR1"   property="rsrvStr1"  /> 
+	    <result column="RSRV_STR2"   property="rsrvStr2"  />
+		<result column="RSRV_STR3"   property="rsrvStr3"  />
+		<result column="RSRV_STR4"   property="rsrvStr4"  />
+		<result column="RSRV_STR5"   property="rsrvStr5"  />
+		<result column="RSRV_STR6"   property="rsrvStr6"  />
+		<result column="REMARK"      property="remark" />
+		<result column="CREATED_TIME" property="createdTime" />
+		<result column="UPDATE_TIME" property="updateTime" />
+		<result column="UNPAY_BE_SCANNER" property="unpayBeScanner" />
+	    <result column="WECHAT_PAY_BE_SCANNER" property="weChatPayBeScanner" />
+  	    <result column="ALI_PAY_BE_SCANNER" property="aliPayBeScanner" />
+  	    <result column="MCHNT_NO"  property="mchntNo" />
+		<result column="OVER_TIME"  property="overTime" />
+  	</resultMap>
+      
+  <insert id="insertParkingTerminConfig" parameterType="com.parking.domain.ParkingQrcodeTerminConfig">
+      insert into t_parking_qrcode_termin_config (PARK_ID,TERM_ID,STATES,
+      RSRV_STR1,RSRV_STR2,RSRV_STR3,RSRV_STR4,RSRV_STR5,RSRV_STR6,REMARK,CREATED_TIME,UPDATE_TIME,
+      UNPAY_BE_SCANNER,WECHAT_PAY_BE_SCANNER,ALI_PAY_BE_SCANNER,MCHNT_NO,OVER_TIME)
+      values(#{parkId,jdbcType=VARCHAR},#{partParkId,jdbcType=VARCHAR},#{termId,jdbcType=VARCHAR},
+      #{states,jdbcType=VARCHAR},#{rsrvStr1,jdbcType=VARCHAR},#{rsrvStr2,jdbcType=VARCHAR},#{rsrvStr3,jdbcType=VARCHAR},#{rsrvStr4,jdbcType=VARCHAR},
+      #{rsrvStr5,jdbcType=VARCHAR},#{rsrvStr6,jdbcType=VARCHAR},#{remark,jdbcType=VARCHAR},#{createdTime,jdbcType=VARCHAR},#{updateTime,jdbcType=VARCHAR},
+      #{unpayBeScanner,jdbcType=VARCHAR},#{weChatPayBeScanner,jdbcType=VARCHAR},#{aliPayBeScanner,jdbcType=VARCHAR},#{mchntNo,jdbcType=VARCHAR},#{overTime,jdbcType=VARCHAR})
+  </insert>
+            
+  <select id="selectParkingTerminConfigById" resultMap="parkingTerminConfigMap" parameterType="com.parking.domain.ParkingQrcodeTerminConfig">
+      select * from t_parking_qrcode_termin_config where TERM_ID = #{termId} and STATES = #{states}
+  </select>
+  
+  <select id="selectParkingTerminConfigByList" resultMap="parkingTerminConfigMap" parameterType="com.parking.domain.ParkingQrcodeTerminConfig">
+      select * from t_parking_qrcode_termin_config
+  </select>
+  
+  <update id="updateParkingTerminConfig" parameterType="com.parking.domain.ParkingQrcodeTerminConfig">
+  		UPDATE t_parking_qrcode_termin_config
+  		set	
+  		<if test="states!=null and states!=''">STATES=#{states},</if>
+		UPDATE_TIME = #{updateTime} 
+		WHERE PARK_ID = #{parkId}
+  </update>
+  
+</mapper>

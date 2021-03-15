@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.parking.dao.ParkingChannelAccessRouteConfigDao">
+    
+    <resultMap id="parkingChannelAccessRouteConfigMap" type="com.parking.domain.ParkingChannelAccessRouteConfig" >
+	    <result column="ID" property="id" />
+	    <result column="PARK_ID" property="parkId" />
+	    <result column="PART_PARK_ID" property="partParkId" />
+	    <result column="PARK_NAME" property="parkName" />
+	    <result column="STATES"  property="states" />
+	    <result column="CHANNEL_SELECT"  property="channelSelect" />
+	    <result column="RSRV_STR1"   property="rsrvStr1"  /> 
+	    <result column="RSRV_STR2"   property="rsrvStr2"  />
+		<result column="RSRV_STR3"   property="rsrvStr3"  />
+		<result column="RSRV_STR4"   property="rsrvStr4"  />
+		<result column="RSRV_STR5"   property="rsrvStr5"  />
+		<result column="RSRV_STR6"   property="rsrvStr6"  />
+		<result column="REMARK"      property="remark" />
+		<result column="CREATED_TIME" property="createdTime" />
+		<result column="UPDATE_TIME" property="updateTime" />
+		<result column="BUS_STATE" property="busState" />
+		<result column="OUT_PAY_STATE" property="outPayState" />
+		<result column="IN_STATE" property="inState" />
+		<result column="OUT_STATE" property="outState" />
+		<result column="IN_REVERSAL_STATE" property="inReversalState" />
+        <result column="PRIORITY" property="priority" />
+        <result column="BIND_STATE" property="bindState" />
+        <result column="UNBIND_STATE" property="unBindState" />
+        <result column="LIMIT_AMOUNT" property="limitAmount" />
+
+  	</resultMap>
+      
+  <insert id="insertParkingChannelAccessRouteConfig" parameterType="com.parking.domain.ParkingChannelAccessRouteConfig">
+      insert into t_parking_channel_access_route_config (PARK_ID,PART_PARK_ID,PARK_NAME,STATES,CHANNEL_SELECT,
+      RSRV_STR1,RSRV_STR2,RSRV_STR3,RSRV_STR4,RSRV_STR5,RSRV_STR6,REMARK,CREATED_TIME,UPDATE_TIME,BUS_STATE,
+      OUT_PAY_STATE,IN_STATE,OUT_STATE,IN_REVERSAL_STATE,PRIORITY,BIND_STATE,UNBIND_STATE,LIMIT_AMOUNT)
+      values(#{parkId,jdbcType=VARCHAR},#{partParkId,jdbcType=VARCHAR},#{parkName,jdbcType=VARCHAR},
+      #{states,jdbcType=VARCHAR},#{channelSelect,jdbcType=VARCHAR},#{rsrvStr1,jdbcType=VARCHAR},
+      #{rsrvStr2,jdbcType=VARCHAR},#{rsrvStr3,jdbcType=VARCHAR},#{rsrvStr4,jdbcType=VARCHAR},
+      #{rsrvStr5,jdbcType=VARCHAR},#{rsrvStr6,jdbcType=VARCHAR},#{remark,jdbcType=VARCHAR},
+      #{createdTime,jdbcType=VARCHAR},#{updateTime,jdbcType=VARCHAR},#{busState,jdbcType=VARCHAR},
+      #{outPayState,jdbcType=VARCHAR},#{inState,jdbcType=VARCHAR},#{outState,jdbcType=VARCHAR},
+      #{inReversalState,jdbcType=VARCHAR},#{priority,jdbcType=VARCHAR},#{bindState,jdbcType=VARCHAR},#{unBindState,jdbcType=VARCHAR},
+      #{limitAmount,jdbcType=VARCHAR})
+  </insert>
+            
+  <select id="selectParkingChannelAccessRouteConfigById" resultMap="parkingChannelAccessRouteConfigMap" parameterType="com.parking.domain.ParkingChannelAccessRouteConfig">
+      select PARK_ID,PART_PARK_ID,PARK_NAME,STATES,CHANNEL_SELECT,RSRV_STR2,RSRV_STR3,BUS_STATE,OUT_PAY_STATE,IN_STATE,OUT_STATE,IN_REVERSAL_STATE,BIND_STATE,UNBIND_STATE from t_parking_channel_access_route_config where PARK_ID = #{parkId} AND STATES = #{states}
+      <if test="channelSelect!=null and channelSelect!=''"> AND CHANNEL_SELECT=#{channelSelect}</if> GROUP BY PARK_ID, CHANNEL_SELECT
+  </select>
+  
+  <select id="selectParkingChannelAccessRouteConfigPartById" resultMap="parkingChannelAccessRouteConfigMap" parameterType="com.parking.domain.ParkingChannelAccessRouteConfig">
+      select PARK_ID,PART_PARK_ID,PARK_NAME,STATES,CHANNEL_SELECT,RSRV_STR2,RSRV_STR3,BUS_STATE,OUT_PAY_STATE,IN_STATE,OUT_STATE,IN_REVERSAL_STATE,BIND_STATE,UNBIND_STATE from t_parking_channel_access_route_config where PART_PARK_ID = #{partParkId} AND STATES = #{states}
+      <if test="channelSelect!=null and channelSelect!=''"> AND CHANNEL_SELECT=#{channelSelect}</if> GROUP BY PARK_ID, CHANNEL_SELECT
+  </select>
+  
+  <select id="selectParkingChannelAccessRouteConfigByList" resultMap="parkingChannelAccessRouteConfigMap" parameterType="com.parking.domain.ParkingChannelAccessRouteConfig">
+      select PARK_ID,PART_PARK_ID,STATES,CHANNEL_SELECT from t_parking_channel_access_route_config
+  </select>
+  
+  <select id="selectParkingChannelAccessRouteConfigByParkIdList" resultMap="parkingChannelAccessRouteConfigMap" parameterType="com.parking.domain.ParkingChannelAccessRouteConfig">
+      select PARK_ID,PART_PARK_ID,PARK_NAME,STATES,CHANNEL_SELECT,BUS_STATE,OUT_PAY_STATE,IN_STATE,OUT_STATE,IN_REVERSAL_STATE,PRIORITY,BIND_STATE,UNBIND_STATE,LIMIT_AMOUNT from t_parking_channel_access_route_config where PARK_ID = #{parkId} AND STATES = #{states} GROUP BY PARK_ID, CHANNEL_SELECT ORDER BY PRIORITY ASC
+  </select>
+  
+  <update id="updateParkingChannelAccessRouteConfig" parameterType="com.parking.domain.ParkingChannelAccessRouteConfig">
+  		UPDATE t_parking_channel_access_route_config 
+  		set	
+  		<if test="states!=null and states!=''">STATES=#{states},</if>
+  		<if test="channelSelect!=null and channelSelect!=''">CHANNEL_SELECT=#{channelSelect},</if>
+		UPDATE_TIME = #{updateTime} 
+		WHERE PARK_ID = #{parkId}
+  </update>
+  
+</mapper>

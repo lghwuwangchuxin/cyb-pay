@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/cyb-pay.iml" filepath="$PROJECT_DIR$/.idea/cyb-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServerPay/eurekaserverpay.iml" filepath="$PROJECT_DIR$/EurekaServerPay/eurekaserverpay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parkingHx/parkingHx.iml" filepath="$PROJECT_DIR$/parkingHx/parkingHx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parkingPay/parkingPay.iml" filepath="$PROJECT_DIR$/parkingPay/parkingPay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parkingYnnx/parkingYnnx.iml" filepath="$PROJECT_DIR$/parkingYnnx/parkingYnnx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parkingYshang/parkingYshang.iml" filepath="$PROJECT_DIR$/parkingYshang/parkingYshang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parkingIcbcPay/parkingicbcpay.iml" filepath="$PROJECT_DIR$/parkingIcbcPay/parkingicbcpay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parkingIcbcQrCode/parkingicbcqrcode.iml" filepath="$PROJECT_DIR$/parkingIcbcQrCode/parkingicbcqrcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parkingpay_web/parkingpay_web.iml" filepath="$PROJECT_DIR$/parkingpay_web/parkingpay_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parkingUnionpayPreQrCode/parkingunionpayprerqrcode.iml" filepath="$PROJECT_DIR$/parkingUnionpayPreQrCode/parkingunionpayprerqrcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parkingunionsh/parkingunionsh.iml" filepath="$PROJECT_DIR$/parkingunionsh/parkingunionsh.iml" />
+    </modules>
+  </component>
+</project>

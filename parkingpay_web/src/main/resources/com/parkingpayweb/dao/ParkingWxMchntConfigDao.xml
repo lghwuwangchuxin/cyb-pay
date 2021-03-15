@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.parkingpayweb.dao.ParkingWxMchntConfigDao">
+    
+    <resultMap id="parkingWxMchntConfigMap" type="com.parkingpayweb.domain.ParkingWxMchntConfig" >
+	    <result column="ID" property="id" />
+	    <result column="PARK_ID" property="parkId" />
+	    <result column="PARK_NAME"  property="parkName" />
+		<result column="WX_APP_ID"  property="wxAppId" />
+	    <result column="MCHNT_ID"  property="mchntId" />
+	    <result column="WX_KEY"  property="wxKey" />
+		<result column="NOTIFY_URL"  property="notifyUrl" />
+		<result column="ORDER_URL"  property="orderUrl" />
+		<result column="QUERY_ORDER_URL"  property="queryOrderUrl" />
+		<result column="MCHNT_NAME"  property="mchntName" />
+		<result column="STATES"  property="states" />
+	    <result column="RSRV_STR1"   property="rsrvStr1"  /> 
+	    <result column="RSRV_STR2"   property="rsrvStr2"  />
+		<result column="RSRV_STR3"   property="rsrvStr3"  />
+		<result column="RSRV_STR4"   property="rsrvStr4"  />
+		<result column="REMARK"      property="remark" />
+		<result column="CREATED_TIME" property="createdTime" />
+		<result column="UPDATE_TIME" property="updateTime" />
+		<result column="SUB_PAY_TYPE" property="subPayType" />
+  	</resultMap>
+      
+  <insert id="insertParkingWxMchntConfig" parameterType="com.parkingpayweb.domain.ParkingWxMchntConfig">
+      insert into t_parking_wx_mchnt_config (PARK_ID,PARK_NAME,WX_APP_ID,MCHNT_ID,WX_KEY,
+      NOTIFY_URL,STATES,ORDER_URL,QUERY_ORDER_URL,RSRV_STR1,RSRV_STR2,RSRV_STR3,RSRV_STR4,REMARK,CREATED_TIME,UPDATE_TIME,SUB_PAY_TYPE)
+      values(#{parkId,jdbcType=VARCHAR},#{parkName,jdbcType=VARCHAR},#{wxAppId,jdbcType=VARCHAR},
+      #{mchntId,jdbcType=VARCHAR},#{wxKey,jdbcType=VARCHAR},#{notifyUrl,jdbcType=VARCHAR},
+      #{mchntName,jdbcType=VARCHAR},#{states,jdbcType=VARCHAR},#{orderUrl,jdbcType=VARCHAR},#{queryOrderUrl,jdbcType=VARCHAR},#{rsrvStr1,jdbcType=VARCHAR},#{rsrvStr2,jdbcType=VARCHAR},
+      #{rsrvStr3,jdbcType=VARCHAR},#{rsrvStr4,jdbcType=VARCHAR},#{remark,jdbcType=VARCHAR},#{createdTime,jdbcType=VARCHAR},#{updateTime,jdbcType=VARCHAR},#{subPayType,jdbcType=VARCHAR})
+  </insert>
+     <!-- 查询 支持的 车场微信公众后支付 -->
+  <select id="selectParkingWxMchntConfigById" resultMap="parkingWxMchntConfigMap" parameterType="com.parkingpayweb.domain.ParkingWxMchntConfig">
+      select PARK_ID,PARK_NAME,WX_APP_ID,WX_KEY,MCHNT_ID,NOTIFY_URL,MCHNT_NAME,STATES from t_parking_wx_mchnt_config where PARK_ID = #{parkId} and STATES = '1' and SUB_PAY_TYPE = #{subPayType}
+  </select>
+  
+  <update id="updateParkingWxMchntConfig" parameterType="com.parkingpayweb.domain.ParkingWxMchntConfig">
+  		UPDATE t_parking_wx_mchnt_config
+  		set
+  		<if test="wxKey!=null and wxKey!=''">WX_KEY=#{wxKey},</if>
+		UPDATE_TIME = #{updateTime} 
+		WHERE PARK_ID = #{parkId}
+  </update>
+  
+</mapper>

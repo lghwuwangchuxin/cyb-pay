@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.parking.dao.ParkingChannelShCarDao">
+    
+    <resultMap id="parkingChannelShCarMap" type="com.parking.domain.ParkingChannelShCar" >
+	    <result column="ID" property="id" />
+	    <result column="PARK_ID" property="parkId" />
+	    <result column="STATES"  property="states" />
+	     <result column="USER_ID"  property="userId" />
+	    <result column="SIGN_NO"  property="signNo" />
+	    <result column="CAR_PLATE"  property="carPlate" />
+	    <result column="CARD_NO"  property="cardNo" />
+	    <result column="CAR_STATUS_DESC"  property="carStatusDesc" />
+	    <result column="CAR_COLLETC_STATUS"  property="carColletcStatus" />
+	    <result column="NON_PAY_SING_STATUS"  property="nonPaySignStatus" />
+	    <result column="NON_PAY_SING_STATUS_DESC"  property="nonPaySignStatusDesc" />
+	    <result column="SIGN_TIME"  property="signTime" />
+	    <result column="RSRV_STR1"   property="rsrvStr1"  /> 
+	    <result column="RSRV_STR2"   property="rsrvStr2"  />
+		<result column="RSRV_STR3"   property="rsrvStr3"  />
+		<result column="RSRV_STR4"   property="rsrvStr4"  />
+		<result column="RSRV_STR5"   property="rsrvStr5"  />
+		<result column="RSRV_STR6"   property="rsrvStr6"  />
+		<result column="REMARK"      property="remark" />
+		<result column="CREATED_TIME" property="createdTime" />
+		<result column="UPDATE_TIME" property="updateTime" />
+  	</resultMap>
+      
+  <insert id="insertParkingChannelShCar" parameterType="com.parking.domain.ParkingChannelShCar">
+      insert into t_parking_channel_sh_car (PARK_ID,STATES,CAR_PLATE,CARD_NO,CAR_STATUS_DESC,
+      CAR_COLLETC_STATUS,NON_PAY_SING_STATUS,NON_PAY_SING_STATUS_DESC,SIGN_TIME,RSRV_STR1,RSRV_STR2,RSRV_STR3,RSRV_STR4,
+      RSRV_STR5,RSRV_STR6,REMARK,CREATED_TIME,UPDATE_TIME,SIGN_NO,USER_ID)
+      values(#{parkId,jdbcType=VARCHAR},#{states,jdbcType=VARCHAR},#{carPlate,jdbcType=VARCHAR},
+      #{cardNo,jdbcType=VARCHAR},#{carStatusDesc,jdbcType=VARCHAR},#{carColletcStatus,jdbcType=VARCHAR},#{nonPaySignStatus,jdbcType=VARCHAR},
+      #{nonPaySignStatusDesc,jdbcType=VARCHAR},#{signTime,jdbcType=VARCHAR},#{rsrvStr1,jdbcType=VARCHAR},#{rsrvStr2,jdbcType=VARCHAR},
+      #{rsrvStr3,jdbcType=VARCHAR},#{rsrvStr4,jdbcType=VARCHAR},#{rsrvStr5,jdbcType=VARCHAR},#{rsrvStr6,jdbcType=VARCHAR},
+      #{remark,jdbcType=VARCHAR},#{createdTime,jdbcType=VARCHAR},#{updateTime,jdbcType=VARCHAR},#{signNo,jdbcType=VARCHAR},#{userId,jdbcType=VARCHAR})
+  </insert>
+     <!-- 查询签约过 -->       
+  <select id="selectParkingChannelShCarById" resultMap="parkingChannelShCarMap" parameterType="com.parking.domain.ParkingChannelShCar">
+      select PARK_ID,SIGN_NO,STATES,CAR_PLATE,CARD_NO,CAR_STATUS_DESC,CAR_COLLETC_STATUS,NON_PAY_SING_STATUS,NON_PAY_SING_STATUS_DESC,SIGN_TIME from t_parking_channel_sh_car where CAR_PLATE = #{carPlate} 
+      <if test="nonPaySignStatus!=null and nonPaySignStatus!=''"> AND NON_PAY_SING_STATUS=#{nonPaySignStatus}</if> 
+      <if test="carColletcStatus!=null and carColletcStatus!=''"> AND CAR_COLLETC_STATUS=#{carColletcStatus}</if> 
+      <if test="signNo!=null and signNo!=''"> AND SIGN_NO=#{signNo}</if>  ORDER BY CREATED_TIME DESC LIMIT 0,1
+  </select>
+  
+  <select id="selectParkingChannelShCarByList" resultMap="parkingChannelShCarMap" parameterType="com.parking.domain.ParkingChannelShCar">
+      select * from t_parking_channel_sh_car
+  </select>
+  
+  <update id="updateParkingChannelShCar" parameterType="com.parking.domain.ParkingChannelShCar">
+  		UPDATE t_parking_channel_sh_car 
+  		set	
+  		<if test="states!=null and states!=''">STATES=#{states},</if>
+  		<if test="carPlate!=null and carPlate!=''">CAR_PLATE=#{carPlate},</if>
+  		<if test="carStatusDesc!=null and carStatusDesc!=''">CAR_STATUS_DESC=#{carStatusDesc},</if>
+  		<if test="carColletcStatus!=null and carColletcStatus!=''">CAR_COLLETC_STATUS=#{carColletcStatus},</if>
+  		<if test="nonPaySignStatus!=null and nonPaySignStatus!=''">NON_PAY_SING_STATUS=#{nonPaySignStatus},</if>
+  		<if test="nonPaySignStatusDesc!=null and nonPaySignStatusDesc!=''">NON_PAY_SING_STATUS_DESC=#{nonPaySignStatusDesc},</if>
+  		<if test="signNo!=null and signNo!=''">SIGN_NO=#{signNo},</if>
+  		<if test="signTime!=null and signTime!=''">SIGN_TIME=#{signTime},</if>
+		UPDATE_TIME = #{updateTime} 
+		WHERE CAR_PLATE = #{carPlate} 
+		<if test="signNo!=null and signNo!=''"> AND SIGN_NO=#{signNo}</if>
+  </update>
+  
+</mapper>

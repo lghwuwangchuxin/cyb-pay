@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.parking.dao.ParkingWhiteTempCarDao">
+    
+    <resultMap id="ParkingWhiteTempCarMap" type="com.parking.domain.ParkingWhiteTempCar" >
+	    <result column="ID" property="id" />
+	    <result column="PARK_ID" property="parkId" />
+	    <result column="PARK_NAME"  property="parkName" />
+		<result column="CAR_PLATE"  property="carPlate" />
+	    <result column="CHANNEL_SELECT"  property="channelSelect" />
+	    <result column="CAR_COLOR"  property="carColor" />
+	    <result column="PERM_CODEPERM_CODE"  property="permCode" />
+	    <result column="RSRV_STR1"   property="rsrvStr1"  /> 
+	    <result column="RSRV_STR2"   property="rsrvStr2"  />
+		<result column="RSRV_STR3"   property="rsrvStr3"  />
+		<result column="RSRV_STR4"   property="rsrvStr4"  />
+		<result column="RSRV_STR5"   property="rsrvStr5"  />
+		<result column="RSRV_STR6"   property="rsrvStr6"  />
+		<result column="REMARK"      property="remark" />
+		<result column="CREATED_TIME" property="createdTime" />
+		<result column="UPDATE_TIME" property="updateTime" />
+  	</resultMap>
+      
+  <insert id="insertParkingWhiteTempCar" parameterType="com.parking.domain.ParkingWhiteTempCar">
+      insert into t_parking_white_temp_car (PARK_ID,PARK_NAME,CAR_PLATE,CHANNEL_SELECT,CAR_COLOR,
+      PERM_CODEPERM_CODE,RSRV_STR1,RSRV_STR2,RSRV_STR3,RSRV_STR4,
+      RSRV_STR5,RSRV_STR6,REMARK,CREATED_TIME,UPDATE_TIME)
+      values(#{parkId,jdbcType=VARCHAR},#{parkName,jdbcType=VARCHAR},#{carPlate,jdbcType=VARCHAR},
+      #{channelSelect,jdbcType=VARCHAR},#{carColor,jdbcType=VARCHAR},#{permCode,jdbcType=VARCHAR},
+      #{rsrvStr1,jdbcType=VARCHAR},#{rsrvStr2,jdbcType=VARCHAR},
+      #{rsrvStr3,jdbcType=VARCHAR},#{rsrvStr4,jdbcType=VARCHAR},#{rsrvStr5,jdbcType=VARCHAR},#{rsrvStr6,jdbcType=VARCHAR},
+      #{remark,jdbcType=VARCHAR},#{createdTime,jdbcType=VARCHAR},#{updateTime,jdbcType=VARCHAR})
+  </insert>
+     <!-- 查询签约过的临时车牌 -->
+  <select id="selectParkingWhiteTempCarById" resultMap="ParkingWhiteTempCarMap" parameterType="com.parking.domain.ParkingWhiteTempCar">
+      select PARK_ID,CAR_PLATE,CHANNEL_SELECT,PERM_CODEPERM_CODE from t_parking_white_temp_car where CAR_PLATE = #{carPlate}  ORDER BY CREATED_TIME DESC LIMIT 0,1
+  </select>
+  
+  <update id="updateParkingWhiteTempCar" parameterType="com.parking.domain.ParkingWhiteTempCar">
+  		UPDATE t_parking_white_temp_car
+  		set
+  		<if test="carPlate!=null and carPlate!=''">CAR_PLATE=#{carPlate},</if>
+	    <if test="parkId!=null and parkId!=''">PARK_ID=#{parkId},</if>
+	    <if test="parkName!=null and parkName!=''">PARK_NAME=#{parkName},</if>
+  		<if test="permCode!=null and permCode!=''">PERM_CODEPERM_CODE=#{permCode},</if>
+  		<if test="channelSelect!=null and channelSelect!=''">CHANNEL_SELECT=#{channelSelect},</if>
+		UPDATE_TIME = #{updateTime} 
+		WHERE CAR_PLATE = #{carPlate}
+  </update>
+
+	<delete id="deleteParkingWhiteTempCarById"  parameterType="com.parking.domain.ParkingWhiteTempCar">
+		DELETE FROM t_parking_white_temp_car WHERE CAR_PLATE = #{carPlate}
+	</delete>
+
+</mapper>

@@ -1,0 +1,777 @@
+2021-01-21 00:03:44.792	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 00:08:44.800	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 00:13:44.802	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 00:18:44.803	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 00:23:44.804	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 00:28:44.805	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 00:33:44.806	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 00:38:44.806	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 00:43:44.808	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 00:48:44.808	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 00:53:44.809	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 00:58:44.811	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 01:03:44.812	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 01:08:44.813	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 01:13:44.813	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 01:18:44.814	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 01:23:44.817	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 01:28:44.817	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 01:33:44.818	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 01:38:44.820	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 01:43:44.822	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 01:48:44.822	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 01:53:44.824	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 01:58:44.824	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 02:03:44.825	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 02:08:44.826	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 02:13:44.828	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 02:18:44.829	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 02:23:44.832	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 02:28:44.833	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 02:33:44.833	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 02:38:44.835	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 02:43:44.836	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 02:48:44.837	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 02:53:44.850	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 02:58:44.852	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 03:03:44.854	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 03:08:44.856	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 03:13:44.857	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 03:18:44.859	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 03:23:44.861	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 03:28:44.862	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 03:33:44.864	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 03:38:44.865	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 03:43:44.867	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 03:48:44.868	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 03:53:44.868	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 03:58:44.869	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 04:00:24.208	[Thread-11]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@46d01d59: startup date [Wed Jan 20 21:48:35 CST 2021]; root of context hierarchy
+2021-01-21 04:00:24.213	[Thread-11]	WARN 	com.netflix.discovery.DiscoveryClient	-	Saw local status change event StatusChangeEvent [timestamp=1611172824213, current=DOWN, previous=UP]
+2021-01-21 04:00:24.214	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097: registering service...
+2021-01-21 04:00:24.226	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097 - registration status: 204
+2021-01-21 04:00:24.244	[Thread-11]	INFO 	com.netflix.discovery.DiscoveryClient	-	Shutting down DiscoveryClient ...
+2021-01-21 04:00:27.245	[Thread-11]	INFO 	com.netflix.discovery.DiscoveryClient	-	Unregistering ...
+2021-01-21 04:00:27.255	[Thread-11]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097 - deregister  status: 200
+2021-01-21 04:00:27.263	[Thread-11]	INFO 	com.netflix.discovery.DiscoveryClient	-	Completed shut down of DiscoveryClient
+2021-01-21 04:00:28.670	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3ed7c12: startup date [Thu Jan 21 04:00:28 CST 2021]; root of context hierarchy
+2021-01-21 04:00:28.686	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 04:00:28.688	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d3b539b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 04:00:29.334	[restartedMain]	INFO 	com.parkingunionpaypre.SpringDemoApplication	-	The following profiles are active: dev
+2021-01-21 04:00:29.337	[restartedMain]	INFO 	org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext	-	Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30181b4a: startup date [Thu Jan 21 04:00:29 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3ed7c12
+2021-01-21 04:00:30.135	[restartedMain]	INFO 	org.springframework.cloud.context.scope.GenericScope	-	BeanFactory id=a673a2aa-c660-371f-8dc4-5741e76554bc
+2021-01-21 04:00:30.144	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 04:00:30.162	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d3b539b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 04:00:30.344	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat initialized with port(s): 8097 (http)
+2021-01-21 04:00:30.345	[restartedMain]	INFO 	org.apache.catalina.core.StandardService	-	Starting service [Tomcat]
+2021-01-21 04:00:30.345	[restartedMain]	INFO 	org.apache.catalina.core.StandardEngine	-	Starting Servlet Engine: Apache Tomcat/8.5.31
+2021-01-21 04:00:30.383	[localhost-startStop-1]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring embedded WebApplicationContext
+2021-01-21 04:00:30.383	[localhost-startStop-1]	INFO 	org.springframework.web.context.ContextLoader	-	Root WebApplicationContext: initialization completed in 1046 ms
+2021-01-21 04:00:31.688	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-21 04:00:31.688	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-21 04:00:31.688	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-01-21 04:00:31.688	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'requestContextFilter' to: [/*]
+2021-01-21 04:00:31.688	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpTraceFilter' to: [/*]
+2021-01-21 04:00:31.689	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.RegistrationBean	-	Filter errorPageFilter was not registered (disabled)
+2021-01-21 04:00:31.689	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2021-01-21 04:00:31.689	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.ServletRegistrationBean	-	Servlet dispatcherServlet mapped to [/]
+2021-01-21 04:00:31.721	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing FeignContext-parkingPay: startup date [Thu Jan 21 04:00:31 CST 2021]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30181b4a
+2021-01-21 04:00:31.732	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 04:00:31.785	[restartedMain]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	URLs to be used as dynamic configuration source: [file:/E:/work/parkingUnionpayPreQrCode/target/classes/config.properties]
+2021-01-21 04:00:31.806	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 04:00:31.854	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter	-	Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30181b4a: startup date [Thu Jan 21 04:00:29 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3ed7c12
+2021-01-21 04:00:31.862	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingunionpayprerqrcode/payNotifyResult],methods=[POST]}" onto public java.lang.String com.parkingunionpaypre.controller.PrInterController.payNotifyResult(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-21 04:00:31.862	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingunionpayprerqrcode/gw],methods=[GET]}" onto public java.lang.String com.parkingunionpaypre.controller.PrInterController.swunionpayCallCenterSync(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-21 04:00:31.864	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-21 04:00:31.864	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-21 04:00:31.873	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 04:00:31.874	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 04:00:31.976	[restartedMain]	INFO 	org.springframework.ui.freemarker.SpringTemplateLoader	-	SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30181b4a: startup date [Thu Jan 21 04:00:29 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3ed7c12] and template loader path [classpath:/templates/]
+2021-01-21 04:00:31.976	[restartedMain]	INFO 	org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer	-	ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2021-01-21 04:00:32.003	[restartedMain]	INFO 	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	-	LiveReload server is running on port 35729
+2021-01-21 04:00:32.037	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver	-	Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-21 04:00:32.040	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-21 04:00:32.041	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-21 04:00:32.041	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-21 04:00:32.064	[restartedMain]	INFO 	org.springframework.context.support.DefaultLifecycleProcessor	-	Starting beans in phase 0
+2021-01-21 04:00:32.066	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.InstanceInfoFactory	-	Setting initial instance status as: STARTING
+2021-01-21 04:00:32.068	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Initializing Eureka in region us-east-1
+2021-01-21 04:00:32.075	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON encoding codec LegacyJacksonJson
+2021-01-21 04:00:32.075	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON decoding codec LegacyJacksonJson
+2021-01-21 04:00:32.075	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML encoding codec XStreamXml
+2021-01-21 04:00:32.075	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML decoding codec XStreamXml
+2021-01-21 04:00:32.133	[restartedMain]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 04:00:32.134	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Disable delta property : false
+2021-01-21 04:00:32.134	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Single vip registry refresh property : null
+2021-01-21 04:00:32.134	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Force full registry fetch : false
+2021-01-21 04:00:32.134	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application is null : false
+2021-01-21 04:00:32.134	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Registered Applications size is zero : true
+2021-01-21 04:00:32.134	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application version is -1: true
+2021-01-21 04:00:32.134	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Getting all instance registry info from the eureka server
+2021-01-21 04:00:32.139	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	The response status is 200
+2021-01-21 04:00:32.140	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Starting heartbeat executor: renew interval is: 10
+2021-01-21 04:00:32.141	[restartedMain]	INFO 	com.netflix.discovery.InstanceInfoReplicator	-	InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-21 04:00:32.142	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Discovery Client initialized at timestamp 1611172832142 with initial instances count: 2
+2021-01-21 04:00:32.143	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry	-	Registering application parkingunionpayprerqrcode with eureka with status UP
+2021-01-21 04:00:32.143	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Saw local status change event StatusChangeEvent [timestamp=1611172832143, current=UP, previous=STARTING]
+2021-01-21 04:00:32.143	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097: registering service...
+2021-01-21 04:00:32.149	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097 - registration status: 204
+2021-01-21 04:00:32.160	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat started on port(s): 8097 (http) with context path ''
+2021-01-21 04:00:32.161	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration	-	Updating port to 8097
+2021-01-21 04:00:32.161	[restartedMain]	INFO 	com.parkingunionpaypre.SpringDemoApplication	-	Started SpringDemoApplication in 4.149 seconds (JVM running for 22318.593)
+2021-01-21 04:00:32.165	[restartedMain]	INFO 	org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener	-	Condition evaluation unchanged
+2021-01-21 04:00:54.613	[Thread-15]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3ed7c12: startup date [Thu Jan 21 04:00:28 CST 2021]; root of context hierarchy
+2021-01-21 04:00:54.615	[Thread-15]	WARN 	com.netflix.discovery.DiscoveryClient	-	Saw local status change event StatusChangeEvent [timestamp=1611172854615, current=DOWN, previous=UP]
+2021-01-21 04:00:54.615	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097: registering service...
+2021-01-21 04:00:54.620	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097 - registration status: 204
+2021-01-21 04:00:54.620	[Thread-15]	INFO 	com.netflix.discovery.DiscoveryClient	-	Shutting down DiscoveryClient ...
+2021-01-21 04:00:57.622	[Thread-15]	INFO 	com.netflix.discovery.DiscoveryClient	-	Unregistering ...
+2021-01-21 04:00:57.627	[Thread-15]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097 - deregister  status: 200
+2021-01-21 04:00:57.631	[Thread-15]	INFO 	com.netflix.discovery.DiscoveryClient	-	Completed shut down of DiscoveryClient
+2021-01-21 18:58:01.435	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5fd36f41: startup date [Thu Jan 21 18:58:01 CST 2021]; root of context hierarchy
+2021-01-21 18:58:01.608	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 18:58:01.638	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c9af6f1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 18:58:02.364	[restartedMain]	INFO 	com.parkingunionpaypre.SpringDemoApplication	-	The following profiles are active: dev
+2021-01-21 18:58:02.378	[restartedMain]	INFO 	org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext	-	Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d45eb62: startup date [Thu Jan 21 18:58:02 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5fd36f41
+2021-01-21 18:58:03.609	[restartedMain]	INFO 	org.springframework.cloud.context.scope.GenericScope	-	BeanFactory id=7bd33a3b-2f61-3315-958e-afe8d52cd1fa
+2021-01-21 18:58:03.622	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 18:58:03.719	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c9af6f1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 18:58:04.144	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat initialized with port(s): 8097 (http)
+2021-01-21 18:58:04.164	[restartedMain]	INFO 	org.apache.catalina.core.StandardService	-	Starting service [Tomcat]
+2021-01-21 18:58:04.165	[restartedMain]	INFO 	org.apache.catalina.core.StandardEngine	-	Starting Servlet Engine: Apache Tomcat/8.5.31
+2021-01-21 18:58:04.168	[localhost-startStop-1]	INFO 	org.apache.catalina.core.AprLifecycleListener	-	The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;D:\apache-maven-3.6.3\bin;F:\Git\cmd;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\bin;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\conf;C:\Users\zhf\AppData\Local\Microsoft\WindowsApps;;.]
+2021-01-21 18:58:04.344	[localhost-startStop-1]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring embedded WebApplicationContext
+2021-01-21 18:58:04.345	[localhost-startStop-1]	INFO 	org.springframework.web.context.ContextLoader	-	Root WebApplicationContext: initialization completed in 1966 ms
+2021-01-21 18:58:04.628	[localhost-startStop-1]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	URLs to be used as dynamic configuration source: [file:/E:/work/parkingUnionpayPreQrCode/target/classes/config.properties]
+2021-01-21 18:58:04.640	[localhost-startStop-1]	INFO 	com.netflix.config.DynamicPropertyFactory	-	DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3b673684
+2021-01-21 18:58:06.320	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-21 18:58:06.321	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-21 18:58:06.321	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-01-21 18:58:06.321	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'requestContextFilter' to: [/*]
+2021-01-21 18:58:06.321	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpTraceFilter' to: [/*]
+2021-01-21 18:58:06.321	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.RegistrationBean	-	Filter errorPageFilter was not registered (disabled)
+2021-01-21 18:58:06.321	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2021-01-21 18:58:06.321	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.ServletRegistrationBean	-	Servlet dispatcherServlet mapped to [/]
+2021-01-21 18:58:06.379	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing FeignContext-parkingPay: startup date [Thu Jan 21 18:58:06 CST 2021]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d45eb62
+2021-01-21 18:58:06.400	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 18:58:06.575	[restartedMain]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	URLs to be used as dynamic configuration source: [file:/E:/work/parkingUnionpayPreQrCode/target/classes/config.properties]
+2021-01-21 18:58:06.661	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 18:58:06.820	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter	-	Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d45eb62: startup date [Thu Jan 21 18:58:02 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5fd36f41
+2021-01-21 18:58:06.867	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingunionpayprerqrcode/payNotifyResult],methods=[POST]}" onto public java.lang.String com.parkingunionpaypre.controller.PrInterController.payNotifyResult(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-21 18:58:06.868	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingunionpayprerqrcode/gw],methods=[GET]}" onto public java.lang.String com.parkingunionpaypre.controller.PrInterController.swunionpayCallCenterSync(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-21 18:58:06.871	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-21 18:58:06.871	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-21 18:58:06.902	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 18:58:06.903	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 18:58:07.298	[restartedMain]	INFO 	org.springframework.ui.freemarker.SpringTemplateLoader	-	SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d45eb62: startup date [Thu Jan 21 18:58:02 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5fd36f41] and template loader path [classpath:/templates/]
+2021-01-21 18:58:07.299	[restartedMain]	INFO 	org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer	-	ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2021-01-21 18:58:07.374	[restartedMain]	WARN 	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	-	Unable to start LiveReload server
+2021-01-21 18:58:07.536	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver	-	Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-21 18:58:07.549	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-21 18:58:07.550	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-21 18:58:07.551	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-21 18:58:07.601	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Registering beans for JMX exposure on startup
+2021-01-21 18:58:07.610	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'environmentManager' has been autodetected for JMX exposure
+2021-01-21 18:58:07.612	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2021-01-21 18:58:07.612	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'refreshScope' has been autodetected for JMX exposure
+2021-01-21 18:58:07.615	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2021-01-21 18:58:07.623	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2021-01-21 18:58:07.633	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3d45eb62,type=ConfigurationPropertiesRebinder]
+2021-01-21 18:58:07.642	[restartedMain]	INFO 	org.springframework.context.support.DefaultLifecycleProcessor	-	Starting beans in phase 0
+2021-01-21 18:58:07.649	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.InstanceInfoFactory	-	Setting initial instance status as: STARTING
+2021-01-21 18:58:07.677	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Initializing Eureka in region us-east-1
+2021-01-21 18:58:08.200	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON encoding codec LegacyJacksonJson
+2021-01-21 18:58:08.200	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON decoding codec LegacyJacksonJson
+2021-01-21 18:58:08.310	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML encoding codec XStreamXml
+2021-01-21 18:58:08.310	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML decoding codec XStreamXml
+2021-01-21 18:58:08.508	[restartedMain]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 18:58:08.863	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Disable delta property : false
+2021-01-21 18:58:08.863	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Single vip registry refresh property : null
+2021-01-21 18:58:08.863	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Force full registry fetch : false
+2021-01-21 18:58:08.863	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application is null : false
+2021-01-21 18:58:08.863	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Registered Applications size is zero : true
+2021-01-21 18:58:08.863	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application version is -1: true
+2021-01-21 18:58:08.863	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Getting all instance registry info from the eureka server
+2021-01-21 18:58:09.016	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	The response status is 200
+2021-01-21 18:58:09.019	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Starting heartbeat executor: renew interval is: 10
+2021-01-21 18:58:09.021	[restartedMain]	INFO 	com.netflix.discovery.InstanceInfoReplicator	-	InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-21 18:58:09.025	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Discovery Client initialized at timestamp 1611226689024 with initial instances count: 2
+2021-01-21 18:58:09.029	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry	-	Registering application parkingunionpayprerqrcode with eureka with status UP
+2021-01-21 18:58:09.030	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Saw local status change event StatusChangeEvent [timestamp=1611226689030, current=UP, previous=STARTING]
+2021-01-21 18:58:09.031	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097: registering service...
+2021-01-21 18:58:09.064	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097 - registration status: 204
+2021-01-21 18:58:09.082	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat started on port(s): 8097 (http) with context path ''
+2021-01-21 18:58:09.083	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration	-	Updating port to 8097
+2021-01-21 18:58:09.086	[restartedMain]	INFO 	com.parkingunionpaypre.SpringDemoApplication	-	Started SpringDemoApplication in 8.699 seconds (JVM running for 10.084)
+2021-01-21 18:58:09.660	[RMI TCP Connection(2)-192.168.124.6]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-21 18:58:09.661	[RMI TCP Connection(2)-192.168.124.6]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-21 18:58:09.678	[RMI TCP Connection(2)-192.168.124.6]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2021-01-21 19:03:08.865	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 19:08:08.867	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 19:13:08.869	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 19:18:08.871	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 19:23:08.871	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 19:28:08.873	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 19:33:08.873	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 19:38:08.874	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 19:43:08.875	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 19:47:27.404	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.controller.PrInterController	-	进入到银联条码前置渠道支付入口---------swunionpayCallCenterSync
+2021-01-21 19:47:27.404	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	进入 SW 中国银联 条码前置聚合扫码  业务处理：同步统一处理类~
+2021-01-21 19:47:27.404	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	请求消息为：
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml service="SwiftUnionOrderPayH5">
+    <mch_id>QRA732575230N5D</mch_id>
+    <out_trade_no>PL2101210000000049</out_trade_no>
+    <body>停车支付</body>
+    <sub_appid>wx5474ac346732d</sub_appid>
+    <total_fee>1</total_fee>
+    <mch_create_ip>117.152.216.191</mch_create_ip>
+    <key>8286d07542f634d9ebf7c963513351c4</key>
+    <customer_ip>117.152.216.191</customer_ip>
+    <trade_type>13</trade_type>
+</xml>
+
+2021-01-21 19:47:27.482	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.UnSwUnionH5OrderPayServiceImpl	-	进入银联条码前置统一h5下单服务---preH5SwUionOrderPayRsp
+2021-01-21 19:47:27.483	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	进入SW 中国银联条码前置 微信公众号下单 业务处理类：【null】-------------
+2021-01-21 19:47:27.492	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	银联条码前置微信公众号待签名的字符串为：body=停车支付&charset=UTF-8&is_minipg=0&is_raw=1&mch_create_ip=117.152.216.191&mch_id=QRA732575230N5D&nonce_str=472767&out_trade_no=PL2101210000000049&service=pay.weixin.jspay&sign_type=MD5&sub_appid=wx5474ac346732d&total_fee=1&version=2.0
+2021-01-21 19:47:27.497	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	开始  中国银联条码前置 微信公众号 下单支付---[null],请求参数为：<xml><body><![CDATA[停车支付]]></body>
+<charset><![CDATA[UTF-8]]></charset>
+<is_minipg><![CDATA[0]]></is_minipg>
+<is_raw><![CDATA[1]]></is_raw>
+<mch_create_ip><![CDATA[117.152.216.191]]></mch_create_ip>
+<mch_id><![CDATA[QRA732575230N5D]]></mch_id>
+<nonce_str><![CDATA[472767]]></nonce_str>
+<out_trade_no><![CDATA[PL2101210000000049]]></out_trade_no>
+<service><![CDATA[pay.weixin.jspay]]></service>
+<sign><![CDATA[8FF7BCD759070CEA984F0E0BE0409DB0]]></sign>
+<sign_type><![CDATA[MD5]]></sign_type>
+<sub_appid><![CDATA[wx5474ac346732d]]></sub_appid>
+<total_fee><![CDATA[1]]></total_fee>
+<version><![CDATA[2.0]]></version>
+</xml>
+2021-01-21 19:47:27.504	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.util.SSLHttpClient	-	请求地址为：https://qra.95516.com/pay/gateway
+2021-01-21 19:47:28.052	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.util.SSLHttpClient	-	响应码为：200
+2021-01-21 19:47:28.056	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	结束 SW 中国银联 微信公众号条码前置 下单支付---[null],响应参数为：<xml><version><![CDATA[2.0]]></version>
+<charset><![CDATA[UTF-8]]></charset>
+<status><![CDATA[400]]></status>
+<message><![CDATA[notify_url:This field is required]]></message>
+<code><![CDATA[04105_1210104]]></code>
+</xml>
+2021-01-21 19:47:28.089	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	调用h5下单【SwiftUnionOrderPayH5】服务,响应参数为：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml respCode="999910" respDesc="notify_url:This field is required"/>
+
+2021-01-21 19:48:08.877	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 19:53:08.878	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 19:58:08.879	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 20:02:13.662	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.controller.PrInterController	-	进入到银联条码前置渠道支付入口---------swunionpayCallCenterSync
+2021-01-21 20:02:13.662	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	进入 SW 中国银联 条码前置聚合扫码  业务处理：同步统一处理类~
+2021-01-21 20:02:13.662	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	请求消息为：
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml service="SwiftUnionOrderPayH5">
+    <mch_id>QRA732575230N5D</mch_id>
+    <out_trade_no>PL2101210000000050</out_trade_no>
+    <body>停车支付</body>
+    <sub_appid>wx5474ac346732d</sub_appid>
+    <total_fee>1</total_fee>
+    <mch_create_ip>117.152.216.191</mch_create_ip>
+    <notify_url>http://S3.eparking.top/parkingunionpayprerqrcode/payNotifyResult</notify_url>
+    <key>8286d07542f634d9ebf7c963513351c4</key>
+    <payOrderUrl>https://qra.95516.com/pay/gateway</payOrderUrl>
+    <customer_ip>117.152.216.191</customer_ip>
+    <trade_type>13</trade_type>
+</xml>
+
+2021-01-21 20:02:13.670	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.UnSwUnionH5OrderPayServiceImpl	-	进入银联条码前置统一h5下单服务---preH5SwUionOrderPayRsp
+2021-01-21 20:02:13.670	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	进入SW 中国银联条码前置 微信公众号下单 业务处理类：【null】-------------
+2021-01-21 20:02:13.672	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	银联条码前置微信公众号待签名的字符串为：body=停车支付&charset=UTF-8&is_minipg=0&is_raw=1&mch_create_ip=117.152.216.191&mch_id=QRA732575230N5D&nonce_str=021303&notify_url=http://S3.eparking.top/parkingunionpayprerqrcode/payNotifyResult&out_trade_no=PL2101210000000050&service=pay.weixin.jspay&sign_type=MD5&sub_appid=wx5474ac346732d&total_fee=1&version=2.0
+2021-01-21 20:02:13.673	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	开始  中国银联条码前置 微信公众号 下单支付---[null],请求参数为：<xml><body><![CDATA[停车支付]]></body>
+<charset><![CDATA[UTF-8]]></charset>
+<is_minipg><![CDATA[0]]></is_minipg>
+<is_raw><![CDATA[1]]></is_raw>
+<mch_create_ip><![CDATA[117.152.216.191]]></mch_create_ip>
+<mch_id><![CDATA[QRA732575230N5D]]></mch_id>
+<nonce_str><![CDATA[021303]]></nonce_str>
+<notify_url><![CDATA[http://S3.eparking.top/parkingunionpayprerqrcode/payNotifyResult]]></notify_url>
+<out_trade_no><![CDATA[PL2101210000000050]]></out_trade_no>
+<service><![CDATA[pay.weixin.jspay]]></service>
+<sign><![CDATA[B3CDA08143C72DF0F84C8ADD5C106134]]></sign>
+<sign_type><![CDATA[MD5]]></sign_type>
+<sub_appid><![CDATA[wx5474ac346732d]]></sub_appid>
+<total_fee><![CDATA[1]]></total_fee>
+<version><![CDATA[2.0]]></version>
+</xml>
+2021-01-21 20:02:13.673	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.util.SSLHttpClient	-	请求地址为：https://qra.95516.com/pay/gateway
+2021-01-21 20:02:14.179	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.util.SSLHttpClient	-	响应码为：200
+2021-01-21 20:02:14.180	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	结束 SW 中国银联 微信公众号条码前置 下单支付---[null],响应参数为：<xml><charset><![CDATA[UTF-8]]></charset>
+<code><![CDATA[9999999]]></code>
+<err_code><![CDATA[FAIL]]></err_code>
+<err_msg><![CDATA[openid和sub_openid不能同时为空(UP0802100)]]></err_msg>
+<mch_id><![CDATA[QRA732575230N5D]]></mch_id>
+<nonce_str><![CDATA[021303]]></nonce_str>
+<result_code><![CDATA[1]]></result_code>
+<sign><![CDATA[963493BEEE1B931DE024A6F0D2444B83]]></sign>
+<sign_type><![CDATA[MD5]]></sign_type>
+<status><![CDATA[0]]></status>
+<version><![CDATA[2.0]]></version>
+</xml>
+2021-01-21 20:02:14.182	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	银联条码前置微信公众号下单验签结果为--i:true
+2021-01-21 20:02:14.186	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	调用h5下单【SwiftUnionOrderPayH5】服务,响应参数为：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml respCode="FAIL" respDesc="openid和sub_openid不能同时为空(UP0802100)"/>
+
+2021-01-21 20:03:08.881	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 20:12:18.775	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@295c52b7: startup date [Thu Jan 21 20:12:18 CST 2021]; root of context hierarchy
+2021-01-21 20:12:18.944	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 20:12:18.978	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8150c0c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 20:12:19.713	[restartedMain]	INFO 	com.parkingunionpaypre.SpringDemoApplication	-	The following profiles are active: dev
+2021-01-21 20:12:19.730	[restartedMain]	INFO 	org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext	-	Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1b5ad8a9: startup date [Thu Jan 21 20:12:19 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@295c52b7
+2021-01-21 20:12:20.998	[restartedMain]	INFO 	org.springframework.cloud.context.scope.GenericScope	-	BeanFactory id=7bd33a3b-2f61-3315-958e-afe8d52cd1fa
+2021-01-21 20:12:21.010	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 20:12:21.109	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8150c0c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 20:12:21.551	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat initialized with port(s): 8097 (http)
+2021-01-21 20:12:21.575	[restartedMain]	INFO 	org.apache.catalina.core.StandardService	-	Starting service [Tomcat]
+2021-01-21 20:12:21.575	[restartedMain]	INFO 	org.apache.catalina.core.StandardEngine	-	Starting Servlet Engine: Apache Tomcat/8.5.31
+2021-01-21 20:12:21.578	[localhost-startStop-1]	INFO 	org.apache.catalina.core.AprLifecycleListener	-	The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;D:\apache-maven-3.6.3\bin;F:\Git\cmd;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\bin;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\conf;C:\Users\zhf\AppData\Local\Microsoft\WindowsApps;;.]
+2021-01-21 20:12:21.763	[localhost-startStop-1]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring embedded WebApplicationContext
+2021-01-21 20:12:21.763	[localhost-startStop-1]	INFO 	org.springframework.web.context.ContextLoader	-	Root WebApplicationContext: initialization completed in 2033 ms
+2021-01-21 20:12:22.003	[localhost-startStop-1]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	URLs to be used as dynamic configuration source: [file:/E:/work/parkingUnionpayPreQrCode/target/classes/config.properties]
+2021-01-21 20:12:22.017	[localhost-startStop-1]	INFO 	com.netflix.config.DynamicPropertyFactory	-	DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3fc644b1
+2021-01-21 20:12:23.860	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-21 20:12:23.860	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-21 20:12:23.860	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-01-21 20:12:23.860	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'requestContextFilter' to: [/*]
+2021-01-21 20:12:23.861	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpTraceFilter' to: [/*]
+2021-01-21 20:12:23.861	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.RegistrationBean	-	Filter errorPageFilter was not registered (disabled)
+2021-01-21 20:12:23.861	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2021-01-21 20:12:23.861	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.ServletRegistrationBean	-	Servlet dispatcherServlet mapped to [/]
+2021-01-21 20:12:23.925	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing FeignContext-parkingPay: startup date [Thu Jan 21 20:12:23 CST 2021]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1b5ad8a9
+2021-01-21 20:12:23.944	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 20:12:24.107	[restartedMain]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	URLs to be used as dynamic configuration source: [file:/E:/work/parkingUnionpayPreQrCode/target/classes/config.properties]
+2021-01-21 20:12:24.194	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 20:12:24.357	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter	-	Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1b5ad8a9: startup date [Thu Jan 21 20:12:19 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@295c52b7
+2021-01-21 20:12:24.407	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingunionpayprerqrcode/gw],methods=[GET]}" onto public java.lang.String com.parkingunionpaypre.controller.PrInterController.swunionpayCallCenterSync(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-21 20:12:24.408	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingunionpayprerqrcode/payNotifyResult],methods=[POST]}" onto public java.lang.String com.parkingunionpaypre.controller.PrInterController.payNotifyResult(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-21 20:12:24.411	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-21 20:12:24.412	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-21 20:12:24.441	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 20:12:24.441	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 20:12:24.812	[restartedMain]	INFO 	org.springframework.ui.freemarker.SpringTemplateLoader	-	SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1b5ad8a9: startup date [Thu Jan 21 20:12:19 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@295c52b7] and template loader path [classpath:/templates/]
+2021-01-21 20:12:24.813	[restartedMain]	INFO 	org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer	-	ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2021-01-21 20:12:24.894	[restartedMain]	WARN 	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	-	Unable to start LiveReload server
+2021-01-21 20:12:25.066	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver	-	Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-21 20:12:25.082	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-21 20:12:25.083	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-21 20:12:25.085	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-21 20:12:25.141	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Registering beans for JMX exposure on startup
+2021-01-21 20:12:25.151	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'environmentManager' has been autodetected for JMX exposure
+2021-01-21 20:12:25.153	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2021-01-21 20:12:25.154	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'refreshScope' has been autodetected for JMX exposure
+2021-01-21 20:12:25.157	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2021-01-21 20:12:25.164	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2021-01-21 20:12:25.173	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=1b5ad8a9,type=ConfigurationPropertiesRebinder]
+2021-01-21 20:12:25.183	[restartedMain]	INFO 	org.springframework.context.support.DefaultLifecycleProcessor	-	Starting beans in phase 0
+2021-01-21 20:12:25.190	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.InstanceInfoFactory	-	Setting initial instance status as: STARTING
+2021-01-21 20:12:25.224	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Initializing Eureka in region us-east-1
+2021-01-21 20:12:25.788	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON encoding codec LegacyJacksonJson
+2021-01-21 20:12:25.788	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON decoding codec LegacyJacksonJson
+2021-01-21 20:12:25.873	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML encoding codec XStreamXml
+2021-01-21 20:12:25.874	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML decoding codec XStreamXml
+2021-01-21 20:12:26.077	[restartedMain]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 20:12:26.440	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Disable delta property : false
+2021-01-21 20:12:26.440	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Single vip registry refresh property : null
+2021-01-21 20:12:26.440	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Force full registry fetch : false
+2021-01-21 20:12:26.440	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application is null : false
+2021-01-21 20:12:26.440	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Registered Applications size is zero : true
+2021-01-21 20:12:26.440	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application version is -1: true
+2021-01-21 20:12:26.441	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Getting all instance registry info from the eureka server
+2021-01-21 20:12:26.597	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	The response status is 200
+2021-01-21 20:12:26.600	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Starting heartbeat executor: renew interval is: 10
+2021-01-21 20:12:26.602	[restartedMain]	INFO 	com.netflix.discovery.InstanceInfoReplicator	-	InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-21 20:12:26.607	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Discovery Client initialized at timestamp 1611231146606 with initial instances count: 2
+2021-01-21 20:12:26.612	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry	-	Registering application parkingunionpayprerqrcode with eureka with status UP
+2021-01-21 20:12:26.612	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Saw local status change event StatusChangeEvent [timestamp=1611231146612, current=UP, previous=STARTING]
+2021-01-21 20:12:26.614	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097: registering service...
+2021-01-21 20:12:26.650	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097 - registration status: 204
+2021-01-21 20:12:26.663	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat started on port(s): 8097 (http) with context path ''
+2021-01-21 20:12:26.664	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration	-	Updating port to 8097
+2021-01-21 20:12:26.666	[restartedMain]	INFO 	com.parkingunionpaypre.SpringDemoApplication	-	Started SpringDemoApplication in 8.961 seconds (JVM running for 10.296)
+2021-01-21 20:12:27.819	[RMI TCP Connection(2)-192.168.124.6]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-21 20:12:27.819	[RMI TCP Connection(2)-192.168.124.6]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-21 20:12:27.836	[RMI TCP Connection(2)-192.168.124.6]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2021-01-21 20:13:13.948	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.controller.PrInterController	-	进入到银联条码前置渠道支付入口---------swunionpayCallCenterSync
+2021-01-21 20:13:13.949	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	进入 SW 中国银联 条码前置聚合扫码  业务处理：同步统一处理类~
+2021-01-21 20:13:13.949	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	请求消息为：
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml service="SwiftUnionOrderPayH5">
+    <mch_id>QRA732575230N5D</mch_id>
+    <out_trade_no>PL2101210000000051</out_trade_no>
+    <body>停车支付</body>
+    <sub_appid>wx5474ac346732d</sub_appid>
+    <total_fee>1</total_fee>
+    <mch_create_ip>117.152.216.191</mch_create_ip>
+    <notify_url>http://S3.eparking.top/parkingunionpayprerqrcode/payNotifyResult</notify_url>
+    <key>8286d07542f634d9ebf7c963513351c4</key>
+    <payOrderUrl>https://qra.95516.com/pay/gateway</payOrderUrl>
+    <customer_ip>117.152.216.191</customer_ip>
+    <trade_type>13</trade_type>
+</xml>
+
+2021-01-21 20:13:14.036	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.UnSwUnionH5OrderPayServiceImpl	-	进入银联条码前置统一h5下单服务---preH5SwUionOrderPayRsp
+2021-01-21 20:13:14.036	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	进入SW 中国银联条码前置 微信公众号下单 业务处理类：【null】-------------
+2021-01-21 20:13:14.051	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	银联条码前置微信公众号待签名的字符串为：body=停车支付&charset=UTF-8&is_minipg=0&is_raw=1&mch_create_ip=117.152.216.191&mch_id=QRA732575230N5D&nonce_str=131486&notify_url=http://S3.eparking.top/parkingunionpayprerqrcode/payNotifyResult&out_trade_no=PL2101210000000051&service=pay.weixin.jspay&sign_type=MD5&total_fee=1&version=2.0
+2021-01-21 20:13:14.057	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	开始  中国银联条码前置 微信公众号 下单支付---[null],请求参数为：<xml><body><![CDATA[停车支付]]></body>
+<charset><![CDATA[UTF-8]]></charset>
+<is_minipg><![CDATA[0]]></is_minipg>
+<is_raw><![CDATA[1]]></is_raw>
+<mch_create_ip><![CDATA[117.152.216.191]]></mch_create_ip>
+<mch_id><![CDATA[QRA732575230N5D]]></mch_id>
+<nonce_str><![CDATA[131486]]></nonce_str>
+<notify_url><![CDATA[http://S3.eparking.top/parkingunionpayprerqrcode/payNotifyResult]]></notify_url>
+<out_trade_no><![CDATA[PL2101210000000051]]></out_trade_no>
+<service><![CDATA[pay.weixin.jspay]]></service>
+<sign><![CDATA[88F26CF9D27C410D71162DB0DAC4A34D]]></sign>
+<sign_type><![CDATA[MD5]]></sign_type>
+<total_fee><![CDATA[1]]></total_fee>
+<version><![CDATA[2.0]]></version>
+</xml>
+2021-01-21 20:13:14.064	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.util.SSLHttpClient	-	请求地址为：https://qra.95516.com/pay/gateway
+2021-01-21 20:13:14.434	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.util.SSLHttpClient	-	响应码为：200
+2021-01-21 20:13:14.437	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	结束 SW 中国银联 微信公众号条码前置 下单支付---[null],响应参数为：<xml><charset><![CDATA[UTF-8]]></charset>
+<code><![CDATA[9999999]]></code>
+<err_code><![CDATA[FAIL]]></err_code>
+<err_msg><![CDATA[openid和sub_openid不能同时为空(UP0802100)]]></err_msg>
+<mch_id><![CDATA[QRA732575230N5D]]></mch_id>
+<nonce_str><![CDATA[131486]]></nonce_str>
+<result_code><![CDATA[1]]></result_code>
+<sign><![CDATA[806BD4CC3A2FEF89A11AAF4BC2752169]]></sign>
+<sign_type><![CDATA[MD5]]></sign_type>
+<status><![CDATA[0]]></status>
+<version><![CDATA[2.0]]></version>
+</xml>
+2021-01-21 20:13:14.443	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	银联条码前置微信公众号下单验签结果为--i:true
+2021-01-21 20:13:14.461	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	调用h5下单【SwiftUnionOrderPayH5】服务,响应参数为：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml respCode="FAIL" respDesc="openid和sub_openid不能同时为空(UP0802100)"/>
+
+2021-01-21 20:16:26.782	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@207f23cd: startup date [Thu Jan 21 20:16:26 CST 2021]; root of context hierarchy
+2021-01-21 20:16:26.954	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 20:16:26.987	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8f2173db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 20:16:27.674	[restartedMain]	INFO 	com.parkingunionpaypre.SpringDemoApplication	-	The following profiles are active: dev
+2021-01-21 20:16:27.690	[restartedMain]	INFO 	org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext	-	Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cbbe923: startup date [Thu Jan 21 20:16:27 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@207f23cd
+2021-01-21 20:16:28.863	[restartedMain]	INFO 	org.springframework.cloud.context.scope.GenericScope	-	BeanFactory id=7bd33a3b-2f61-3315-958e-afe8d52cd1fa
+2021-01-21 20:16:28.873	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 20:16:28.958	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8f2173db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 20:16:29.371	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat initialized with port(s): 8097 (http)
+2021-01-21 20:16:29.393	[restartedMain]	INFO 	org.apache.catalina.core.StandardService	-	Starting service [Tomcat]
+2021-01-21 20:16:29.394	[restartedMain]	INFO 	org.apache.catalina.core.StandardEngine	-	Starting Servlet Engine: Apache Tomcat/8.5.31
+2021-01-21 20:16:29.397	[localhost-startStop-1]	INFO 	org.apache.catalina.core.AprLifecycleListener	-	The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;D:\apache-maven-3.6.3\bin;F:\Git\cmd;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\bin;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\conf;C:\Users\zhf\AppData\Local\Microsoft\WindowsApps;;.]
+2021-01-21 20:16:29.571	[localhost-startStop-1]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring embedded WebApplicationContext
+2021-01-21 20:16:29.571	[localhost-startStop-1]	INFO 	org.springframework.web.context.ContextLoader	-	Root WebApplicationContext: initialization completed in 1881 ms
+2021-01-21 20:16:29.801	[localhost-startStop-1]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	URLs to be used as dynamic configuration source: [file:/E:/work/parkingUnionpayPreQrCode/target/classes/config.properties]
+2021-01-21 20:16:29.813	[localhost-startStop-1]	INFO 	com.netflix.config.DynamicPropertyFactory	-	DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@19a9ad8a
+2021-01-21 20:16:31.530	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-21 20:16:31.531	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-21 20:16:31.531	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-01-21 20:16:31.531	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'requestContextFilter' to: [/*]
+2021-01-21 20:16:31.531	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpTraceFilter' to: [/*]
+2021-01-21 20:16:31.531	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.RegistrationBean	-	Filter errorPageFilter was not registered (disabled)
+2021-01-21 20:16:31.531	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2021-01-21 20:16:31.531	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.ServletRegistrationBean	-	Servlet dispatcherServlet mapped to [/]
+2021-01-21 20:16:31.583	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing FeignContext-parkingPay: startup date [Thu Jan 21 20:16:31 CST 2021]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cbbe923
+2021-01-21 20:16:31.601	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 20:16:31.773	[restartedMain]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	URLs to be used as dynamic configuration source: [file:/E:/work/parkingUnionpayPreQrCode/target/classes/config.properties]
+2021-01-21 20:16:31.863	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 20:16:32.032	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter	-	Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cbbe923: startup date [Thu Jan 21 20:16:27 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@207f23cd
+2021-01-21 20:16:32.089	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingunionpayprerqrcode/payNotifyResult],methods=[POST]}" onto public java.lang.String com.parkingunionpaypre.controller.PrInterController.payNotifyResult(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-21 20:16:32.090	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingunionpayprerqrcode/gw],methods=[GET]}" onto public java.lang.String com.parkingunionpaypre.controller.PrInterController.swunionpayCallCenterSync(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-21 20:16:32.092	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-21 20:16:32.093	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-21 20:16:32.117	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 20:16:32.117	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 20:16:32.474	[restartedMain]	INFO 	org.springframework.ui.freemarker.SpringTemplateLoader	-	SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cbbe923: startup date [Thu Jan 21 20:16:27 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@207f23cd] and template loader path [classpath:/templates/]
+2021-01-21 20:16:32.475	[restartedMain]	INFO 	org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer	-	ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2021-01-21 20:16:32.551	[restartedMain]	WARN 	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	-	Unable to start LiveReload server
+2021-01-21 20:16:32.697	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver	-	Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-21 20:16:32.706	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-21 20:16:32.708	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-21 20:16:32.708	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-21 20:16:32.747	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Registering beans for JMX exposure on startup
+2021-01-21 20:16:32.754	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'environmentManager' has been autodetected for JMX exposure
+2021-01-21 20:16:32.755	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2021-01-21 20:16:32.756	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'refreshScope' has been autodetected for JMX exposure
+2021-01-21 20:16:32.758	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2021-01-21 20:16:32.764	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2021-01-21 20:16:32.772	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=5cbbe923,type=ConfigurationPropertiesRebinder]
+2021-01-21 20:16:32.780	[restartedMain]	INFO 	org.springframework.context.support.DefaultLifecycleProcessor	-	Starting beans in phase 0
+2021-01-21 20:16:32.787	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.InstanceInfoFactory	-	Setting initial instance status as: STARTING
+2021-01-21 20:16:32.816	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Initializing Eureka in region us-east-1
+2021-01-21 20:16:33.348	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON encoding codec LegacyJacksonJson
+2021-01-21 20:16:33.349	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON decoding codec LegacyJacksonJson
+2021-01-21 20:16:33.438	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML encoding codec XStreamXml
+2021-01-21 20:16:33.439	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML decoding codec XStreamXml
+2021-01-21 20:16:33.609	[restartedMain]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 20:16:33.962	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Disable delta property : false
+2021-01-21 20:16:33.962	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Single vip registry refresh property : null
+2021-01-21 20:16:33.962	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Force full registry fetch : false
+2021-01-21 20:16:33.962	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application is null : false
+2021-01-21 20:16:33.962	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Registered Applications size is zero : true
+2021-01-21 20:16:33.962	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application version is -1: true
+2021-01-21 20:16:33.962	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Getting all instance registry info from the eureka server
+2021-01-21 20:16:34.095	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	The response status is 200
+2021-01-21 20:16:34.098	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Starting heartbeat executor: renew interval is: 10
+2021-01-21 20:16:34.100	[restartedMain]	INFO 	com.netflix.discovery.InstanceInfoReplicator	-	InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-21 20:16:34.103	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Discovery Client initialized at timestamp 1611231394102 with initial instances count: 3
+2021-01-21 20:16:34.107	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry	-	Registering application parkingunionpayprerqrcode with eureka with status UP
+2021-01-21 20:16:34.107	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Saw local status change event StatusChangeEvent [timestamp=1611231394107, current=UP, previous=STARTING]
+2021-01-21 20:16:34.109	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097: registering service...
+2021-01-21 20:16:34.138	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097 - registration status: 204
+2021-01-21 20:16:34.146	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat started on port(s): 8097 (http) with context path ''
+2021-01-21 20:16:34.147	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration	-	Updating port to 8097
+2021-01-21 20:16:34.150	[restartedMain]	INFO 	com.parkingunionpaypre.SpringDemoApplication	-	Started SpringDemoApplication in 8.407 seconds (JVM running for 9.764)
+2021-01-21 20:16:34.990	[RMI TCP Connection(2)-192.168.124.6]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-21 20:16:34.990	[RMI TCP Connection(2)-192.168.124.6]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-21 20:16:35.009	[RMI TCP Connection(2)-192.168.124.6]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2021-01-21 20:20:27.887	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.controller.PrInterController	-	进入到银联条码前置渠道支付入口---------swunionpayCallCenterSync
+2021-01-21 20:20:27.888	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	进入 SW 中国银联 条码前置聚合扫码  业务处理：同步统一处理类~
+2021-01-21 20:20:27.889	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	请求消息为：
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml service="SwiftUnionOrderPayH5">
+    <mch_id>QRA732575230N5D</mch_id>
+    <out_trade_no>PL2101210000000052</out_trade_no>
+    <body>停车支付</body>
+    <total_fee>1</total_fee>
+    <mch_create_ip>117.152.216.191</mch_create_ip>
+    <notify_url>http://S3.eparking.top/parkingunionpayprerqrcode/payNotifyResult</notify_url>
+    <key>8286d07542f634d9ebf7c963513351c4</key>
+    <payOrderUrl>https://qra.95516.com/pay/gateway</payOrderUrl>
+    <customer_ip>117.152.216.191</customer_ip>
+    <trade_type>12</trade_type>
+</xml>
+
+2021-01-21 20:20:27.975	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.UnSwUnionH5OrderPayServiceImpl	-	进入银联条码前置统一h5下单服务---preH5SwUionOrderPayRsp
+2021-01-21 20:20:27.975	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	进入SW 中国银联条码前置 支付宝服务窗下单 业务处理类：【null】-------------
+2021-01-21 20:20:27.995	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	调用h5下单【SwiftUnionOrderPayH5】服务,响应参数为：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml respCode="999910" respDesc="银联条码前置支付宝服务窗下单参数缺失"/>
+
+2021-01-21 20:21:33.965	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 20:26:33.966	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 20:33:11.553	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5d32ee68: startup date [Thu Jan 21 20:33:11 CST 2021]; root of context hierarchy
+2021-01-21 20:33:11.728	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 20:33:11.772	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b8f416df] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 20:33:12.540	[restartedMain]	INFO 	com.parkingunionpaypre.SpringDemoApplication	-	The following profiles are active: dev
+2021-01-21 20:33:12.555	[restartedMain]	INFO 	org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext	-	Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6aa7c093: startup date [Thu Jan 21 20:33:12 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5d32ee68
+2021-01-21 20:33:13.897	[restartedMain]	INFO 	org.springframework.cloud.context.scope.GenericScope	-	BeanFactory id=7bd33a3b-2f61-3315-958e-afe8d52cd1fa
+2021-01-21 20:33:13.909	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 20:33:14.002	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b8f416df] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-21 20:33:14.419	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat initialized with port(s): 8097 (http)
+2021-01-21 20:33:14.438	[restartedMain]	INFO 	org.apache.catalina.core.StandardService	-	Starting service [Tomcat]
+2021-01-21 20:33:14.438	[restartedMain]	INFO 	org.apache.catalina.core.StandardEngine	-	Starting Servlet Engine: Apache Tomcat/8.5.31
+2021-01-21 20:33:14.442	[localhost-startStop-1]	INFO 	org.apache.catalina.core.AprLifecycleListener	-	The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;D:\apache-maven-3.6.3\bin;F:\Git\cmd;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\bin;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\conf;C:\Users\zhf\AppData\Local\Microsoft\WindowsApps;;.]
+2021-01-21 20:33:14.638	[localhost-startStop-1]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring embedded WebApplicationContext
+2021-01-21 20:33:14.639	[localhost-startStop-1]	INFO 	org.springframework.web.context.ContextLoader	-	Root WebApplicationContext: initialization completed in 2084 ms
+2021-01-21 20:33:14.929	[localhost-startStop-1]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	URLs to be used as dynamic configuration source: [file:/E:/work/parkingUnionpayPreQrCode/target/classes/config.properties]
+2021-01-21 20:33:14.943	[localhost-startStop-1]	INFO 	com.netflix.config.DynamicPropertyFactory	-	DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5c660c33
+2021-01-21 20:33:16.811	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-21 20:33:16.812	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-21 20:33:16.812	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-01-21 20:33:16.812	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'requestContextFilter' to: [/*]
+2021-01-21 20:33:16.812	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpTraceFilter' to: [/*]
+2021-01-21 20:33:16.812	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.RegistrationBean	-	Filter errorPageFilter was not registered (disabled)
+2021-01-21 20:33:16.812	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2021-01-21 20:33:16.812	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.ServletRegistrationBean	-	Servlet dispatcherServlet mapped to [/]
+2021-01-21 20:33:16.885	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing FeignContext-parkingPay: startup date [Thu Jan 21 20:33:16 CST 2021]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6aa7c093
+2021-01-21 20:33:16.904	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-21 20:33:17.065	[restartedMain]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	URLs to be used as dynamic configuration source: [file:/E:/work/parkingUnionpayPreQrCode/target/classes/config.properties]
+2021-01-21 20:33:17.156	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 20:33:17.324	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter	-	Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6aa7c093: startup date [Thu Jan 21 20:33:12 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5d32ee68
+2021-01-21 20:33:17.376	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingunionpayprerqrcode/payNotifyResult],methods=[POST]}" onto public java.lang.String com.parkingunionpaypre.controller.PrInterController.payNotifyResult(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-21 20:33:17.377	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingunionpayprerqrcode/gw],methods=[GET]}" onto public java.lang.String com.parkingunionpaypre.controller.PrInterController.swunionpayCallCenterSync(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-21 20:33:17.379	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-21 20:33:17.380	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-21 20:33:17.408	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 20:33:17.408	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-21 20:33:17.831	[restartedMain]	INFO 	org.springframework.ui.freemarker.SpringTemplateLoader	-	SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6aa7c093: startup date [Thu Jan 21 20:33:12 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5d32ee68] and template loader path [classpath:/templates/]
+2021-01-21 20:33:17.833	[restartedMain]	INFO 	org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer	-	ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2021-01-21 20:33:17.921	[restartedMain]	WARN 	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	-	Unable to start LiveReload server
+2021-01-21 20:33:18.087	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver	-	Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-21 20:33:18.100	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-21 20:33:18.101	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-21 20:33:18.102	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-21 20:33:18.152	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Registering beans for JMX exposure on startup
+2021-01-21 20:33:18.163	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'environmentManager' has been autodetected for JMX exposure
+2021-01-21 20:33:18.165	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2021-01-21 20:33:18.166	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'refreshScope' has been autodetected for JMX exposure
+2021-01-21 20:33:18.169	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2021-01-21 20:33:18.176	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2021-01-21 20:33:18.187	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=6aa7c093,type=ConfigurationPropertiesRebinder]
+2021-01-21 20:33:18.196	[restartedMain]	INFO 	org.springframework.context.support.DefaultLifecycleProcessor	-	Starting beans in phase 0
+2021-01-21 20:33:18.202	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.InstanceInfoFactory	-	Setting initial instance status as: STARTING
+2021-01-21 20:33:18.235	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Initializing Eureka in region us-east-1
+2021-01-21 20:33:18.794	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON encoding codec LegacyJacksonJson
+2021-01-21 20:33:18.794	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON decoding codec LegacyJacksonJson
+2021-01-21 20:33:18.917	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML encoding codec XStreamXml
+2021-01-21 20:33:18.917	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML decoding codec XStreamXml
+2021-01-21 20:33:19.140	[restartedMain]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 20:33:19.511	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Disable delta property : false
+2021-01-21 20:33:19.511	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Single vip registry refresh property : null
+2021-01-21 20:33:19.511	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Force full registry fetch : false
+2021-01-21 20:33:19.511	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application is null : false
+2021-01-21 20:33:19.511	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Registered Applications size is zero : true
+2021-01-21 20:33:19.511	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application version is -1: true
+2021-01-21 20:33:19.511	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Getting all instance registry info from the eureka server
+2021-01-21 20:33:19.667	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	The response status is 200
+2021-01-21 20:33:19.670	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Starting heartbeat executor: renew interval is: 10
+2021-01-21 20:33:19.672	[restartedMain]	INFO 	com.netflix.discovery.InstanceInfoReplicator	-	InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-21 20:33:19.675	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Discovery Client initialized at timestamp 1611232399674 with initial instances count: 2
+2021-01-21 20:33:19.679	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry	-	Registering application parkingunionpayprerqrcode with eureka with status UP
+2021-01-21 20:33:19.679	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Saw local status change event StatusChangeEvent [timestamp=1611232399679, current=UP, previous=STARTING]
+2021-01-21 20:33:19.681	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097: registering service...
+2021-01-21 20:33:19.718	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGUNIONPAYPRERQRCODE/192.168.124.6:parkingunionpayprerqrcode:8097 - registration status: 204
+2021-01-21 20:33:19.729	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat started on port(s): 8097 (http) with context path ''
+2021-01-21 20:33:19.731	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration	-	Updating port to 8097
+2021-01-21 20:33:19.734	[restartedMain]	INFO 	com.parkingunionpaypre.SpringDemoApplication	-	Started SpringDemoApplication in 9.289 seconds (JVM running for 10.653)
+2021-01-21 20:33:20.237	[RMI TCP Connection(2)-192.168.124.6]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-21 20:33:20.238	[RMI TCP Connection(2)-192.168.124.6]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-21 20:33:20.266	[RMI TCP Connection(2)-192.168.124.6]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2021-01-21 20:35:30.202	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.controller.PrInterController	-	进入到银联条码前置渠道支付入口---------swunionpayCallCenterSync
+2021-01-21 20:35:30.203	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	进入 SW 中国银联 条码前置聚合扫码  业务处理：同步统一处理类~
+2021-01-21 20:35:30.203	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	请求消息为：
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml service="SwiftUnionOrderPayH5">
+    <mch_id>QRA732575230N5D</mch_id>
+    <out_trade_no>PL2101210000000053</out_trade_no>
+    <body>停车支付</body>
+    <total_fee>1</total_fee>
+    <mch_create_ip>117.152.216.191</mch_create_ip>
+    <notify_url>http://S3.eparking.top/parkingunionpayprerqrcode/payNotifyResult</notify_url>
+    <key>8286d07542f634d9ebf7c963513351c4</key>
+    <payOrderUrl>https://qra.95516.com/pay/gateway</payOrderUrl>
+    <customer_ip>117.152.216.191</customer_ip>
+    <trade_type>12</trade_type>
+</xml>
+
+2021-01-21 20:35:30.283	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.UnSwUnionH5OrderPayServiceImpl	-	进入银联条码前置统一h5下单服务---preH5SwUionOrderPayRsp
+2021-01-21 20:35:30.283	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	进入SW 中国银联条码前置 支付宝服务窗下单 业务处理类：【null】-------------
+2021-01-21 20:35:30.295	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	银联条码前置支付宝服务窗待签名的字符串为：body=停车支付&charset=UTF-8&mch_create_ip=117.152.216.191&mch_id=QRA732575230N5D&nonce_str=353087&notify_url=http://S3.eparking.top/parkingunionpayprerqrcode/payNotifyResult&out_trade_no=PL2101210000000053&service=pay.alipay.jspay&sign_type=MD5&total_fee=1&version=2.0
+2021-01-21 20:35:30.300	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	开始  中国银联条码前置 支付宝服务窗 下单支付---[null],请求参数为：<xml><body><![CDATA[停车支付]]></body>
+<charset><![CDATA[UTF-8]]></charset>
+<mch_create_ip><![CDATA[117.152.216.191]]></mch_create_ip>
+<mch_id><![CDATA[QRA732575230N5D]]></mch_id>
+<nonce_str><![CDATA[353087]]></nonce_str>
+<notify_url><![CDATA[http://S3.eparking.top/parkingunionpayprerqrcode/payNotifyResult]]></notify_url>
+<out_trade_no><![CDATA[PL2101210000000053]]></out_trade_no>
+<service><![CDATA[pay.alipay.jspay]]></service>
+<sign><![CDATA[2702EC1AA8B8DECC21B9A9C0B1797E91]]></sign>
+<sign_type><![CDATA[MD5]]></sign_type>
+<total_fee><![CDATA[1]]></total_fee>
+<version><![CDATA[2.0]]></version>
+</xml>
+2021-01-21 20:35:30.305	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.util.SSLHttpClient	-	请求地址为：https://qra.95516.com/pay/gateway
+2021-01-21 20:35:30.712	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.util.SSLHttpClient	-	响应码为：200
+2021-01-21 20:35:30.715	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	结束 SW 中国银联 支付宝服务窗条码前置 下单支付---[null],响应参数为：<xml><charset><![CDATA[UTF-8]]></charset>
+<code><![CDATA[9999999]]></code>
+<err_code><![CDATA[BIZ.UNSUPPORTED_SERVICE]]></err_code>
+<err_msg><![CDATA[支付类型[pay.alipay.jspayv4]未开通]]></err_msg>
+<mch_id><![CDATA[QRA732575230N5D]]></mch_id>
+<nonce_str><![CDATA[353087]]></nonce_str>
+<result_code><![CDATA[1]]></result_code>
+<sign><![CDATA[05AA444E2485BD534D55EF3EB414706D]]></sign>
+<sign_type><![CDATA[MD5]]></sign_type>
+<status><![CDATA[0]]></status>
+<version><![CDATA[2.0]]></version>
+</xml>
+2021-01-21 20:35:30.720	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	银联条码前置支付宝服务窗下单验签结果为--i:true
+2021-01-21 20:35:30.741	[http-nio-8097-exec-1]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	调用h5下单【SwiftUnionOrderPayH5】服务,响应参数为：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml respCode="BIZ.UNSUPPORTED_SERVICE" respDesc="支付类型[pay.alipay.jspayv4]未开通"/>
+
+2021-01-21 20:36:47.811	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.controller.PrInterController	-	进入到银联条码前置渠道支付入口---------swunionpayCallCenterSync
+2021-01-21 20:36:47.812	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	进入 SW 中国银联 条码前置聚合扫码  业务处理：同步统一处理类~
+2021-01-21 20:36:47.812	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	请求消息为：
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml service="SwiftUnionOrderPayH5">
+    <mch_id>QRA732575230N5D</mch_id>
+    <out_trade_no>PL2101210000000054</out_trade_no>
+    <body>停车支付</body>
+    <total_fee>1</total_fee>
+    <mch_create_ip>117.152.216.191</mch_create_ip>
+    <notify_url>http://S3.eparking.top/parkingunionpayprerqrcode/payNotifyResult</notify_url>
+    <key>8286d07542f634d9ebf7c963513351c4</key>
+    <payOrderUrl>https://qra.95516.com/pay/gateway</payOrderUrl>
+    <customer_ip>117.152.216.191</customer_ip>
+    <trade_type>14</trade_type>
+</xml>
+
+2021-01-21 20:36:47.822	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.UnSwUnionH5OrderPayServiceImpl	-	进入银联条码前置统一h5下单服务---preH5SwUionOrderPayRsp
+2021-01-21 20:36:47.822	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	进入SW 中国银联条码前置 银联云闪付js下单 业务处理类：【null】-------------
+2021-01-21 20:36:47.825	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	银联条码前置银联云闪付js待签名的字符串为：body=停车支付&charset=UTF-8&customer_ip=117.152.216.191&mch_create_ip=117.152.216.191&mch_id=QRA732575230N5D&nonce_str=364717&notify_url=http://S3.eparking.top/parkingunionpayprerqrcode/payNotifyResult&out_trade_no=PL2101210000000054&service=pay.unionpay.jspay&sign_type=MD5&total_fee=1&version=2.0
+2021-01-21 20:36:47.825	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	开始  中国银联条码前置 银联云闪付js 下单支付---[null],请求参数为：<xml><body><![CDATA[停车支付]]></body>
+<charset><![CDATA[UTF-8]]></charset>
+<customer_ip><![CDATA[117.152.216.191]]></customer_ip>
+<mch_create_ip><![CDATA[117.152.216.191]]></mch_create_ip>
+<mch_id><![CDATA[QRA732575230N5D]]></mch_id>
+<nonce_str><![CDATA[364717]]></nonce_str>
+<notify_url><![CDATA[http://S3.eparking.top/parkingunionpayprerqrcode/payNotifyResult]]></notify_url>
+<out_trade_no><![CDATA[PL2101210000000054]]></out_trade_no>
+<service><![CDATA[pay.unionpay.jspay]]></service>
+<sign><![CDATA[14919369975FA98AFDAF6FB07C851F16]]></sign>
+<sign_type><![CDATA[MD5]]></sign_type>
+<total_fee><![CDATA[1]]></total_fee>
+<version><![CDATA[2.0]]></version>
+</xml>
+2021-01-21 20:36:47.825	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.util.SSLHttpClient	-	请求地址为：https://qra.95516.com/pay/gateway
+2021-01-21 20:36:48.141	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.util.SSLHttpClient	-	响应码为：200
+2021-01-21 20:36:48.142	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	结束 SW 中国银联 银联云闪付js条码前置 下单支付---[null],响应参数为：<xml><charset><![CDATA[UTF-8]]></charset>
+<code><![CDATA[9999999]]></code>
+<err_code><![CDATA[BIZ.UNSUPPORTED_SERVICE]]></err_code>
+<err_msg><![CDATA[支付类型[pay.unionpay.proxy.jspay]未开通]]></err_msg>
+<mch_id><![CDATA[QRA732575230N5D]]></mch_id>
+<nonce_str><![CDATA[364717]]></nonce_str>
+<result_code><![CDATA[1]]></result_code>
+<sign><![CDATA[6A3C378DCFCC8680BCD8726B042AD16C]]></sign>
+<sign_type><![CDATA[MD5]]></sign_type>
+<status><![CDATA[0]]></status>
+<version><![CDATA[2.0]]></version>
+</xml>
+2021-01-21 20:36:48.144	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.SwUnionH5OrderPayServiceImpl	-	银联条码前置银联云闪付js下单验签结果为--i:true
+2021-01-21 20:36:48.149	[http-nio-8097-exec-3]	INFO 	com.parkingunionpaypre.service.impl.PrSwiftUnionPayServiceImpl	-	调用h5下单【SwiftUnionOrderPayH5】服务,响应参数为：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml respCode="BIZ.UNSUPPORTED_SERVICE" respDesc="支付类型[pay.unionpay.proxy.jspay]未开通"/>
+
+2021-01-21 20:38:19.514	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 20:43:19.517	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 20:48:19.518	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 20:53:19.519	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 20:58:19.520	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 21:03:19.521	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 21:08:19.522	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 21:13:19.523	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 21:18:19.525	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 21:23:19.527	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 21:28:19.528	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 21:33:19.529	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 21:38:19.529	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 21:43:19.532	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 21:48:19.534	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 21:53:19.536	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 21:58:19.537	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 22:03:19.538	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 22:08:19.541	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 22:13:19.543	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 22:18:19.544	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 22:23:19.546	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 22:28:19.548	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 22:33:19.550	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 22:38:19.551	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 22:43:19.554	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 22:48:19.555	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 22:53:19.557	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 22:58:19.558	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 23:03:19.560	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 23:08:19.561	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 23:13:19.562	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 23:18:19.563	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 23:23:19.565	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 23:28:19.566	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 23:33:19.567	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 23:38:19.567	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 23:43:19.569	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 23:48:19.570	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 23:53:19.572	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-21 23:58:19.573	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/EurekaServerPay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EurekaServerPay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingHx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingHx/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingIcbcPay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingIcbcPay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingIcbcQrCode/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingIcbcQrCode/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingPay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingPay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingUnionpayPreQrCode/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingUnionpayPreQrCode/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingYnnx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingYnnx/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingYshang/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingYshang/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingpay_web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingpay_web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingunionsh/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parkingunionsh/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

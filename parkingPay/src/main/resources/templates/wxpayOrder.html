@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+</head>
+<body>
+<input id ="appIdWx" type="hidden" value="${appId}" />
+<input id ="timeStampWx" type="hidden" value="${timeStamp}" />
+<input id ="nonceStrWx"  type="hidden" value="${nonceStr}" />
+<input id ="packageWeChatWx" type="hidden" value="${packageWeChat}" />
+<input id ="paySignWx" type="hidden" value="${paySign}" />
+<input id ="signTypeWx" type="hidden" value="${signType}" />
+<script type="application/javascript"> 
+	var appId=document.getElementById("appIdWx").value;
+	var timeStamp=document.getElementById("timeStampWx").value;
+	var nonceStr=document.getElementById("nonceStrWx").value;
+	var packageWeChat=document.getElementById("packageWeChatWx").value;
+	var paySign=document.getElementById("paySignWx").value;
+	var signType=document.getElementById("signTypeWx").value;
+ function onBridgeReady(){ 
+     WeixinJSBridge.invoke('getBrandWCPayRequest',{
+    	            "appId":appId,
+    	            "timeStamp":timeStamp,
+    	            "nonceStr":nonceStr,
+    	            "package":packageWeChat,     
+    	            "signType":signType,
+    	            "paySign":paySign
+    	        },
+        function(res){ 
+            if(res.err_msg == "get_brand_wcpay_request:ok" ) { 
+            	top.location.href="http://S4.eparking.top/payparking/paySucceed.html"
+     	   }else{
+			    top.location.href="http://S4.eparking.top/payparking/payFail.html"
+		   }  
+        }
+    );  
+ } 
+	if (typeof WeixinJSBridge == "undefined"){
+	    if( document.addEventListener ){
+	        document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+	    }else if (document.attachEvent){
+	        document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+	        document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+	    }
+	 }else{
+	    onBridgeReady();
+	 }
+</script>
+</body>
+</html>

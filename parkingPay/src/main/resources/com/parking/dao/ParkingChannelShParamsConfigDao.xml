@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.parking.dao.ParkingChannelShParamsConfigDao">
+    
+    <resultMap id="parkingChannelShParamsConfigMap" type="com.parking.domain.ParkingChannelShParamsConfig" >
+	    <result column="ID" property="id" />
+	    <result column="PARK_ID" property="parkId" />
+	    <result column="PARK_NAME" property="parkName" />
+	    <result column="STATES"  property="states" />
+	    <result column="APP_ID"  property="appId" />
+	    <result column="SIGN_KEY"  property="signKey" />
+	    <result column="MCHNT_NO"  property="mchntNo" />
+	    <result column="SUB_MCHNT_NO"  property="subMchntNo" />
+	    <result column="SIGN_STATUS_URL"  property="signStatusUrl" />
+	    <result column="PAY_BILL_URL"  property="payBillUrl" />
+	    <result column="PAY_ORDER_STATUS_URL"  property="payOrderStatusUrl" />
+	    <result column="REFUND_BILL_URL"  property="refundBillUrl" />
+	    <result column="REFUND_BILL_STATUS_URL"  property="refundBillStatusUrl" />
+	    <result column="NOTICE_IN_URL"  property="noticeInUrl" />
+	    <result column="NOTICE_OUT_URL"  property="noticeOutUrl" />
+	    <result column="RSRV_STR1"   property="rsrvStr1"  /> 
+	    <result column="RSRV_STR2"   property="rsrvStr2"  />
+		<result column="RSRV_STR3"   property="rsrvStr3"  />
+		<result column="RSRV_STR4"   property="rsrvStr4"  />
+		<result column="RSRV_STR5"   property="rsrvStr5"  />
+		<result column="RSRV_STR6"   property="rsrvStr6"  />
+		<result column="REMARK"      property="remark" />
+		<result column="CREATED_TIME" property="createdTime" />
+		<result column="UPDATE_TIME" property="updateTime" />
+		<result column="ACC_SPLIT_TYPE" property="accSplitType" />
+		<result column="ACC_SPLIT_RULE_ID" property="accSplitRuleId" />
+  	</resultMap>
+      
+  <insert id="insertParkingChannelShParamsConfig" parameterType="com.parking.domain.ParkingChannelShParamsConfig">
+      insert into t_parking_channel_sh_params_config (PARK_ID,PARK_NAME,STATES,APP_ID,SIGN_KEY,
+      MCHNT_NO,SUB_MCHNT_NO,SIGN_STATUS_URL,PAY_BILL_URL,PAY_ORDER_STATUS_URL,REFUND_BILL_URL,
+      REFUND_BILL_STATUS_URL,NOTICE_IN_URL,NOTICE_OUT_URL,RSRV_STR1,RSRV_STR2,RSRV_STR3,RSRV_STR4,
+      RSRV_STR5,RSRV_STR6,REMARK,CREATED_TIME,UPDATE_TIME,ACC_SPLIT_TYPE,ACC_SPLIT_RULE_ID)
+      values(#{parkId,jdbcType=VARCHAR},#{parkName,jdbcType=VARCHAR},#{states,jdbcType=VARCHAR},#{appId,jdbcType=VARCHAR},
+      #{signKey,jdbcType=VARCHAR},#{mchntNo,jdbcType=VARCHAR},#{subMchntNo,jdbcType=VARCHAR},
+      #{signStatusUrl,jdbcType=VARCHAR},#{payBillUrl,jdbcType=VARCHAR},#{payOrderStatusUrl,jdbcType=VARCHAR},
+      #{refundBillUrl,jdbcType=VARCHAR},#{refundBillStatusUrl,jdbcType=VARCHAR},#{noticeInUrl,jdbcType=VARCHAR},
+      #{noticeOutUrl,jdbcType=VARCHAR},#{rsrvStr1,jdbcType=VARCHAR},#{rsrvStr2,jdbcType=VARCHAR},#{rsrvStr3,jdbcType=VARCHAR},
+      #{rsrvStr4,jdbcType=VARCHAR},#{rsrvStr5,jdbcType=VARCHAR},#{rsrvStr6,jdbcType=VARCHAR},#{remark,jdbcType=VARCHAR},
+      #{createdTime,jdbcType=VARCHAR},#{updateTime,jdbcType=VARCHAR},#{accSplitType,jdbcType=VARCHAR},#{accSplitRuleId,jdbcType=VARCHAR})
+  </insert>
+            
+  <select id="selectParkingChannelShParamsConfigById" resultMap="parkingChannelShParamsConfigMap" parameterType="com.parking.domain.ParkingChannelShParamsConfig">
+      select PARK_ID,PARK_NAME,STATES,APP_ID,SIGN_KEY,MCHNT_NO,SUB_MCHNT_NO,SIGN_STATUS_URL,PAY_BILL_URL,PAY_ORDER_STATUS_URL,REFUND_BILL_URL,REFUND_BILL_STATUS_URL,NOTICE_IN_URL,NOTICE_OUT_URL,ACC_SPLIT_TYPE,ACC_SPLIT_RULE_ID from t_parking_channel_sh_params_config where PARK_ID = #{parkId} and STATES = #{states}
+  </select>
+  
+  <select id="selectParkingChannelShParamsConfigAppIdById" resultMap="parkingChannelShParamsConfigMap" parameterType="com.parking.domain.ParkingChannelShParamsConfig">
+      select PARK_ID,PARK_NAME,STATES,APP_ID,SIGN_KEY,MCHNT_NO,SUB_MCHNT_NO,SIGN_STATUS_URL,PAY_BILL_URL,PAY_ORDER_STATUS_URL,REFUND_BILL_URL,REFUND_BILL_STATUS_URL,NOTICE_IN_URL,NOTICE_OUT_URL,ACC_SPLIT_TYPE,ACC_SPLIT_RULE_ID from t_parking_channel_sh_params_config where APP_ID = #{appId} and STATES = #{states} LIMIT 0,1 
+  </select>
+  
+  <select id="selectParkingChannelShParamsConfigByList" resultMap="parkingChannelShParamsConfigMap" parameterType="com.parking.domain.ParkingChannelShParamsConfig">
+      select * from t_parking_channel_sh_params_config
+  </select>
+  
+  <update id="updateParkingChannelShParamsConfig" parameterType="com.parking.domain.ParkingChannelShParamsConfig">
+  		UPDATE t_parking_channel_sh_params_config 
+  		set	
+  		<if test="states!=null and states!=''">STATES=#{states},</if>
+  		<if test="signKey!=null and signKey!=''">SIGN_KEY=#{signKey},</if>
+		UPDATE_TIME = #{updateTime} 
+		WHERE PARK_ID = #{parkId}
+  </update>
+  
+</mapper>

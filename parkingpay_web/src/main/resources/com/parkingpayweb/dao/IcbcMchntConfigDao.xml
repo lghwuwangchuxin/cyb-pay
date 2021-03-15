@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.parkingpayweb.dao.IcbcMchntConfigDao">
+
+	<resultMap id="icbcMchntConfMap" type="com.parkingpayweb.domain.IcbcMchntConfig">
+	    <result property="id" column="ID"/>
+	    <result property="parkId" column="PARK_ID"/>
+	    <result property="partParkId" column="PART_PARK_ID"/>
+	     <result property="parkName" column="PARK_NAME"/>
+		<result property="state" column="STATE"/>
+		<result property="startDate" column="START_DATE"/>
+		<result property="endDate" column="END_DATE"/>
+		<result property="createTime" column="CREATE_TIME"/>
+		<result property="updateTime" column="UPDATE_TIME"/>
+		<result property="signKey" column="SIGN_KEY"/>
+		<result property="mchntId" column="MCHNT_ID"/>
+		<result property="rsrvStr1" column="RSRV_STR1"/>
+		<result property="rsrvStr2" column="RSRV_STR2"/>
+		<result property="rsrvStr3" column="RSRV_STR3"/>
+		<result property="rsrvStr4" column="RSRV_STR4"/>
+		<result property="rsrvStr5" column="RSRV_STR5"/>
+		<result property="rsrvStr6" column="RSRV_STR6"/>
+		<result property="remark" column="REMARK"/>
+		<result property="inUrl" column="IN_URL"/>
+		<result property="payOrderUrl" column="PAY_ORDER_URL"/>
+		<result property="queryOrderUrl" column="QUERY_ORDER_URL"/>
+		<result property="outUrl" column="OUT_URL"/>
+		<result property="refundUrl" column="REFUND_URL"/>
+    </resultMap>
+  
+    <!-- 商户配置-->
+    <insert id="insertIcbcMchntConf" parameterType="com.parkingpayweb.domain.IcbcMchntConfig" >
+    	insert into T_ICBC_MCHNT_CONFIG(ID,PARK_ID,PART_PARK_ID,PARK_NAME,STATE,START_DATE,END_DATE,CREATE_TIME,UPDATE_TIME,
+    	SIGN_KEY,MCHNT_ID,RSRV_STR1,RSRV_STR2,RSRV_STR3,RSRV_STR4,RSRV_STR5,RSRV_STR6,REMARK,IN_URL,PAY_ORDER_URL,QUERY_ORDER_URL,
+    	OUT_URL,REFUND_URL,SCAN_QR_CODE_PAY_URL) 
+    	values (#{id,jdbcType=VARCHAR},#{parkId,jdbcType=VARCHAR},#{partParkId,jdbcType=VARCHAR},#{parkName,jdbcType=VARCHAR},
+    	#{state,jdbcType=VARCHAR},#{startDate,jdbcType=VARCHAR},#{endDate,jdbcType=VARCHAR},#{createTime,jdbcType=VARCHAR},
+    	#{updateTime,jdbcType=VARCHAR},#{signKey,jdbcType=VARCHAR},#{mchntId,jdbcType=VARCHAR},#{rsrvStr1,jdbcType=VARCHAR},
+    	#{rsrvStr2,jdbcType=VARCHAR},#{rsrvStr3,jdbcType=VARCHAR},#{rsrvStr4,jdbcType=VARCHAR},#{rsrvStr5,jdbcType=VARCHAR},
+    	#{rsrvStr6,jdbcType=VARCHAR},#{remark,jdbcType=VARCHAR},#{inUrl,jdbcType=VARCHAR},#{payOrderUrl,jdbcType=VARCHAR},
+    	#{queryOrderUrl,jdbcType=VARCHAR},#{outUrl,jdbcType=VARCHAR},#{refundUrl,jdbcType=VARCHAR}}
+    </insert>
+    
+	<!--更新商户-->	
+	<update id="updateIcbcMchntConf"  parameterType="com.parkingpayweb.domain.IcbcMchntConfig">
+		UPDATE T_ICBC_MCHNT_CONFIG
+		<set>
+			<if test="signKey!=null and signKey!=''">SIGN_KEY=#{signKey},</if>
+			<if test="state!=null and state!=''">STATE=#{state},</if>
+		    UPDATE_TIME = #{updateTime}
+		</set>
+		WHERE PARK_ID=#{parkId}
+	</update>    
+	
+	<!--查询数据 根据停车场 单个商户配置数据-->
+	<select id="selectIcbcMchntConfParkIdById" resultMap="icbcMchntConfMap" parameterType="com.parkingpayweb.domain.IcbcMchntConfig">
+    	SELECT PARK_ID,PART_PARK_ID,PARK_NAME,MCHNT_ID,SIGN_KEY,IN_URL,PAY_ORDER_URL,QUERY_ORDER_URL,OUT_URL,REFUND_URL,RSRV_STR1,RSRV_STR2 FROM T_ICBC_MCHNT_CONFIG WHERE  PARK_ID=#{parkId}  AND STATE=#{state}
+	</select>
+	
+	<!--查询数据 根据停车场 单个商户配置数据-->
+	<select id="selectIcbcMchntConfByAppKey" resultMap="icbcMchntConfMap" parameterType="java.lang.String">
+    	SELECT PARK_ID,PART_PARK_ID,PARK_NAME,MCHNT_ID,SIGN_KEY,IN_URL,PAY_ORDER_URL,QUERY_ORDER_URL,OUT_URL,REFUND_URL,RSRV_STR1,RSRV_STR2 FROM T_ICBC_MCHNT_CONFIG WHERE  RSRV_STR1=#{appKey}  AND STATE= 1
+	</select>
+	
+	<!-- 查询商户列表 -->
+	<select id="selectIcbcMchntConfByList" resultMap="icbcMchntConfMap" parameterType="com.parkingpayweb.domain.IcbcMchntConfig">
+    	SELECT * FROM T_ICBC_MCHNT_CONFIG WHERE STATE=#{state}
+	</select>
+</mapper>

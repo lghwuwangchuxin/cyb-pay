@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.parking.dao.ParkingRefundTradeOrderDao">
+    
+    <resultMap id="parkingRefundTradeMap" type="com.parking.domain.ParkingRefundTrade" >
+	    <result column="REFUND_ID" property="refundId"  />
+	    <result column="ORDER_ID" property="orderId"  />
+	    <result column="OTHER_TRADE_ID" property="otherTradeId"  />
+	    <result column="OTHER_REFUND_ID" property="otherRefundId"  />
+	    <result column="REFUND_MCHNT_ID" property="refundMchntId"  />
+	    <result column="REFUND_TIME" property="refundTime"  />
+	    <result column="UPDATE_TIME" property="updateTime"  />
+	    <result column="SET_UP_TIME" property="setUpTime"  />
+	    <result column="TRADE_FEE" property="tradeFee"  />
+	    <result column="APPLY_FOR_REFUND_FEE" property="applyForRefundFee"  />
+	    <result column="TRUE_REFUND_FEE" property="trueRefundFee"  />
+	    <result column="REFUND_SUM_FEE" property="refundSumFee"  />
+	    <result column="REFUND_FEE_TYPE" property="refundFeeType"  />
+	    <result column="REFUND_DESC" property="refundDesc"  />
+	    <result column="REFUND_STATUS" property="refundStatus"  />
+	    <result column="COUPON_REFUND_FEE" property="couponRefundFee"  />
+	    <result column="COUPON_REFUND_COUNT" property="couponRefundCount"  />
+	    <result column="COUPON_REFUND_ID_0" property="couponRefundId0"  />
+	    <result column="COUPON_REFUND_ID_1" property="couponrefundId1"  />
+	    <result column="COUPON_REFUND_ID_2" property="couponrefundId2"  />
+	    <result column="COUPON_REFUND_ID_3" property="couponrefundId3"  />
+	    <result column="COUPON_REFUND_ID_4" property="couponrefundId4"  />
+	    <result column="COUPON_REFUND_ID_5" property="couponrefundId5"  />
+	    <result column="OTHER_LOGON_ID" property="otherLogonId"  />    
+	    <result column="OTHER_USER_ID" property="otherUserId"  />
+	    <result column="USER_ID" property="userId"  />
+	    <result column="REFUND_CHANNEL" property="refundChannel"  />
+	    
+	    <result column="APP_ID" property="appId"  />
+	    <result column="OTHER_CODE" property="otherCode"  />
+	    <result column="OTHER_DESC" property="otherDesc"  />
+	    <result column="queryId" property="queryId"  />
+	    
+	    <result column="origQryId" property="origQryId"  />
+	    <result column="settleAmt" property="settleAmt"  />
+	    <result column="settleCurrencyCode" property="settleCurrencyCode"  />
+	    <result column="settleDate" property="settleDate"  />
+	      
+  	</resultMap>
+    
+
+  <update id="updateParkTradeRefund" parameterType="com.parking.domain.ParkingRefundTrade">
+  		UPDATE t_parking_refund_trade set
+  			<if test="queryId!=null and queryId!=''">queryId=#{queryId},</if>	
+			<if test="origQryId!=null and origQryId!=''">origQryId=#{origQryId},</if>	
+			<if test="settleAmt!=null and settleAmt!=''">settleAmt=#{settleAmt},</if>
+			<if test="settleCurrencyCode!=null and settleCurrencyCode!=''">settleCurrencyCode=#{settleCurrencyCode},</if>	
+			<if test="settleDate!=null and settleDate!=''">settleDate=#{settleDate},</if>		
+		UPDATE_TIME = #{updateTime}
+		WHERE ORDER_ID = #{orderId}
+  </update>
+  
+   <update id="updateRefund" parameterType="com.parking.domain.ParkingRefundTrade">
+  		UPDATE t_parking_refund_trade set
+  			<if test="queryId!=null and queryId!=''">queryId=#{queryId},</if>	
+			<if test="origQryId!=null and origQryId!=''">origQryId=#{origQryId},</if>	
+			<if test="settleAmt!=null and settleAmt!=''">settleAmt=#{settleAmt},</if>
+			<if test="settleCurrencyCode!=null and settleCurrencyCode!=''">settleCurrencyCode=#{settleCurrencyCode},</if>	
+			<if test="settleDate!=null and settleDate!=''">settleDate=#{settleDate},</if>		
+		UPDATE_TIME = #{updateTime}
+		WHERE REFUND_ID = #{refundId}
+  </update>
+  
+   
+   
+  
+  <insert id="insertRefundInfo" parameterType="com.parking.domain.ParkingRefundTrade">
+      insert into t_parking_refund_trade (
+      REFUND_ID,ORDER_ID,OTHER_TRADE_ID,OTHER_REFUND_ID,
+      REFUND_MCHNT_ID,REFUND_TIME,UPDATE_TIME,SET_UP_TIME,
+      TRADE_FEE,APPLY_FOR_REFUND_FEE,TRUE_REFUND_FEE,
+      REFUND_SUM_FEE,REFUND_FEE_TYPE,REFUND_DESC,REFUND_STATUS,
+      COUPON_REFUND_FEE,COUPON_REFUND_COUNT,COUPON_REFUND_ID_0,
+      COUPON_REFUND_ID_1,COUPON_REFUND_ID_2,COUPON_REFUND_ID_3,
+      COUPON_REFUND_ID_4,COUPON_REFUND_ID_5,OTHER_LOGON_ID,
+      OTHER_USER_ID,USER_ID,REFUND_CHANNEL,APP_ID,OTHER_CODE,
+      OTHER_DESC,queryId,origQryId,settleAmt,settleCurrencyCode,settleDate)
+      values(#{refundId,jdbcType=VARCHAR},#{orderId,jdbcType=VARCHAR},#{otherTradeId,jdbcType=VARCHAR},
+      #{otherRefundId,jdbcType=VARCHAR},#{refundMchntId,jdbcType=VARCHAR},#{refundTime,jdbcType=VARCHAR},
+      #{updateTime,jdbcType=VARCHAR},#{setUpTime,jdbcType=VARCHAR},#{tradeFee,jdbcType=VARCHAR},
+      #{applyForRefundFee,jdbcType=VARCHAR},#{trueRefundFee,jdbcType=VARCHAR},#{refundSumFee,jdbcType=VARCHAR},
+      #{refundFeeType,jdbcType=VARCHAR},#{refundDesc,jdbcType=VARCHAR},#{refundStatus,jdbcType=VARCHAR},
+      #{couponRefundFee,jdbcType=VARCHAR},#{couponRefundCount,jdbcType=VARCHAR},#{couponRefundId0,jdbcType=VARCHAR},
+      #{couponrefundId1,jdbcType=VARCHAR},#{couponrefundId2,jdbcType=VARCHAR},#{couponrefundId3,jdbcType=VARCHAR},
+      #{couponrefundId4,jdbcType=VARCHAR},#{couponrefundId5,jdbcType=VARCHAR},#{otherLogonId,jdbcType=VARCHAR},
+      #{otherUserId,jdbcType=VARCHAR},#{userId,jdbcType=VARCHAR},#{refundChannel,jdbcType=VARCHAR},
+      #{appId,jdbcType=VARCHAR},#{otherCode,jdbcType=VARCHAR},#{otherDesc,jdbcType=VARCHAR},
+      #{queryId,jdbcType=VARCHAR},#{origQryId,jdbcType=VARCHAR},#{settleAmt,jdbcType=VARCHAR},
+      #{settleCurrencyCode,jdbcType=VARCHAR},#{settleDate,jdbcType=VARCHAR})   
+  </insert>
+  
+  <select id="selectRefundId" resultMap="parkingRefundTradeMap" parameterType="com.parking.domain.ParkingRefundTrade">
+      select * from t_parking_refund_trade where REFUND_ID = #{refundId}
+  </select>
+  
+  <select id="selectRefundIdList" resultMap="parkingRefundTradeMap" parameterType="com.parking.domain.ParkingRefundTrade">
+      select * from t_parking_refund_trade where ORDER_ID=#{orderId}
+  </select>
+  
+  <update id="updateParkingRefund" parameterType="com.parking.domain.ParkingRefundTrade">
+  		UPDATE t_parking_refund_trade 
+  		set	
+  			<if test="otherLogonId!=null and otherLogonId!=''">OTHER_LOGON_ID=#{otherLogonId},</if>
+  			<if test="otherUserId!=null and otherUserId!=''">OTHER_USER_ID=#{otherUserId},</if>
+  			<if test="refundTime!=null and refundTime!=''">REFUND_TIME=#{refundTime},</if>	
+  			<if test="orderId!=null and orderId!=''">ORDER_ID=#{orderId},</if>
+  			<if test="refundSumFee!=null and refundSumFee!=''">REFUND_SUM_FEE=#{refundSumFee},</if>
+  			<if test="trueRefundFee!=null and trueRefundFee!=''">TRUE_REFUND_FEE=#{trueRefundFee},</if>
+  			<if test="otherTradeId!=null and otherTradeId!=''">OTHER_TRADE_ID=#{otherTradeId},</if>
+  			<if test="otherCode!=null and otherCode!=''">OTHER_CODE=#{otherCode},</if>
+  			<if test="otherDesc!=null and otherDesc!=''">OTHER_DESC=#{otherDesc},</if> 
+  			<if test="refundStatus!=null and refundStatus!=''">REFUND_STATUS =#{refundStatus},</if>
+  			<if test="otherRefundId!=null and otherRefundId!=''">OTHER_REFUND_ID =#{otherRefundId},</if>				
+		UPDATE_TIME = #{updateTime}
+		WHERE REFUND_ID = #{refundId}
+  </update>
+</mapper>

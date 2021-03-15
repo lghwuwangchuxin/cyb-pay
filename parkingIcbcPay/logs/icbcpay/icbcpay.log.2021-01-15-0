@@ -1,0 +1,388 @@
+2021-01-15 15:58:37.613	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4d704c9e: startup date [Fri Jan 15 15:58:37 CST 2021]; root of context hierarchy
+2021-01-15 15:58:37.800	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-15 15:58:37.844	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ab9daed6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-15 15:58:38.601	[restartedMain]	INFO 	com.parkingicbcpay.SpringDemoApplication	-	The following profiles are active: dev
+2021-01-15 15:58:38.622	[restartedMain]	INFO 	org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext	-	Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@bc4bfc2: startup date [Fri Jan 15 15:58:38 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4d704c9e
+2021-01-15 15:58:40.027	[restartedMain]	INFO 	org.springframework.beans.factory.support.DefaultListableBeanFactory	-	Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2021-01-15 15:58:40.249	[restartedMain]	INFO 	org.springframework.cloud.context.scope.GenericScope	-	BeanFactory id=5bb5223c-6834-3e27-a38e-189ed3abad2b
+2021-01-15 15:58:40.261	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-15 15:58:40.371	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f83abd9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-15 15:58:40.401	[restartedMain]	INFO 	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	-	Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ab9daed6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-15 15:58:40.898	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat initialized with port(s): 8096 (http)
+2021-01-15 15:58:40.917	[restartedMain]	INFO 	org.apache.catalina.core.StandardService	-	Starting service [Tomcat]
+2021-01-15 15:58:40.917	[restartedMain]	INFO 	org.apache.catalina.core.StandardEngine	-	Starting Servlet Engine: Apache Tomcat/8.5.31
+2021-01-15 15:58:40.921	[localhost-startStop-1]	INFO 	org.apache.catalina.core.AprLifecycleListener	-	The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;D:\apache-maven-3.6.3\bin;F:\Git\cmd;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\bin;D:/apache-zookeeper-3.6.2-bin/apache-zookeeper-3.6.2-bin\conf;C:\Users\zhf\AppData\Local\Microsoft\WindowsApps;;.]
+2021-01-15 15:58:41.051	[localhost-startStop-1]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring embedded WebApplicationContext
+2021-01-15 15:58:41.051	[localhost-startStop-1]	INFO 	org.springframework.web.context.ContextLoader	-	Root WebApplicationContext: initialization completed in 2429 ms
+2021-01-15 15:58:41.384	[localhost-startStop-1]	WARN 	com.netflix.config.sources.URLConfigurationSource	-	No URLs will be polled as dynamic configuration sources.
+2021-01-15 15:58:41.384	[localhost-startStop-1]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-15 15:58:41.395	[localhost-startStop-1]	INFO 	com.netflix.config.DynamicPropertyFactory	-	DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@436f6a1f
+2021-01-15 15:58:41.572	[localhost-startStop-1]	INFO 	org.springframework.aop.framework.CglibAopProxy	-	Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2021-01-15 15:58:43.720	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-15 15:58:43.720	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-15 15:58:43.720	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-01-15 15:58:43.721	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'requestContextFilter' to: [/*]
+2021-01-15 15:58:43.721	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'httpTraceFilter' to: [/*]
+2021-01-15 15:58:43.721	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.RegistrationBean	-	Filter errorPageFilter was not registered (disabled)
+2021-01-15 15:58:43.721	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.FilterRegistrationBean	-	Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2021-01-15 15:58:43.721	[localhost-startStop-1]	INFO 	org.springframework.boot.web.servlet.ServletRegistrationBean	-	Servlet dispatcherServlet mapped to [/]
+2021-01-15 15:58:44.010	[restartedMain]	INFO 	org.springframework.context.annotation.AnnotationConfigApplicationContext	-	Refreshing FeignContext-parkingPay: startup date [Fri Jan 15 15:58:44 CST 2021]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@bc4bfc2
+2021-01-15 15:58:44.030	[restartedMain]	INFO 	org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor	-	JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-15 15:58:44.228	[restartedMain]	WARN 	com.netflix.config.sources.URLConfigurationSource	-	No URLs will be polled as dynamic configuration sources.
+2021-01-15 15:58:44.239	[restartedMain]	INFO 	com.netflix.config.sources.URLConfigurationSource	-	To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-15 15:58:44.324	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-15 15:58:44.488	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter	-	Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@bc4bfc2: startup date [Fri Jan 15 15:58:38 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4d704c9e
+2021-01-15 15:58:44.542	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingicbcpay/getPreOrder],methods=[GET]}" onto public java.lang.String com.parkingicbcpay.controller.PrParkingIcbcPayController.getOrder(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-15 15:58:44.543	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingicbcpay/payNotifyResult],methods=[GET]}" onto public java.lang.String com.parkingicbcpay.controller.PrParkingIcbcPayController.payNotifyResult(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-15 15:58:44.543	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/parkingicbcpay/gw],methods=[GET]}" onto public java.lang.String com.parkingicbcpay.controller.PrParkingIcbcPayController.prparkingIcbc(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2021-01-15 15:58:44.546	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-15 15:58:44.546	[restartedMain]	INFO 	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping	-	Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-15 15:58:44.579	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-15 15:58:44.579	[restartedMain]	INFO 	org.springframework.web.servlet.handler.SimpleUrlHandlerMapping	-	Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-15 15:58:45.004	[restartedMain]	INFO 	org.springframework.ui.freemarker.SpringTemplateLoader	-	SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@bc4bfc2: startup date [Fri Jan 15 15:58:38 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4d704c9e] and template loader path [classpath:/templates/]
+2021-01-15 15:58:45.005	[restartedMain]	INFO 	org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer	-	ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2021-01-15 15:58:45.200	[restartedMain]	INFO 	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	-	LiveReload server is running on port 35729
+2021-01-15 15:58:45.349	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver	-	Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-15 15:58:45.361	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-15 15:58:45.363	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2021-01-15 15:58:45.363	[restartedMain]	INFO 	org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping	-	Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-15 15:58:45.418	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Registering beans for JMX exposure on startup
+2021-01-15 15:58:45.420	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-01-15 15:58:45.427	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'environmentManager' has been autodetected for JMX exposure
+2021-01-15 15:58:45.429	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'refreshScope' has been autodetected for JMX exposure
+2021-01-15 15:58:45.430	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2021-01-15 15:58:45.433	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2021-01-15 15:58:45.442	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2021-01-15 15:58:45.453	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=bc4bfc2,type=ConfigurationPropertiesRebinder]
+2021-01-15 15:58:45.458	[restartedMain]	INFO 	org.springframework.jmx.export.annotation.AnnotationMBeanExporter	-	Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-01-15 15:58:45.464	[restartedMain]	INFO 	org.springframework.context.support.DefaultLifecycleProcessor	-	Starting beans in phase 0
+2021-01-15 15:58:45.472	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.InstanceInfoFactory	-	Setting initial instance status as: STARTING
+2021-01-15 15:58:45.510	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Initializing Eureka in region us-east-1
+2021-01-15 15:58:46.074	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON encoding codec LegacyJacksonJson
+2021-01-15 15:58:46.074	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using JSON decoding codec LegacyJacksonJson
+2021-01-15 15:58:46.184	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML encoding codec XStreamXml
+2021-01-15 15:58:46.184	[restartedMain]	INFO 	com.netflix.discovery.provider.DiscoveryJerseyProvider	-	Using XML decoding codec XStreamXml
+2021-01-15 15:58:46.399	[restartedMain]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 15:58:46.814	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Disable delta property : false
+2021-01-15 15:58:46.814	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Single vip registry refresh property : null
+2021-01-15 15:58:46.815	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Force full registry fetch : false
+2021-01-15 15:58:46.815	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application is null : false
+2021-01-15 15:58:46.815	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Registered Applications size is zero : true
+2021-01-15 15:58:46.815	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Application version is -1: true
+2021-01-15 15:58:46.815	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Getting all instance registry info from the eureka server
+2021-01-15 15:58:46.993	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	The response status is 200
+2021-01-15 15:58:46.997	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Starting heartbeat executor: renew interval is: 10
+2021-01-15 15:58:47.000	[restartedMain]	INFO 	com.netflix.discovery.InstanceInfoReplicator	-	InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-15 15:58:47.004	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Discovery Client initialized at timestamp 1610697527003 with initial instances count: 1
+2021-01-15 15:58:47.008	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry	-	Registering application parkingicbcpay with eureka with status UP
+2021-01-15 15:58:47.009	[restartedMain]	INFO 	com.netflix.discovery.DiscoveryClient	-	Saw local status change event StatusChangeEvent [timestamp=1610697527009, current=UP, previous=STARTING]
+2021-01-15 15:58:47.011	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGICBCPAY/192.168.43.38:parkingicbcpay:8096: registering service...
+2021-01-15 15:58:47.047	[DiscoveryClient-InstanceInfoReplicator-0]	INFO 	com.netflix.discovery.DiscoveryClient	-	DiscoveryClient_PARKINGICBCPAY/192.168.43.38:parkingicbcpay:8096 - registration status: 204
+2021-01-15 15:58:47.059	[restartedMain]	INFO 	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	-	Tomcat started on port(s): 8096 (http) with context path ''
+2021-01-15 15:58:47.061	[restartedMain]	INFO 	org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration	-	Updating port to 8096
+2021-01-15 15:58:47.064	[restartedMain]	INFO 	com.parkingicbcpay.SpringDemoApplication	-	Started SpringDemoApplication in 10.667 seconds (JVM running for 12.066)
+2021-01-15 15:58:47.573	[RMI TCP Connection(6)-192.168.43.38]	INFO 	org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]	-	Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-15 15:58:47.573	[RMI TCP Connection(6)-192.168.43.38]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-15 15:58:47.580	[RMI TCP Connection(5)-192.168.43.38]	INFO 	com.zaxxer.hikari.HikariDataSource	-	HikariPool-1 - Starting...
+2021-01-15 15:58:47.593	[RMI TCP Connection(6)-192.168.43.38]	INFO 	org.springframework.web.servlet.DispatcherServlet	-	FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2021-01-15 15:58:48.576	[RMI TCP Connection(5)-192.168.43.38]	INFO 	com.zaxxer.hikari.HikariDataSource	-	HikariPool-1 - Start completed.
+2021-01-15 16:02:19.953	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-15 16:02:19.953	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101150000000019">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2021-01-14 16:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2021-01-14 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-15 16:02:19.954	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-15 16:02:19.954	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101150000000019">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2021-01-14 16:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2021-01-14 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-15 16:02:19.981	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbch5pre]
+2021-01-15 16:02:20.021	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	进入工行提前付或扫码付
+2021-01-15 16:02:20.023	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求参数：{secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, appKey=HMPxcXbb0pD46U7, parkCode=2013, orderId=PL2101150000000019, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2021-01-14 12:37:16, endTime=2021-01-14 16:18:56, duration=3小时}
+2021-01-15 16:02:20.026	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/payment?noncestr=1cae3921-c3b2-4e6e-bf15-411d90afb4ea&timestamp=1610697740&&sign=2AD4D0C9214C2E344D4BC9075AC71FBD86D0DACD，数据为：{parkCode=2013, orderId=PL2101150000000019, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2021-01-14 12:37:16, endTime=2021-01-14 16:18:56, duration=3小时}
+2021-01-15 16:02:20.705	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求结果：{"data":{"value":"<form name=\"auto_submit_form\" method=\"post\" action=\"https://gw.open.icbc.com.cn/ui/aggregate/payment/request/V2?charset=UTF-8&encrypt_type=AES&format=json&sign=C1Xz1rFm6AMkj2Ix7pxSeB4YxAi4LZaULSSLXcrmyLK3Z8B9ktb6DhcNRrVnS4R0cSveIknMJKuGPApdKTokS2h2dl8K9wqaD7Ziwe8IMmBwi%2FBY0DgJdUvZdfbcCYBwiQU9I0OrcbCyqD%2FMAGZiSWDlPhljdpeDKMHdRXW8sIqxTWxyYUY5BVo%2FRuuBn%2FejQFvJjPmRgmTOgso%2BGJZ0g35SYZSX9Bns%2FJ93VlFBE%2FAqJTXF1mWjqbZ5%2B61l9yMwOpzVsc6vWwiViD9xSBFz9JF%2Fsxd4yRk2v6dAqVAd3KYSHzd2rd7%2Ff%2F5FlFA1PZnp%2BKD2rn7ld5ZhNKCmslZT3Q%3D%3D&msg_id=05bd4823fb0740bfb3d08b47fa3653fa&app_id=10000000000003170745&sign_type=RSA2&timestamp=2021-01-15+16%3A02%3A20\">\n<input type=\"hidden\" name=\"biz_content\" value=\"CJs+5zPUmXce9KZU8pJ9+bCDWPmWEdt9y5X9/XEYeyE7YZdzZGJVGGKE7daardGX1ZSa2+1hgR0huuXsgJ15be7/iXcTgAUJ1blve4jvSdA8P+LOWn7YVcC0aZVLDE0C+xJWcLWHN4qQLoc5W64su4ZQk7QmYn1PfwTk1ZNaBhQj7+4a9PM5iUbCeKHT2nPxuEGpbN06unSIv7lEg9NzG+7cgAyDdRzLnEcjn/4UjjbAe12Z8Ug9GlDn5l0lEd/pABnglY2qEnN0+34ecaVrQRWgF0a3LF4Q5NHhNWPAC6VjRo3buicspAkSMDa4Fwg1jHhoQ8Hnjr/J/k/MbsCvJb6WPuoXejREztwqdlMlqDy6nkjWXg2BWk3h/AW/taX90veqq0SwvA74uKx+xS07lvNa39j8vpBqC0xOfXn3qDRL49WYCd+5XvCdR3eQitrz5Mr6aUCqIy4/kBsHDpZSrnzsTECaa8HPIaahUDrjbQhr2bWtDwaJDV87hbhovySXs+4NPrlVxMcI38mgeUuHDjXRGAfb5ImfJgA0aAVeVpDSIsFDV6Osmgy29K+eJAsAD5jxgmg3yQsP/19Pn2uHtQMMCF8GY6hP3NtHHe4Rs2mLT+Kyjfo+IzfWOH4akyXIDxW0N7U4c0zwLPhzOg03SaHNKciw8RPEHxTCszkEMO42ye5WY2UQiQ1JQJWpU9EzkThZJXwcdw1yb9uId90Vib9ictiNmLcEu4CYqcfe7WGtRUnQvvZpC/eHAG2nzh1FtyTpipH0yD9NvX8PjplTyysDpKHX0fP2+EZkJLCV428=\">\n<input type=\"submit\" value=\"立刻提交\" style=\"display:none\" >\n</form>\n<script>document.forms[0].submit();</script>"},"messagecode":0,"status":"ok"}
+2021-01-15 16:02:20.710	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	解析返回data-value内容：<form name="auto_submit_form" method="post" action="https://gw.open.icbc.com.cn/ui/aggregate/payment/request/V2?charset=UTF-8&encrypt_type=AES&format=json&sign=C1Xz1rFm6AMkj2Ix7pxSeB4YxAi4LZaULSSLXcrmyLK3Z8B9ktb6DhcNRrVnS4R0cSveIknMJKuGPApdKTokS2h2dl8K9wqaD7Ziwe8IMmBwi%2FBY0DgJdUvZdfbcCYBwiQU9I0OrcbCyqD%2FMAGZiSWDlPhljdpeDKMHdRXW8sIqxTWxyYUY5BVo%2FRuuBn%2FejQFvJjPmRgmTOgso%2BGJZ0g35SYZSX9Bns%2FJ93VlFBE%2FAqJTXF1mWjqbZ5%2B61l9yMwOpzVsc6vWwiViD9xSBFz9JF%2Fsxd4yRk2v6dAqVAd3KYSHzd2rd7%2Ff%2F5FlFA1PZnp%2BKD2rn7ld5ZhNKCmslZT3Q%3D%3D&msg_id=05bd4823fb0740bfb3d08b47fa3653fa&app_id=10000000000003170745&sign_type=RSA2&timestamp=2021-01-15+16%3A02%3A20">
+<input type="hidden" name="biz_content" value="CJs+5zPUmXce9KZU8pJ9+bCDWPmWEdt9y5X9/XEYeyE7YZdzZGJVGGKE7daardGX1ZSa2+1hgR0huuXsgJ15be7/iXcTgAUJ1blve4jvSdA8P+LOWn7YVcC0aZVLDE0C+xJWcLWHN4qQLoc5W64su4ZQk7QmYn1PfwTk1ZNaBhQj7+4a9PM5iUbCeKHT2nPxuEGpbN06unSIv7lEg9NzG+7cgAyDdRzLnEcjn/4UjjbAe12Z8Ug9GlDn5l0lEd/pABnglY2qEnN0+34ecaVrQRWgF0a3LF4Q5NHhNWPAC6VjRo3buicspAkSMDa4Fwg1jHhoQ8Hnjr/J/k/MbsCvJb6WPuoXejREztwqdlMlqDy6nkjWXg2BWk3h/AW/taX90veqq0SwvA74uKx+xS07lvNa39j8vpBqC0xOfXn3qDRL49WYCd+5XvCdR3eQitrz5Mr6aUCqIy4/kBsHDpZSrnzsTECaa8HPIaahUDrjbQhr2bWtDwaJDV87hbhovySXs+4NPrlVxMcI38mgeUuHDjXRGAfb5ImfJgA0aAVeVpDSIsFDV6Osmgy29K+eJAsAD5jxgmg3yQsP/19Pn2uHtQMMCF8GY6hP3NtHHe4Rs2mLT+Kyjfo+IzfWOH4akyXIDxW0N7U4c0zwLPhzOg03SaHNKciw8RPEHxTCszkEMO42ye5WY2UQiQ1JQJWpU9EzkThZJXwcdw1yb9uId90Vib9ictiNmLcEu4CYqcfe7WGtRUnQvvZpC/eHAG2nzh1FtyTpipH0yD9NvX8PjplTyysDpKHX0fP2+EZkJLCV428=">
+<input type="submit" value="立刻提交" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+2021-01-15 16:02:20.727	[http-nio-8096-exec-1]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbch5pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="000000" respDesc="下单成功">
+    <data>&lt;form name="auto_submit_form" method="post" action="https://gw.open.icbc.com.cn/ui/aggregate/payment/request/V2?charset=UTF-8&amp;encrypt_type=AES&amp;format=json&amp;sign=C1Xz1rFm6AMkj2Ix7pxSeB4YxAi4LZaULSSLXcrmyLK3Z8B9ktb6DhcNRrVnS4R0cSveIknMJKuGPApdKTokS2h2dl8K9wqaD7Ziwe8IMmBwi%2FBY0DgJdUvZdfbcCYBwiQU9I0OrcbCyqD%2FMAGZiSWDlPhljdpeDKMHdRXW8sIqxTWxyYUY5BVo%2FRuuBn%2FejQFvJjPmRgmTOgso%2BGJZ0g35SYZSX9Bns%2FJ93VlFBE%2FAqJTXF1mWjqbZ5%2B61l9yMwOpzVsc6vWwiViD9xSBFz9JF%2Fsxd4yRk2v6dAqVAd3KYSHzd2rd7%2Ff%2F5FlFA1PZnp%2BKD2rn7ld5ZhNKCmslZT3Q%3D%3D&amp;msg_id=05bd4823fb0740bfb3d08b47fa3653fa&amp;app_id=10000000000003170745&amp;sign_type=RSA2&amp;timestamp=2021-01-15+16%3A02%3A20"&gt;
+&lt;input type="hidden" name="biz_content" value="CJs+5zPUmXce9KZU8pJ9+bCDWPmWEdt9y5X9/XEYeyE7YZdzZGJVGGKE7daardGX1ZSa2+1hgR0huuXsgJ15be7/iXcTgAUJ1blve4jvSdA8P+LOWn7YVcC0aZVLDE0C+xJWcLWHN4qQLoc5W64su4ZQk7QmYn1PfwTk1ZNaBhQj7+4a9PM5iUbCeKHT2nPxuEGpbN06unSIv7lEg9NzG+7cgAyDdRzLnEcjn/4UjjbAe12Z8Ug9GlDn5l0lEd/pABnglY2qEnN0+34ecaVrQRWgF0a3LF4Q5NHhNWPAC6VjRo3buicspAkSMDa4Fwg1jHhoQ8Hnjr/J/k/MbsCvJb6WPuoXejREztwqdlMlqDy6nkjWXg2BWk3h/AW/taX90veqq0SwvA74uKx+xS07lvNa39j8vpBqC0xOfXn3qDRL49WYCd+5XvCdR3eQitrz5Mr6aUCqIy4/kBsHDpZSrnzsTECaa8HPIaahUDrjbQhr2bWtDwaJDV87hbhovySXs+4NPrlVxMcI38mgeUuHDjXRGAfb5ImfJgA0aAVeVpDSIsFDV6Osmgy29K+eJAsAD5jxgmg3yQsP/19Pn2uHtQMMCF8GY6hP3NtHHe4Rs2mLT+Kyjfo+IzfWOH4akyXIDxW0N7U4c0zwLPhzOg03SaHNKciw8RPEHxTCszkEMO42ye5WY2UQiQ1JQJWpU9EzkThZJXwcdw1yb9uId90Vib9ictiNmLcEu4CYqcfe7WGtRUnQvvZpC/eHAG2nzh1FtyTpipH0yD9NvX8PjplTyysDpKHX0fP2+EZkJLCV428="&gt;
+&lt;input type="submit" value="立刻提交" style="display:none" &gt;
+&lt;/form&gt;
+&lt;script&gt;document.forms[0].submit();&lt;/script&gt;</data>
+</msg>
+
+2021-01-15 16:02:21.056	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-15 16:02:21.057	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg tradeId="PL2101150000000019">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-15 16:02:21.057	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-15 16:02:21.057	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg tradeId="PL2101150000000019">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-15 16:02:21.058	[http-nio-8096-exec-2]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[null]
+2021-01-15 16:03:46.818	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 16:08:46.820	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 16:13:46.821	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 16:18:46.822	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 16:23:46.824	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 16:28:46.825	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 16:33:46.827	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 16:38:46.829	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 16:43:46.830	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 16:44:18.456	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-15 16:44:18.457	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101150000000020">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2021-01-15 16:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2021-01-15 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-15 16:44:18.457	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-15 16:44:18.457	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101150000000020">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2021-01-15 16:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2021-01-15 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-15 16:44:18.458	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbch5pre]
+2021-01-15 16:44:18.466	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	进入工行提前付或扫码付
+2021-01-15 16:44:18.466	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求参数：{secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, appKey=HMPxcXbb0pD46U7, parkCode=2013, orderId=PL2101150000000020, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2021-01-15 12:37:16, endTime=2021-01-15 16:18:56, duration=3小时}
+2021-01-15 16:44:18.466	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/payment?noncestr=c53c2007-1085-41e3-af05-8c05dda0af9d&timestamp=1610700258&&sign=FC35C4966FF2DD8FBD78AF03D5397C2500A9857A，数据为：{parkCode=2013, orderId=PL2101150000000020, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2021-01-15 12:37:16, endTime=2021-01-15 16:18:56, duration=3小时}
+2021-01-15 16:44:19.222	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求结果：{"data":{"value":"<form name=\"auto_submit_form\" method=\"post\" action=\"https://gw.open.icbc.com.cn/ui/aggregate/payment/request/V2?charset=UTF-8&encrypt_type=AES&format=json&sign=oUKXds3vTstqOcOxK2HaowsammO1VZjc%2FLkaocTcafBZZZwlIoTRISijDR4kt0i1HQd7ThHxbbQspLqHiGUIt3XBDk15kESgouIZ40jQ6Xrw2H1qUkRYlGBULPo2Lx%2BDKeAP%2Bp5zxl8gK0cD2yTscULD2pAaVuSCxZX5%2FKgNDr68P8pc0fpDfDEOMQweh9qJIR1eLcZA3jZzV9NG4bYFU782s0c2LhnducQl4lQ10MjvlJtg6cYqs3%2BiicEImv0jg7KYlv617diKFyLcqf3%2BWk5CBUrZa4pfH2Q6x0J6eyBE4bmKP%2FdcGeEw9Kd120rRewaCJQogqjoMCh8ZC4GErg%3D%3D&msg_id=0ae803d8f43147d9a00f8bc55bc9dd64&app_id=10000000000003170745&sign_type=RSA2&timestamp=2021-01-15+16%3A44%3A19\">\n<input type=\"hidden\" name=\"biz_content\" value=\"CJs+5zPUmXce9KZU8pJ9+WKcbqj7xsrU67mv83cglz9UzMxiQODaoNID3knPjFAre2DI3AtoyJSrzfEWx8jT9HA07x+S2DZREd0zfyZS+gctLQsfmRumSafN+S4cnNP+bbzjiDBS/eja1ZKwyYzZKQJ8gD6+51+ox9S+96iQjdyoGOrcvgZ70zaFcivyhO3rEIznEKo5r/uc72rxRSvthRKrdNYMlYnlyY9CYbacPfLQOlCCsV+P4bFBS2Q2uE/C5EBSwmcKvo12XWytsyB8wdG0qfmcrDi/q6c4qbDGu1Q3IpNSmlT7eZXis18grzbITwAcKQV4vb28BinhuBwdImKTXZHYrlxIJ8uWsWqMNG1aa5cmeyICfvD7L61xaSy7RSOkXZU8459au8DNRjAHXR+4I6J+BpC20rrYMF0I6/DFqq24HWcXupJaqycHLLC01X/Mcbu8aJtwtm5XxrDUVmnt2IB30SY/kl0Tr+0wJlOMhGHQ8vwmuXB5ADT+3RjMH6zejuKgClha3teH0KCtoBb7Ngl4ApgP00poG8YJ/QRBGfvE6U1U7dtTA2Kam4RgqGh6VZ2FbppLR56LvxMY9wItxQ2ItZs1Y3SdWMVen9uCsILuttKoFHPzpUT5XYDnxbsGeb2JMGrTgPeRKs9szVLEJE4VQ6SivqzbJztoANjz3Y6dW9/QSb7xwjEMptveGGaMr5gnMppt3d43Z8mfaGcARDc1hMJC9+9juEY7v45IrCaTjrk1TNSeZRvVJKTrhRKt3fZSEbjc6NON19neUXsb9Y0viGBwg328qID6fkE=\">\n<input type=\"submit\" value=\"立刻提交\" style=\"display:none\" >\n</form>\n<script>document.forms[0].submit();</script>"},"messagecode":0,"status":"ok"}
+2021-01-15 16:44:19.223	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	解析返回data-value内容：<form name="auto_submit_form" method="post" action="https://gw.open.icbc.com.cn/ui/aggregate/payment/request/V2?charset=UTF-8&encrypt_type=AES&format=json&sign=oUKXds3vTstqOcOxK2HaowsammO1VZjc%2FLkaocTcafBZZZwlIoTRISijDR4kt0i1HQd7ThHxbbQspLqHiGUIt3XBDk15kESgouIZ40jQ6Xrw2H1qUkRYlGBULPo2Lx%2BDKeAP%2Bp5zxl8gK0cD2yTscULD2pAaVuSCxZX5%2FKgNDr68P8pc0fpDfDEOMQweh9qJIR1eLcZA3jZzV9NG4bYFU782s0c2LhnducQl4lQ10MjvlJtg6cYqs3%2BiicEImv0jg7KYlv617diKFyLcqf3%2BWk5CBUrZa4pfH2Q6x0J6eyBE4bmKP%2FdcGeEw9Kd120rRewaCJQogqjoMCh8ZC4GErg%3D%3D&msg_id=0ae803d8f43147d9a00f8bc55bc9dd64&app_id=10000000000003170745&sign_type=RSA2&timestamp=2021-01-15+16%3A44%3A19">
+<input type="hidden" name="biz_content" value="CJs+5zPUmXce9KZU8pJ9+WKcbqj7xsrU67mv83cglz9UzMxiQODaoNID3knPjFAre2DI3AtoyJSrzfEWx8jT9HA07x+S2DZREd0zfyZS+gctLQsfmRumSafN+S4cnNP+bbzjiDBS/eja1ZKwyYzZKQJ8gD6+51+ox9S+96iQjdyoGOrcvgZ70zaFcivyhO3rEIznEKo5r/uc72rxRSvthRKrdNYMlYnlyY9CYbacPfLQOlCCsV+P4bFBS2Q2uE/C5EBSwmcKvo12XWytsyB8wdG0qfmcrDi/q6c4qbDGu1Q3IpNSmlT7eZXis18grzbITwAcKQV4vb28BinhuBwdImKTXZHYrlxIJ8uWsWqMNG1aa5cmeyICfvD7L61xaSy7RSOkXZU8459au8DNRjAHXR+4I6J+BpC20rrYMF0I6/DFqq24HWcXupJaqycHLLC01X/Mcbu8aJtwtm5XxrDUVmnt2IB30SY/kl0Tr+0wJlOMhGHQ8vwmuXB5ADT+3RjMH6zejuKgClha3teH0KCtoBb7Ngl4ApgP00poG8YJ/QRBGfvE6U1U7dtTA2Kam4RgqGh6VZ2FbppLR56LvxMY9wItxQ2ItZs1Y3SdWMVen9uCsILuttKoFHPzpUT5XYDnxbsGeb2JMGrTgPeRKs9szVLEJE4VQ6SivqzbJztoANjz3Y6dW9/QSb7xwjEMptveGGaMr5gnMppt3d43Z8mfaGcARDc1hMJC9+9juEY7v45IrCaTjrk1TNSeZRvVJKTrhRKt3fZSEbjc6NON19neUXsb9Y0viGBwg328qID6fkE=">
+<input type="submit" value="立刻提交" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+2021-01-15 16:44:19.225	[http-nio-8096-exec-4]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbch5pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="000000" respDesc="下单成功">
+    <data>&lt;form name="auto_submit_form" method="post" action="https://gw.open.icbc.com.cn/ui/aggregate/payment/request/V2?charset=UTF-8&amp;encrypt_type=AES&amp;format=json&amp;sign=oUKXds3vTstqOcOxK2HaowsammO1VZjc%2FLkaocTcafBZZZwlIoTRISijDR4kt0i1HQd7ThHxbbQspLqHiGUIt3XBDk15kESgouIZ40jQ6Xrw2H1qUkRYlGBULPo2Lx%2BDKeAP%2Bp5zxl8gK0cD2yTscULD2pAaVuSCxZX5%2FKgNDr68P8pc0fpDfDEOMQweh9qJIR1eLcZA3jZzV9NG4bYFU782s0c2LhnducQl4lQ10MjvlJtg6cYqs3%2BiicEImv0jg7KYlv617diKFyLcqf3%2BWk5CBUrZa4pfH2Q6x0J6eyBE4bmKP%2FdcGeEw9Kd120rRewaCJQogqjoMCh8ZC4GErg%3D%3D&amp;msg_id=0ae803d8f43147d9a00f8bc55bc9dd64&amp;app_id=10000000000003170745&amp;sign_type=RSA2&amp;timestamp=2021-01-15+16%3A44%3A19"&gt;
+&lt;input type="hidden" name="biz_content" value="CJs+5zPUmXce9KZU8pJ9+WKcbqj7xsrU67mv83cglz9UzMxiQODaoNID3knPjFAre2DI3AtoyJSrzfEWx8jT9HA07x+S2DZREd0zfyZS+gctLQsfmRumSafN+S4cnNP+bbzjiDBS/eja1ZKwyYzZKQJ8gD6+51+ox9S+96iQjdyoGOrcvgZ70zaFcivyhO3rEIznEKo5r/uc72rxRSvthRKrdNYMlYnlyY9CYbacPfLQOlCCsV+P4bFBS2Q2uE/C5EBSwmcKvo12XWytsyB8wdG0qfmcrDi/q6c4qbDGu1Q3IpNSmlT7eZXis18grzbITwAcKQV4vb28BinhuBwdImKTXZHYrlxIJ8uWsWqMNG1aa5cmeyICfvD7L61xaSy7RSOkXZU8459au8DNRjAHXR+4I6J+BpC20rrYMF0I6/DFqq24HWcXupJaqycHLLC01X/Mcbu8aJtwtm5XxrDUVmnt2IB30SY/kl0Tr+0wJlOMhGHQ8vwmuXB5ADT+3RjMH6zejuKgClha3teH0KCtoBb7Ngl4ApgP00poG8YJ/QRBGfvE6U1U7dtTA2Kam4RgqGh6VZ2FbppLR56LvxMY9wItxQ2ItZs1Y3SdWMVen9uCsILuttKoFHPzpUT5XYDnxbsGeb2JMGrTgPeRKs9szVLEJE4VQ6SivqzbJztoANjz3Y6dW9/QSb7xwjEMptveGGaMr5gnMppt3d43Z8mfaGcARDc1hMJC9+9juEY7v45IrCaTjrk1TNSeZRvVJKTrhRKt3fZSEbjc6NON19neUXsb9Y0viGBwg328qID6fkE="&gt;
+&lt;input type="submit" value="立刻提交" style="display:none" &gt;
+&lt;/form&gt;
+&lt;script&gt;document.forms[0].submit();&lt;/script&gt;</data>
+</msg>
+
+2021-01-15 16:44:19.465	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-15 16:44:19.465	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg tradeId="PL2101150000000020">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-15 16:44:19.465	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-15 16:44:19.465	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg tradeId="PL2101150000000020">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-15 16:44:19.466	[http-nio-8096-exec-5]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[null]
+2021-01-15 16:47:45.633	[http-nio-8096-exec-7]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-15 16:47:45.634	[http-nio-8096-exec-7]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101150000000021">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2021-01-15 16:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2021-01-15 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-15 16:47:45.634	[http-nio-8096-exec-7]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-15 16:47:45.634	[http-nio-8096-exec-7]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg service="icbch5pre" tradeId="PL2101150000000021">
+    <plateNumber>贵Q11333</plateNumber>
+    <endTime>2021-01-15 16:18:56</endTime>
+    <billing>1</billing>
+    <parkingId>2013</parkingId>
+    <plateType>02</plateType>
+    <returnUrl>http://S4.eparking.top/parkingicbcpay/paySuccess.html</returnUrl>
+    <startTime>2021-01-15 12:37:16</startTime>
+    <preUrl>https://guizhou.icbc.com.cn/api/v1/aggregate/payment</preUrl>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-15 16:47:45.635	[http-nio-8096-exec-7]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[icbch5pre]
+2021-01-15 16:47:45.641	[http-nio-8096-exec-7]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	进入工行提前付或扫码付
+2021-01-15 16:47:45.641	[http-nio-8096-exec-7]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求参数：{secretKey=1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3, appKey=HMPxcXbb0pD46U7, parkCode=2013, orderId=PL2101150000000021, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2021-01-15 12:37:16, endTime=2021-01-15 16:18:56, duration=3小时}
+2021-01-15 16:47:45.642	[http-nio-8096-exec-7]	INFO 	com.parkingicbcpay.util.EJTRequest	-	发送到工行平台的url地址为：https://guizhou.icbc.com.cn/api/v1/aggregate/payment?noncestr=a194e39e-1247-47ea-881b-7b2da5d4f351&timestamp=1610700465&&sign=4DF8C46DD797249788FE7993DC89A984EBC5BA47，数据为：{parkCode=2013, orderId=PL2101150000000021, amount=1, redirectUrl=http://S4.eparking.top/parkingicbcpay/paySuccess.html, plateNumber=贵Q11333, plateType=02, startTime=2021-01-15 12:37:16, endTime=2021-01-15 16:18:56, duration=3小时}
+2021-01-15 16:47:46.211	[http-nio-8096-exec-7]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	扫码付/提前付请求结果：{"data":{"value":"<form name=\"auto_submit_form\" method=\"post\" action=\"https://gw.open.icbc.com.cn/ui/aggregate/payment/request/V2?charset=UTF-8&encrypt_type=AES&format=json&sign=ihxgAYKlHFghEtFFkGwscqf5gq%2FM6arcZI1V8K9Fn4FghCWFAo6jLIYBsQCgSj2P1Lnb%2Fou2RjBd%2FVL2SNIHwtNLG62UOKXSC5ehN1UyTcbBz6e5sRPKBEn4xRPOhukZ4m2sMQ0YFShtRTtrqqzyKGIZUz84JneebMPpgYJEK4jYaCFEJjy7CfhlnXC238NwhtHVinaGcWDeADYNSc5IHn4vSMeD8%2FvEW8unD8agvu5YxoymJ7v33FNaBu%2BFICjVoEyxlckZC1Yml6%2BWuLcBUs9meZl9Rv7U5D%2FLd3sloVfrJYivY5fJLU77%2BAtGslAa7Zx%2BlQ%2F%2B8oqfarSmQn4VtQ%3D%3D&msg_id=42ee4797803848fc8093288a5710a868&app_id=10000000000003170745&sign_type=RSA2&timestamp=2021-01-15+16%3A47%3A46\">\n<input type=\"hidden\" name=\"biz_content\" value=\"CJs+5zPUmXce9KZU8pJ9+RT97N9HlD6lNdFOHlpquWhSVa49TMKrX3u9PgS77nrIaH/U3lJfwm56/2xWOAY9l6Q4cwsJz9xVty1Qg9J26/4iuLKmwASDL38NvdWcRDHitI/1KBsZosgi1nXMcSfHi+RHF/G19Pg71jazK/idNYTKxWEA70aIq3zt/XR64u4FyJ4q3Btfxdafa3uTrViIOoh0aeGrrhQzvXsHBZHIsNwBur4LfmTc+iqyJOqMO4PmM+T+TXx04LdIspDmKHBmhqUVIkzxOqseYJg0VbEO8yY1ba1wibm9apWavvkppxi2LN5o+SbKvUzSx7BEpJae4UlzeZ48JJtl9y4hAz+D8vcbOznVLnIXn0bpC8Ajhu1ykuKy2mxIG/mFpUL6PR4k3SzkG4O5ticCpZBsBeovDJyWaYGgAs+mDSLy/GT6qK6qg3w1UKXaut8ZvDzVn6Uvn+0EIrPIbfp/EsUmNf+JZkLMfyxavl3XUKH69IGyrsy/IwWhbLQMqUvOKY+puO44cvvF1cmmQVQohkAoNVHDPPi1ieIgK80AbZCHfdImReXfms0wZc4CVO9/nsPXaa3iBHLiIEiolJQgupCfeljkASGXsuTE9o6l/ZwIIKSfLpp4nHTIiGXpCXDUPvXEI1vDVETqOZclexf/I8rAmzmff4wgHAJc3U/U0Tz2vGvOj8y3zY8FsQoR/MI84A11DZ3t8uj1S22+L5uxu0aEvRJryvGA8oHWFikuiJf7cCXIKMwKoNfnSuU5LPTjTxwY+xY9n0vpf7jaHbKGt9fgUp8eRFU=\">\n<input type=\"submit\" value=\"立刻提交\" style=\"display:none\" >\n</form>\n<script>document.forms[0].submit();</script>"},"messagecode":0,"status":"ok"}
+2021-01-15 16:47:46.211	[http-nio-8096-exec-7]	INFO 	com.parkingicbcpay.service.impl.EntranceExitNoticeServiceImpl	-	解析返回data-value内容：<form name="auto_submit_form" method="post" action="https://gw.open.icbc.com.cn/ui/aggregate/payment/request/V2?charset=UTF-8&encrypt_type=AES&format=json&sign=ihxgAYKlHFghEtFFkGwscqf5gq%2FM6arcZI1V8K9Fn4FghCWFAo6jLIYBsQCgSj2P1Lnb%2Fou2RjBd%2FVL2SNIHwtNLG62UOKXSC5ehN1UyTcbBz6e5sRPKBEn4xRPOhukZ4m2sMQ0YFShtRTtrqqzyKGIZUz84JneebMPpgYJEK4jYaCFEJjy7CfhlnXC238NwhtHVinaGcWDeADYNSc5IHn4vSMeD8%2FvEW8unD8agvu5YxoymJ7v33FNaBu%2BFICjVoEyxlckZC1Yml6%2BWuLcBUs9meZl9Rv7U5D%2FLd3sloVfrJYivY5fJLU77%2BAtGslAa7Zx%2BlQ%2F%2B8oqfarSmQn4VtQ%3D%3D&msg_id=42ee4797803848fc8093288a5710a868&app_id=10000000000003170745&sign_type=RSA2&timestamp=2021-01-15+16%3A47%3A46">
+<input type="hidden" name="biz_content" value="CJs+5zPUmXce9KZU8pJ9+RT97N9HlD6lNdFOHlpquWhSVa49TMKrX3u9PgS77nrIaH/U3lJfwm56/2xWOAY9l6Q4cwsJz9xVty1Qg9J26/4iuLKmwASDL38NvdWcRDHitI/1KBsZosgi1nXMcSfHi+RHF/G19Pg71jazK/idNYTKxWEA70aIq3zt/XR64u4FyJ4q3Btfxdafa3uTrViIOoh0aeGrrhQzvXsHBZHIsNwBur4LfmTc+iqyJOqMO4PmM+T+TXx04LdIspDmKHBmhqUVIkzxOqseYJg0VbEO8yY1ba1wibm9apWavvkppxi2LN5o+SbKvUzSx7BEpJae4UlzeZ48JJtl9y4hAz+D8vcbOznVLnIXn0bpC8Ajhu1ykuKy2mxIG/mFpUL6PR4k3SzkG4O5ticCpZBsBeovDJyWaYGgAs+mDSLy/GT6qK6qg3w1UKXaut8ZvDzVn6Uvn+0EIrPIbfp/EsUmNf+JZkLMfyxavl3XUKH69IGyrsy/IwWhbLQMqUvOKY+puO44cvvF1cmmQVQohkAoNVHDPPi1ieIgK80AbZCHfdImReXfms0wZc4CVO9/nsPXaa3iBHLiIEiolJQgupCfeljkASGXsuTE9o6l/ZwIIKSfLpp4nHTIiGXpCXDUPvXEI1vDVETqOZclexf/I8rAmzmff4wgHAJc3U/U0Tz2vGvOj8y3zY8FsQoR/MI84A11DZ3t8uj1S22+L5uxu0aEvRJryvGA8oHWFikuiJf7cCXIKMwKoNfnSuU5LPTjTxwY+xY9n0vpf7jaHbKGt9fgUp8eRFU=">
+<input type="submit" value="立刻提交" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+2021-01-15 16:47:46.215	[http-nio-8096-exec-7]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	调用服务[icbch5pre]返回：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg respCode="000000" respDesc="下单成功">
+    <data>&lt;form name="auto_submit_form" method="post" action="https://gw.open.icbc.com.cn/ui/aggregate/payment/request/V2?charset=UTF-8&amp;encrypt_type=AES&amp;format=json&amp;sign=ihxgAYKlHFghEtFFkGwscqf5gq%2FM6arcZI1V8K9Fn4FghCWFAo6jLIYBsQCgSj2P1Lnb%2Fou2RjBd%2FVL2SNIHwtNLG62UOKXSC5ehN1UyTcbBz6e5sRPKBEn4xRPOhukZ4m2sMQ0YFShtRTtrqqzyKGIZUz84JneebMPpgYJEK4jYaCFEJjy7CfhlnXC238NwhtHVinaGcWDeADYNSc5IHn4vSMeD8%2FvEW8unD8agvu5YxoymJ7v33FNaBu%2BFICjVoEyxlckZC1Yml6%2BWuLcBUs9meZl9Rv7U5D%2FLd3sloVfrJYivY5fJLU77%2BAtGslAa7Zx%2BlQ%2F%2B8oqfarSmQn4VtQ%3D%3D&amp;msg_id=42ee4797803848fc8093288a5710a868&amp;app_id=10000000000003170745&amp;sign_type=RSA2&amp;timestamp=2021-01-15+16%3A47%3A46"&gt;
+&lt;input type="hidden" name="biz_content" value="CJs+5zPUmXce9KZU8pJ9+RT97N9HlD6lNdFOHlpquWhSVa49TMKrX3u9PgS77nrIaH/U3lJfwm56/2xWOAY9l6Q4cwsJz9xVty1Qg9J26/4iuLKmwASDL38NvdWcRDHitI/1KBsZosgi1nXMcSfHi+RHF/G19Pg71jazK/idNYTKxWEA70aIq3zt/XR64u4FyJ4q3Btfxdafa3uTrViIOoh0aeGrrhQzvXsHBZHIsNwBur4LfmTc+iqyJOqMO4PmM+T+TXx04LdIspDmKHBmhqUVIkzxOqseYJg0VbEO8yY1ba1wibm9apWavvkppxi2LN5o+SbKvUzSx7BEpJae4UlzeZ48JJtl9y4hAz+D8vcbOznVLnIXn0bpC8Ajhu1ykuKy2mxIG/mFpUL6PR4k3SzkG4O5ticCpZBsBeovDJyWaYGgAs+mDSLy/GT6qK6qg3w1UKXaut8ZvDzVn6Uvn+0EIrPIbfp/EsUmNf+JZkLMfyxavl3XUKH69IGyrsy/IwWhbLQMqUvOKY+puO44cvvF1cmmQVQohkAoNVHDPPi1ieIgK80AbZCHfdImReXfms0wZc4CVO9/nsPXaa3iBHLiIEiolJQgupCfeljkASGXsuTE9o6l/ZwIIKSfLpp4nHTIiGXpCXDUPvXEI1vDVETqOZclexf/I8rAmzmff4wgHAJc3U/U0Tz2vGvOj8y3zY8FsQoR/MI84A11DZ3t8uj1S22+L5uxu0aEvRJryvGA8oHWFikuiJf7cCXIKMwKoNfnSuU5LPTjTxwY+xY9n0vpf7jaHbKGt9fgUp8eRFU="&gt;
+&lt;input type="submit" value="立刻提交" style="display:none" &gt;
+&lt;/form&gt;
+&lt;script&gt;document.forms[0].submit();&lt;/script&gt;</data>
+</msg>
+
+2021-01-15 16:47:46.664	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	进入接收工行无感渠道----prparkingIcbc
+2021-01-15 16:47:46.664	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.controller.PrParkingIcbcPayController	-	接收到的报文：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg tradeId="PL2101150000000021">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-15 16:47:46.664	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道系统入口：ParkingIcbcPayCallCenterSync-----
+2021-01-15 16:47:46.664	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	收到消息：<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg tradeId="PL2101150000000021">
+    <parkingId>2013</parkingId>
+    <queryH5Url>https://guizhou.icbc.com.cn/api/v1/aggregate/query</queryH5Url>
+    <secretKey>1c93f148d8d99fbf08f691a12a8740197b09eba0443216aa6ec20ab0127f1bb3</secretKey>
+    <appKey>HMPxcXbb0pD46U7</appKey>
+</msg>
+
+2021-01-15 16:47:46.665	[http-nio-8096-exec-8]	INFO 	com.parkingicbcpay.service.impl.PrParkingIcbcPayServiceImpl	-	进入工行渠道交易通知系统,调用服务[null]
+2021-01-15 16:48:46.831	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 16:53:46.832	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 16:58:46.833	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 17:03:46.834	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 17:08:46.835	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 17:13:46.836	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 17:18:46.838	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 17:23:46.839	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 17:28:46.840	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 17:33:46.842	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 17:38:46.844	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 17:43:46.845	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 17:48:46.846	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 17:53:46.849	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 17:58:46.850	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 18:03:46.852	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 18:08:46.853	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 18:13:46.854	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 18:18:46.856	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 18:23:46.858	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 18:28:46.859	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 18:33:46.861	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 18:38:46.862	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 18:43:46.863	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 18:48:46.864	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 18:53:46.866	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 18:58:46.867	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 19:03:46.868	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 19:08:46.869	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 19:13:46.870	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 19:18:46.871	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 19:23:46.873	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 19:28:46.875	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 19:33:46.876	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 19:38:46.879	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 19:43:46.879	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 19:48:46.882	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 19:53:46.883	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 19:58:46.885	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 20:03:46.886	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 20:08:46.887	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 20:13:46.888	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 20:18:46.890	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 20:23:46.891	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 20:28:46.892	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 20:33:46.894	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 20:38:46.894	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 20:43:46.895	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 20:48:46.897	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 20:53:46.899	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 20:58:46.900	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 21:03:46.902	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 21:08:46.902	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 21:13:46.903	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 21:18:46.904	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 21:23:46.904	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 21:28:46.905	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 21:33:46.906	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 21:38:46.907	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 21:43:46.908	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 21:48:46.909	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 21:53:46.910	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 21:58:46.912	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 22:03:46.913	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 22:08:46.914	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 22:13:46.915	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 22:18:46.916	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 22:23:46.917	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 22:28:46.917	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 22:33:46.918	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 22:38:46.920	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 22:43:46.922	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 22:48:46.922	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 22:53:46.923	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 22:58:46.925	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 23:03:46.926	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 23:08:46.928	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 23:13:46.929	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 23:18:46.931	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 23:23:46.932	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 23:28:46.933	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 23:33:46.935	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 23:38:46.936	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 23:43:46.937	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 23:48:46.938	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 23:53:46.939	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
+2021-01-15 23:58:46.940	[AsyncResolver-bootstrap-executor-0]	INFO 	com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver	-	Resolving eureka endpoints via configuration
